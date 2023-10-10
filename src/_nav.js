@@ -1,17 +1,32 @@
 import React from 'react'
 import CIcon from '@coreui/icons-react'
 import {
+  cilBalanceScale,
   cilBell,
+  cilBarChart,
   cilCalculator,
+  cilChart,
+  cilChartLine,
   cilChartPie,
+  cilChatBubble,
+  cilClock,
+  cilClone,
+  cilCode,
   cilCursor,
   cilDescription,
+  cilDevices,
   cilDrop,
+  cilFlagAlt,
+  cilGrain,
+  cilGraph,
+  cilMediaSkipForward,
   cilNotes,
   cilPencil,
   cilPuzzle,
+  cilSettings,
   cilSpeedometer,
   cilStar,
+  cilViewQuilt,
 } from '@coreui/icons'
 import { CNavGroup, CNavItem, CNavTitle } from '@coreui/react'
 
@@ -20,31 +35,128 @@ const _nav = [
     component: CNavItem,
     name: 'Dashboard',
     to: '/dashboard',
-    icon: <CIcon icon={cilSpeedometer} customClassName="nav-icon" />,
+    icon: <CIcon icon={cilChart} customClassName="nav-icon" />,
+  },
+  {
+    component: CNavItem,
+    name: 'Features',
+    to: '/features',
+    icon: <CIcon icon={cilFlagAlt} customClassName="nav-icon" />,
+  },
+  {
+    component: CNavTitle,
+    name: 'Projects',
+  },
+  {
+    component: CNavItem,
+    name: 'AI optimizations',
+    to: '/projects/ai',
+    icon: <CIcon icon={cilChartLine} customClassName="nav-icon" />,
+  },
+  {
+    component: CNavItem,
+    name: 'Multivariate tests',
+    to: '/projects/mvt',
+    icon: <CIcon icon={cilViewQuilt} customClassName="nav-icon" />,
+  },
+  {
+    component: CNavItem,
+    name: 'A/B experiments',
+    to: '/projects/ab',
+    icon: <CIcon icon={cilClone} customClassName="nav-icon" />,
+  },
+  {
+    component: CNavItem,
+    name: 'Persistency',
+    to: '/projects/persistency',
+    icon: <CIcon icon={cilMediaSkipForward} customClassName="nav-icon" />,
+  },
+  {
+    component: CNavTitle,
+    name: 'Monitoring',
+  },
+  {
+    component: CNavGroup,
+    name: 'Analysis',
+    to: '/analysis',
+    icon: <CIcon icon={cilBarChart} customClassName="nav-icon" />,
+    items: [
+      {
+        component: CNavItem,
+        name: 'Reports',
+        to: '/reports',
+      },
+      {
+        component: CNavItem,
+        name: 'Insights',
+        to: '/insights',
+      },
+      {
+        component: CNavItem,
+        name: 'Timeline',
+        to: '/timeline',
+      },
+    ],
+  },
+  {
+    component: CNavItem,
+    name: 'Metrics',
+    to: '/analysis/metrics',
+    icon: <CIcon icon={cilCalculator} customClassName="nav-icon" />,
+  },
+  {
+    component: CNavTitle,
+    name: 'Settings',
+  },
+  {
+    component: CNavGroup,
+    name: 'Account',
+    to: '/account',
+    icon: <CIcon icon={cilSettings} customClassName="nav-icon" />,
+    items: [
+      {
+        component: CNavItem,
+        name: 'Organization',
+        to: '/organization',
+      },
+      {
+        component: CNavItem,
+        name: 'Team',
+        to: '/team',
+      },
+    ],
+  },
+  {
+    component: CNavItem,
+    name: 'Environments',
+    to: '/environments',
+    icon: <CIcon icon={cilDevices} customClassName="nav-icon" />,
+  },
+  {
+    component: CNavTitle,
+    name: 'Support',
+  },
+  {
+    component: CNavItem,
+    name: 'Docs',
+    to: '/docs',
+    icon: <CIcon icon={cilDescription} customClassName="nav-icon" />,
+  },
+  {
+    component: CNavItem,
+    name: 'EevyChat',
+    to: '/chat',
+    icon: <CIcon icon={cilChatBubble} customClassName="nav-icon" />,
     badge: {
       color: 'info',
       text: 'NEW',
     },
   },
+  /* eslint multiline-comment-style: ["error", "bare-block"] */
+  /*
   {
     component: CNavTitle,
-    name: 'Theme',
-  },
-  {
-    component: CNavItem,
-    name: 'Colors',
-    to: '/theme/colors',
-    icon: <CIcon icon={cilDrop} customClassName="nav-icon" />,
-  },
-  {
-    component: CNavItem,
-    name: 'Typography',
-    to: '/theme/typography',
-    icon: <CIcon icon={cilPencil} customClassName="nav-icon" />,
-  },
-  {
-    component: CNavTitle,
-    name: 'Components',
+    name: 'Core UI',
   },
   {
     component: CNavGroup,
@@ -299,7 +411,7 @@ const _nav = [
     name: 'Docs',
     href: 'https://coreui.io/react/docs/templates/installation/',
     icon: <CIcon icon={cilDescription} customClassName="nav-icon" />,
-  },
+  },*/
 ]
 
 export default _nav

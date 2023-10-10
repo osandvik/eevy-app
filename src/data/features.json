@@ -1,0 +1,913 @@
+[
+  {
+    "feature": "ann-bar-color",
+    "name": "Announcement bar color",
+    "status": 0,
+    "image": "https://drive.google.com/uc?id=1sIP3cxM_DVEYxdykdLXzULsRpoR63KEy",
+    "image2": "https://drive.google.com/uc?id=1GtC9e697sOg6zTgXJO48IqzotYDvvTIn",
+    "pathnames": [],
+    "variants": {
+      "a": ";/*default*/",
+      "b": "document.querySelectorAll('.announcement-bar').forEach((e) => {var bgColor = '#BCB19C'; var textColor = '#ffffff'; e.style.backgroundColor = bgColor; e.style.borderColor = bgColor; e.style.color = textColor;});",
+      "c": "document.querySelectorAll('.announcement-bar').forEach((e) => {var bgColor = '#4A3F3C'; var textColor = '#ffffff'; e.style.backgroundColor = bgColor; e.style.borderColor = bgColor; e.style.color = textColor;});",
+      "d": "document.querySelectorAll('.announcement-bar').forEach((e) => {var bgColor = '#AA8A86'; var textColor = '#ffffff'; e.style.backgroundColor = bgColor; e.style.borderColor = bgColor; e.style.color = textColor;});",
+      "e": "document.querySelectorAll('.announcement-bar').forEach((e) => {var bgColor = '#ffffff'; var textColor = '#000000'; e.style.backgroundColor = bgColor; e.style.borderColor = bgColor; e.style.color = textColor;});"
+    },
+    "gene": 0
+  },
+  {
+    "feature": "ann-bar-content",
+    "status": 0,
+    "name": "Announcement bar content",
+    "image": "https://drive.google.com/uc?id=1sIP3cxM_DVEYxdykdLXzULsRpoR63KEy",
+    "pathnames": [],
+    "variants": {
+      "a": ";/*default*/",
+      "b": "eevy.mutator.declarative({'selector': 'div.announcement-bar__message', 'action': 'set', 'attribute': 'html', 'value': '<a href=\\\"#quiz-X2HrLe\\\" id=\\\"quiz-popup-link\\\">Usikker p\u00e5 hvilke eteriske oljer du skal velge? Trykk her for \u00e5 f\u00e5 personaliserte anbefalinger! (Quiz)</a>'});",
+      "c": "eevy.mutator.declarative({'selector': 'div.announcement-bar__message','action': 'set','attribute': 'html','value': '<style>.announcement-bar {padding-left: 0;padding-right: 0;}.announcement-bar__list {max-width: 100%;overflow: hidden;width: 100%;}.scrolling-text__inner {white-space: nowrap;position: relative;display: flex;animation: scrolling-text-desktop 40s linear infinite;}.scrolling-text__inner span {display: inline-block;margin-right: 150px;}.scrolling-text__inner span:last-child {margin-right: 0;}@keyframes scrolling-text-desktop {0% {transform: translateX(100%);}100% {transform: translateX(calc(-1 * (100% * 2)));}}@media only screen and (max-width: 768px) {.scrolling-text__inner {animation-name: scrolling-text-mobile;animation-duration: 30s; /* Adjust for mobile */}@keyframes scrolling-text-mobile {0% {transform: translateX(100%);}100% {transform: translateX(calc(-1 * (100% * 7.5)));}}}@media only screen and (min-width: 768px) {.scrolling-text__inner span {margin-right: 40%;}}</style><div class=\\\"scrolling-text\\\"><div class=\\\"scrolling-text__inner\\\"><span>Den Originale Skandinaviske Diffuseren</span><span>100% Naturlige oljer</span><span>Ingen kjemikalier</span><span>90 dagers pengene tilbake garanti</span><span>Den Originale Skandinaviske Diffuseren</span><span>100% Naturlige oljer</span><span>Ingen kjemikalier</span><span>90 dagers pengene tilbake garanti</span></div></div>'});",
+      "d": "eevy.mutator.declarative({'selector': 'div.announcement-bar__message', 'action': 'set', 'attribute': 'html', 'value': 'Beste TrustPilot vurderinger i Norge p\u00e5 Diffusere og Eteriske Oljer'});",
+      "e": "eevy.mutator.declarative({'selector': 'div.announcement-bar__message','action': 'set','attribute': 'html','value': '<style>.announcement-bar {padding-left: 0;padding-right: 0;}.announcement-bar__list {max-width: 100%;overflow: hidden;width: 100%;}.scrolling-text__inner {white-space: nowrap;position: relative;display: flex;animation: scrolling-text-desktop 50s linear infinite; }.scrolling-text__inner span {display: inline-block;margin-right: 150px;}.scrolling-text__inner span:last-child {margin-right: 0;}@keyframes scrolling-text-desktop {0% {transform: translateX(250%);}100% {transform: translateX(calc(-1 * (100% * 4)));}}@media only screen and (max-width: 768px) {.scrolling-text__inner {animation-name: scrolling-text-mobile;animation-duration: 30s; /* Adjust for mobile */}@keyframes scrolling-text-mobile {0% {transform: translateX(100%);}100% {transform: translateX(calc(-1 * (100% * 7.5)));}}}@media only screen and (min-width: 768px) {.scrolling-text__inner span {margin-right: 40%;}}</style><div class=\\\"scrolling-text\\\"><div class=\\\"scrolling-text__inner\\\"><span>Prisvinnende design</span><span>H\u00e5ndlaget i keramikk</span><span>Beviste helsefordeler</span><span>90-dagers pr\u00f8veperiode</span><span>Prisvinnende design</span><span>H\u00e5ndlaget i keramikk</span><span>Beviste helsefordeler</span><span>90-dagers pr\u00f8veperiode</span></div></div>'});",
+      "f": "eevy.mutator.declarative({'selector': 'div.announcement-bar__message', 'action': 'set', 'attribute': 'html', 'value': 'Best vurdert kundeservice og 90 dagers pengene tilbake garanti'});",
+      "g": "eevy.mutator.declarative({'selector': 'div.announcement-bar__message', 'action': 'set', 'attribute': 'html', 'value': 'Gratis frakt p\u00e5 Diffuser og Oljesett \ud83c\udf81<br> Levert rett i Postkassen!'});",
+      "h": "eevy.mutator.declarative({'selector': 'div.announcement-bar__message', 'action': 'set', 'attribute': 'html', 'value': '<strong>Kundene v\u00e5re sine favorittoljer er:</strong><br> Energy, Sleep, Relax og Clean Air'});",
+      "i": "eevy.mutator.declarative({ 'selector': 'div.announcement-bar__message', 'action': 'set', 'attribute': 'html', 'value': '<style> .announcement-bar { padding-left: 0; padding-right: 0; } .announcement-bar__list { max-width: 100%; overflow: hidden; width: 100%; } .scrolling-text__inner { white-space: nowrap; position: relative; display: flex; animation: scrolling-text-desktop 55s linear infinite; } .scrolling-text__inner span { display: inline-block; margin-right: 150px; } .scrolling-text__inner span:last-child { margin-right: 0; } @keyframes scrolling-text-desktop { 0% { transform: translateX(250%); } 100% { transform: translateX(calc(-1 * (100% * 5))); } } @media only screen and (max-width: 768px) { .scrolling-text__inner { animation-name: scrolling-text-mobile; animation-duration: 55s; } @keyframes scrolling-text-mobile { 0% { transform: translateX(200%); } 100% { transform: translateX(calc(-1 * (100% * 13))); } } } @media only screen and (min-width: 768px) { .scrolling-text__inner span { margin-right: 40%; } } </style><div class=\\\"scrolling-text\\\"><div class=\\\"scrolling-text__inner\\\"><span>V\u00e5re mest popul\u00e6re eteriske oljer: <strong>Energy</strong> - Gir deg mer energi i hverdagen</span><span><strong>Sleep</strong> - En duft som hjelper deg \u00e5 sovne</span><span><strong>Relax</strong> - En atmosf\u00e6re som reduserer stress</span><span><strong>Clean air</strong> - Gir deg en ren og fantasisk duft i hjemmet som vil bli lagt merke til.</span><span>V\u00e5re mest popul\u00e6re eteriske oljer: <strong>Energy</strong> - Gir deg mer energi i hverdagen</span><span><strong>Sleep</strong> - En duft som hjelper deg \u00e5 sovne</span><span><strong>Relax</strong> - En atmosf\u00e6re som reduserer stress</span><span><strong>Clean air</strong> - Gir deg en ren og fantasisk duft i hjemmet som vil bli lagt merke til.</span></div></div>'});"
+    },
+    "gene": 1
+  },
+  {
+    "feature": "sticky-header-links",
+    "status": 0,
+    "name": "Sticky header links",
+    "image": "https://drive.google.com/uc?id=1-_8z4NO2IozTG5UHgzrcQfbtdjKRlrlF",
+    "pathnames": [
+      "/products/volant-diffuser"
+    ],
+    "variants": {
+      "a": ";/*default*/",
+      "b": "var newNodeExists = document.querySelector('#eevy-topofpage-section');if (!newNodeExists) {var refNode = document.querySelector('store-header');var newNode = document.createElement('div');newNode.id = 'eevy-topofpage-section';newNode.innerHTML = '<style> .topofpage-section { width: 100%;}.topofpage-flex-container { display: flex; flex-direction: row; gap: 10%; justify-content: center; background-color: #f7f7f7; padding: 15px 30px 15px 40px; overflow-x: auto; white-space: nowrap;}.topofpage-flex-container a { color: black; text-decoration: underline;}@media only screen and (min-width: 500px) { .topofpage-section { display: none!important; }}</style><div class=\\\"topofpage-section\\\"><div class=\\\"topofpage-flex-container\\\"><a href=\\\"https://volant.no/collections/diffuser\\\" class=\\\"js-no-transition\\\"><span>Diffuser</span></a><a href=\\\"https://volant.no/products/everyday-essentials\\\" class=\\\"js-no-transition\\\"><span>Everyday Essentials</span></a><a href=\\\"https://volant.no/collections/essential-oil-sets\\\" class=\\\"js-no-transition\\\"><span>Alle oljesett</span></a><a href=\\\"https://volant.no/collections/eteriske-oljer\\\" class=\\\"js-no-transition\\\"><span>Alle enkeltoljer</span></a><a href=\\\"https://volant.no/products/volant-reed-diffuser\\\" class=\\\"js-no-transition\\\"><span>Duftpinner</span></a></div></div>';refNode.after(newNode);};"
+    },
+    "gene": 2
+  },
+  {
+    "feature": "sticky-header-progress-bar",
+    "status": 1,
+    "name": "Sticky header progress bar",
+    "image": "https://drive.google.com/uc?id=1dnIW3zfxDo5rOiyIuKc5FrHwSgekqp9k",
+    "pathnames": [
+      "/products"
+    ],
+    "variants": {
+      "a": ";/*default*/",
+      "b": "eevy.mutator.declarative({'selector': '#eevyProgressBarContainer', 'action': 'remove', 'attribute': 'class', 'value': 'eevy-hidden'});"
+    },
+    "gene": 3
+  },
+  {
+    "feature": "above-prod-img-section",
+    "status": 2,
+    "name": "Section above product image",
+    "image": "https://drive.google.com/uc?id=1kIYFQ4TfPExe3npH4D4CdAewlfmNE4ki",
+    "pathnames": [
+      "/products/volant-diffuser"
+    ],
+    "variants": {
+      "a": ";/*default*/",
+      "b": "var newNodeExists = document.querySelector('#eevy-above-prod-img-section');if (!newNodeExists && window.innerWidth < 1000) {var refNode = document.querySelector('#shopify-section-header');var newNode = document.createElement('div');newNode.id = 'eevy-above-prod-img-section';newNode.innerHTML = '<div style=\\\"padding-left:24px;padding-right:24px;\\\"></div>';refNode.after(newNode);newNode.firstChild.appendChild(document.querySelector('product-meta'));};",
+      "c": "var newNodeExists = document.querySelector('#eevy-above-prod-img-section');if (!newNodeExists) {var refNode = document.querySelector('#shopify-section-header');var newNode = document.createElement('div');newNode.id = 'eevy-above-prod-img-section';newNode.innerHTML = '<div style=\\\"width:100%;height:42px;background-color:rgb(255,247,236);display:flex;justify-content:center;align-items:center;\\\"><div style=\\\"display:flex;align-items:center;padding:10px 30px;gap:10px;\\\"><img style=\\\"width:30px;height:auto;margin-right:10px;\\\" src=\\\"https:\\/\\/cdn.shopify.com\\/s\\/files\\/1\\/0277\\/5859\\/2073\\/files\\/standard_norges_flagg.png?v=1694172944\\\" alt=\\\"flag\\\"><div style=\\\"display:flex;flex-direction:column;\\\"><h4 style=\\\"margin:0;font-size:11px;\\\">Prisvinnende norsk design og 100% Naturlige oljer</h4></div></div></div>';refNode.after(newNode);};",
+      "d": "var newNodeExists = document.querySelector('#eevy-above-prod-img-section');if (!newNodeExists) {var refNode = document.querySelector('#shopify-section-header');var newNode = document.createElement('div');newNode.id = 'eevy-above-prod-img-section';newNode.innerHTML = '<div class=\\\"above-prod-images-section\\\" style=\\\"width:100%;height:62px;display:flex;justify-content:center;align-items:center;\\\"><div class=\\\"above-prod-images-container\\\" style=\\\"display:flex;align-items:center;padding:10px 10px;max-width:350px;\\\"><img class=\\\"above-prod-images-trustpilot\\\" src=\\\"https:\\/\\/cdn.shopify.com\\/s\\/files\\/1\\/0552\\/3718\\/1529\\/files\\/Enestaende.png?v=1675450646\\\" alt=\\\"flag\\\"></div></div>';refNode.after(newNode);};"
+    },
+    "gene": 4
+  },
+  {
+    "feature": "product-image-gallery",
+    "status": 3,
+    "name": "Product image gallery",
+    "image": "https://drive.google.com/uc?id=1SW8R3XJYq9Cd69Xve6FhLxVYE2mGb7nn",
+    "pathnames": [
+      "/products/volant-diffuser"
+    ],
+    "variants": {
+      "a": ";/*default*/",
+      "b": "eevy.mutator.declarative({'selector': '.pmslider-dots-wrapper', 'action': 'append', 'attribute': 'style', 'value': 'display:inherit;'});if (window.innerWidth < 800) {eevy.mutator.declarative({'selector': '.pmslider-dots--type-thumbs.pmslider-dots--size-2x .pmslider-dots_dot', 'action': 'append', 'attribute': 'style', 'value': 'width:15vw;height:15vw;'});};"
+    },
+    "gene": 5
+  },
+  {
+    "feature": "review-stars",
+    "status": 4,
+    "name": "",
+    "image": "https://drive.google.com/uc?id=1cgVumr4dw7DJr97lv_yHs6Ym7ug2jhvN",
+    "pathnames": [
+     "/products/volant-diffuser"
+    ],
+    "variants": {
+      "a": ";/*default*/",
+      "b": "eevy.mutator.declarative({'selector': 'svg.loox-icon use', 'action': 'append', 'attribute': 'style', 'value': 'color: #AA8A86;'});",
+      "c": "eevy.mutator.declarative({'selector': 'svg.loox-icon use', 'action': 'append', 'attribute': 'style', 'value': 'color: #BCB19C;'});",
+      "d": "eevy.mutator.declarative({'selector': 'svg.loox-icon use', 'action': 'append', 'attribute': 'style', 'value': 'color: #DEAB5B;'});",
+      "e": "eevy.mutator.declarative({'selector': 'svg.loox-icon use', 'action': 'append', 'attribute': 'style', 'value': 'color: #4A3F3C;'});",
+      "f": "eevy.mutator.declarative({'selector': 'div.custom_loox_star_rating', 'action': 'set', 'attribute': 'html', 'value': '<a href=\\\"https://no.trustpilot.com/review/volantaroma.com\\\" target=\\\"_blank\\\"><div class=\\\"review-stars-section\\\" style=\\\"margin-left:4px;\\><div class=\\\"review-stars-container\\\"><img class=\\\"review-stars-img\\\" src=\\\"https://cdn.shopify.com/s/files/1/0277/5859/2073/files/green-stars-t-p.png?v=1694196237\\\" alt=\\\"example\\\"><span class=\\\"review-stars-text\\\">2,400+</span></div></div></a><style>.review-stars-section { width: 100%; display: flex; justify-content: flex-start; align-items: center; margin-bottom:10px; } .review-stars-container { display: flex; align-items: center; } .review-stars-img { height: 30px; width: auto; } .review-stars-text { margin-left: 6px; }</style>'});"
+    },
+    "gene": 6
+  },
+  {
+    "feature": "summary-sections",
+    "name": "",
+    "image": "https://drive.google.com/uc?id=1wjKlZZHPclu5HG02j1FSYSeNDZ_CEQ4J",
+    "pathnames": [
+      "/products/volant-diffuser"
+    ],
+    "variants": {
+      "a": ";/*default*/",
+      "b": "eevy.mutator.declarative({'selector': '#eevy-summary-section', 'action': 'append', 'attribute': 'class', 'value': 'eevy-hidden'});"
+    },
+    "gene": 7
+  },
+  {
+    "feature": "summary-section-paragraph",
+    "name": "",
+    "image": "https://drive.google.com/uc?id=1mE_ax8EfCJhD2YC3tYVjcxtlU7IiQuGX",
+    "pathnames": [
+      "/products/volant-diffuser"
+    ],
+    "variants": {
+      "a": ";/*default*/",
+      "b": "var newNodeExists = document.querySelector('#eevy-summary-section');if (!newNodeExists) {var refNode = document.querySelector('product-variants.product-form__variants');var newNode = document.createElement('div');newNode.id = 'eevy-summary-section';newNode.style.cssText = 'padding-top:0px;padding-bottom:16px;';var ssParagraph = document.createElement('div');ssParagraph.id = 'eevy-summary-section-paragraph';var ssBullets = document.createElement('div');ssBullets.id = 'eevy-summary-section-bullets';var ssQuote = document.createElement('div');ssQuote.id = 'eevy-summary-section-quote';newNode.append(ssParagraph, ssBullets, ssQuote);refNode.after(newNode);};eevy.mutator.declarative({'selector': '#eevy-summary-section-paragraph', 'action': 'set', 'attribute': 'html', 'value': '<strong>Gj\u00f8r hjemmet til ditt personlige spa</strong> med prisvinnende Diffuser og Eteriske oljer fra Volant.'});",
+      "c": "var newNodeExists = document.querySelector('#eevy-summary-section');if (!newNodeExists) {var refNode = document.querySelector('product-variants.product-form__variants');var newNode = document.createElement('div');newNode.id = 'eevy-summary-section';newNode.style.cssText = 'padding-top:0px;padding-bottom:16px;';var ssParagraph = document.createElement('div');ssParagraph.id = 'eevy-summary-section-paragraph';var ssBullets = document.createElement('div');ssBullets.id = 'eevy-summary-section-bullets';var ssQuote = document.createElement('div');ssQuote.id = 'eevy-summary-section-quote';newNode.append(ssParagraph, ssBullets, ssQuote);refNode.after(newNode);};eevy.mutator.declarative({'selector': '#eevy-summary-section-paragraph', 'action': 'set', 'attribute': 'html', 'value': '<strong>Best vurderte Diffuser og Eteriske oljer i  Skandinavia.</strong> Elsket av interi\u00f8rdesignere, velv\u00e6re-eksperter og hudpleiespesialister.'});",
+      "d": "var newNodeExists = document.querySelector('#eevy-summary-section');if (!newNodeExists) {var refNode = document.querySelector('product-variants.product-form__variants');var newNode = document.createElement('div');newNode.id = 'eevy-summary-section';newNode.style.cssText = 'padding-top:0px;padding-bottom:16px;';var ssParagraph = document.createElement('div');ssParagraph.id = 'eevy-summary-section-paragraph';var ssBullets = document.createElement('div');ssBullets.id = 'eevy-summary-section-bullets';var ssQuote = document.createElement('div');ssQuote.id = 'eevy-summary-section-quote';newNode.append(ssParagraph, ssBullets, ssQuote);refNode.after(newNode);};eevy.mutator.declarative({'selector': '#eevy-summary-section-paragraph', 'action': 'set', 'attribute': 'html', 'value': '<strong>Se for deg \u00e5 komme hjem til en oase av nydelig duft og velv\u00e6re.</strong> Unn deg selv og gjestene dine denne opplevelsen, med v\u00e5r Steindiffuser og v\u00e5re Eteriske oljer.'});",
+      "e": "var newNodeExists = document.querySelector('#eevy-summary-section');if (!newNodeExists) {var refNode = document.querySelector('product-variants.product-form__variants');var newNode = document.createElement('div');newNode.id = 'eevy-summary-section';newNode.style.cssText = 'padding-top:0px;padding-bottom:16px;';var ssParagraph = document.createElement('div');ssParagraph.id = 'eevy-summary-section-paragraph';var ssBullets = document.createElement('div');ssBullets.id = 'eevy-summary-section-bullets';var ssQuote = document.createElement('div');ssQuote.id = 'eevy-summary-section-quote';newNode.append(ssParagraph, ssBullets, ssQuote);refNode.after(newNode);};eevy.mutator.declarative({'selector': '#eevy-summary-section-paragraph', 'action': 'set', 'attribute': 'html', 'value': '<strong>Eteriske oljer som bare m\u00e5 oppleves.</strong> Skru p\u00e5 Diffuseren og merk atmosf\u00e6ren i hjemmet ditt forbedres p\u00e5 5 minutter.'});",
+      "f": "var newNodeExists = document.querySelector('#eevy-summary-section');if (!newNodeExists) {var refNode = document.querySelector('product-variants.product-form__variants');var newNode = document.createElement('div');newNode.id = 'eevy-summary-section';newNode.style.cssText = 'padding-top:0px;padding-bottom:16px;';var ssParagraph = document.createElement('div');ssParagraph.id = 'eevy-summary-section-paragraph';var ssBullets = document.createElement('div');ssBullets.id = 'eevy-summary-section-bullets';var ssQuote = document.createElement('div');ssQuote.id = 'eevy-summary-section-quote';newNode.append(ssParagraph, ssBullets, ssQuote);refNode.after(newNode);};eevy.mutator.declarative({'selector': '#eevy-summary-section-paragraph', 'action': 'set', 'attribute': 'html', 'value': 'Kundene v\u00e5re opplever ikke bare et velduftende hjem. De opplever ogs\u00e5 <strong>mindre stress, redusert angst og \u00f8kt energi.</strong><br/>Bruk v\u00e5r 90-dagers pengene tilbake garanti, og opplev effektene selv - helt risikofritt.'});"
+    },
+    "gene": 8
+  },
+  {
+    "feature": "summary-section-bullets",
+    "name": "",
+    "image": "https://drive.google.com/uc?id=1OvaVP76D6Z5Y6g4P4FzRVc2ddTSIcZoK",
+    "pathnames": [
+      "/products/volant-diffuser"
+    ],
+    "variants": {
+      "a": ";/*default*/",
+      "b": "var newNodeExists = document.querySelector('#eevy-summary-section');if (!newNodeExists) {var refNode = document.querySelector('product-variants.product-form__variants');var newNode = document.createElement('div');newNode.id = 'eevy-summary-section';newNode.style.cssText = 'padding-top:0px;padding-bottom:16px;';var ssParagraph = document.createElement('div');ssParagraph.id = 'eevy-summary-section-paragraph';var ssBullets = document.createElement('div');ssBullets.id = 'eevy-summary-section-bullets';var ssQuote = document.createElement('div');ssQuote.id = 'eevy-summary-section-quote';newNode.append(ssParagraph, ssBullets, ssQuote);refNode.after(newNode);};eevy.mutator.declarative({'selector': '#eevy-summary-section-bullets', 'action': 'set', 'attribute': 'html', 'value': '<div class=\\\"summary-section-bulletpoints-section\\\"> <div class=\\\"summary-section-bulletpoints-item\\\"> <div class=\\\"summary-section-bulletpoints-icon\\\"> <svg width=\\\"19\\\" height=\\\"19\\\" viewBox=\\\"0 0 64 57\\\" fill=\\\"none\\\" xmlns=\\\"http://www.w3.org/2000/svg\\\"> <path d=\\\"M58.3027 1.14018L19.1021 49.1297L5.40096 33.965C4.2592 32.6213 2.16596 32.6213 1.0242 33.7731C-0.307855 34.9248 -0.307853 37.0363 0.833911 38.1881L17.0089 56.0402C17.5798 56.6161 18.5312 57 19.2924 57C20.2439 57 21.0051 56.6161 21.5759 55.8482L63.2503 5.1713C64.3921 3.8276 64.2018 1.71605 62.8697 0.756259C61.3474 -0.395489 59.4444 -0.20353 58.3027 1.14018Z\\\" fill=\\\"#DEAB5B\\\"/> </svg> </div> <div class=\\\"summary-section-bulletpoints-text\\\">Skap den f\u00f8lelsen du \u00f8nsker i hjemmet ditt</div> </div> <div class=\\\"summary-section-bulletpoints-item\\\"> <div class=\\\"summary-section-bulletpoints-icon\\\"> <svg width=\\\"19\\\" height=\\\"19\\\" viewBox=\\\"0 0 64 57\\\" fill=\\\"none\\\" xmlns=\\\"http://www.w3.org/2000/svg\\\"> <path d=\\\"M58.3027 1.14018L19.1021 49.1297L5.40096 33.965C4.2592 32.6213 2.16596 32.6213 1.0242 33.7731C-0.307855 34.9248 -0.307853 37.0363 0.833911 38.1881L17.0089 56.0402C17.5798 56.6161 18.5312 57 19.2924 57C20.2439 57 21.0051 56.6161 21.5759 55.8482L63.2503 5.1713C64.3921 3.8276 64.2018 1.71605 62.8697 0.756259C61.3474 -0.395489 59.4444 -0.20353 58.3027 1.14018Z\\\" fill=\\\"#DEAB5B\\\"/> </svg> </div> <div class=\\\"summary-section-bulletpoints-text\\\">100% \u00f8kologiske og veganske oljer</div> </div> <div class=\\\"summary-section-bulletpoints-item\\\"> <div class=\\\"summary-section-bulletpoints-icon\\\"> <svg width=\\\"19\\\" height=\\\"19\\\" viewBox=\\\"0 0 64 57\\\" fill=\\\"none\\\" xmlns=\\\"http://www.w3.org/2000/svg\\\"> <path d=\\\"M58.3027 1.14018L19.1021 49.1297L5.40096 33.965C4.2592 32.6213 2.16596 32.6213 1.0242 33.7731C-0.307855 34.9248 -0.307853 37.0363 0.833911 38.1881L17.0089 56.0402C17.5798 56.6161 18.5312 57 19.2924 57C20.2439 57 21.0051 56.6161 21.5759 55.8482L63.2503 5.1713C64.3921 3.8276 64.2018 1.71605 62.8697 0.756259C61.3474 -0.395489 59.4444 -0.20353 58.3027 1.14018Z\\\" fill=\\\"#DEAB5B\\\"/> </svg> </div> <div class=\\\"summary-section-bulletpoints-text\\\">40 kvadratmeter duftomr\u00e5de</div> </div> <div class=\\\"summary-section-bulletpoints-item\\\"> <div class=\\\"summary-section-bulletpoints-icon\\\"> <svg width=\\\"19\\\" height=\\\"19\\\" viewBox=\\\"0 0 64 57\\\" fill=\\\"none\\\" xmlns=\\\"http://www.w3.org/2000/svg\\\"> <path d=\\\"M58.3027 1.14018L19.1021 49.1297L5.40096 33.965C4.2592 32.6213 2.16596 32.6213 1.0242 33.7731C-0.307855 34.9248 -0.307853 37.0363 0.833911 38.1881L17.0089 56.0402C17.5798 56.6161 18.5312 57 19.2924 57C20.2439 57 21.0051 56.6161 21.5759 55.8482L63.2503 5.1713C64.3921 3.8276 64.2018 1.71605 62.8697 0.756259C61.3474 -0.395489 59.4444 -0.20353 58.3027 1.14018Z\\\" fill=\\\"#DEAB5B\\\"/> </svg> </div> <div class=\\\"summary-section-bulletpoints-text\\\">H\u00e5ndlaget i keramikk</div> </div></div><style> .summary-section-bulletpoints-section { display: flex; flex-direction: column; margin-top: 10px; } .summary-section-bulletpoints-item { display: flex; align-items: center; margin-bottom: 1em; } .summary-section-bulletpoints-icon { margin-right: 1em; height:19px; }</style>'});",
+      "c": "var newNodeExists = document.querySelector('#eevy-summary-section');if (!newNodeExists) {var refNode = document.querySelector('product-variants.product-form__variants');var newNode = document.createElement('div');newNode.id = 'eevy-summary-section';newNode.style.cssText = 'padding-top:0px;padding-bottom:16px;';var ssParagraph = document.createElement('div');ssParagraph.id = 'eevy-summary-section-paragraph';var ssBullets = document.createElement('div');ssBullets.id = 'eevy-summary-section-bullets';var ssQuote = document.createElement('div');ssQuote.id = 'eevy-summary-section-quote';newNode.append(ssParagraph, ssBullets, ssQuote);refNode.after(newNode);};eevy.mutator.declarative({'selector': '#eevy-summary-section-bullets', 'action': 'set', 'attribute': 'html', 'value': '<div class=\\\"summary-section-bulletpoints-section\\\"> <div class=\\\"summary-section-bulletpoints-item\\\"> <div class=\\\"summary-section-bulletpoints-icon\\\"> <svg width=\\\"19\\\" height=\\\"19\\\" viewBox=\\\"0 0 64 57\\\" fill=\\\"none\\\" xmlns=\\\"http://www.w3.org/2000/svg\\\"> <path d=\\\"M58.3027 1.14018L19.1021 49.1297L5.40096 33.965C4.2592 32.6213 2.16596 32.6213 1.0242 33.7731C-0.307855 34.9248 -0.307853 37.0363 0.833911 38.1881L17.0089 56.0402C17.5798 56.6161 18.5312 57 19.2924 57C20.2439 57 21.0051 56.6161 21.5759 55.8482L63.2503 5.1713C64.3921 3.8276 64.2018 1.71605 62.8697 0.756259C61.3474 -0.395489 59.4444 -0.20353 58.3027 1.14018Z\\\" fill=\\\"#DEAB5B\\\"/> </svg> </div> <div class=\\\"summary-section-bulletpoints-text\\\">Skandinavias originale Diffuser</div> </div> <div class=\\\"summary-section-bulletpoints-item\\\"> <div class=\\\"summary-section-bulletpoints-icon\\\"> <svg width=\\\"19\\\" height=\\\"19\\\" viewBox=\\\"0 0 64 57\\\" fill=\\\"none\\\" xmlns=\\\"http://www.w3.org/2000/svg\\\"> <path d=\\\"M58.3027 1.14018L19.1021 49.1297L5.40096 33.965C4.2592 32.6213 2.16596 32.6213 1.0242 33.7731C-0.307855 34.9248 -0.307853 37.0363 0.833911 38.1881L17.0089 56.0402C17.5798 56.6161 18.5312 57 19.2924 57C20.2439 57 21.0051 56.6161 21.5759 55.8482L63.2503 5.1713C64.3921 3.8276 64.2018 1.71605 62.8697 0.756259C61.3474 -0.395489 59.4444 -0.20353 58.3027 1.14018Z\\\" fill=\\\"#DEAB5B\\\"/> </svg> </div> <div class=\\\"summary-section-bulletpoints-text\\\">100% \u00d8kologiske Eteriske oljer</div> </div> <div class=\\\"summary-section-bulletpoints-item\\\"> <div class=\\\"summary-section-bulletpoints-icon\\\"> <svg width=\\\"19\\\" height=\\\"19\\\" viewBox=\\\"0 0 64 57\\\" fill=\\\"none\\\" xmlns=\\\"http://www.w3.org/2000/svg\\\"> <path d=\\\"M58.3027 1.14018L19.1021 49.1297L5.40096 33.965C4.2592 32.6213 2.16596 32.6213 1.0242 33.7731C-0.307855 34.9248 -0.307853 37.0363 0.833911 38.1881L17.0089 56.0402C17.5798 56.6161 18.5312 57 19.2924 57C20.2439 57 21.0051 56.6161 21.5759 55.8482L63.2503 5.1713C64.3921 3.8276 64.2018 1.71605 62.8697 0.756259C61.3474 -0.395489 59.4444 -0.20353 58.3027 1.14018Z\\\" fill=\\\"#DEAB5B\\\"/> </svg> </div> <div class=\\\"summary-section-bulletpoints-text\\\">Statement-piece i et hvert interi\u00f8r</div> </div> <div class=\\\"summary-section-bulletpoints-item\\\"> <div class=\\\"summary-section-bulletpoints-icon\\\"> <svg width=\\\"19\\\" height=\\\"19\\\" viewBox=\\\"0 0 64 57\\\" fill=\\\"none\\\" xmlns=\\\"http://www.w3.org/2000/svg\\\"> <path d=\\\"M58.3027 1.14018L19.1021 49.1297L5.40096 33.965C4.2592 32.6213 2.16596 32.6213 1.0242 33.7731C-0.307855 34.9248 -0.307853 37.0363 0.833911 38.1881L17.0089 56.0402C17.5798 56.6161 18.5312 57 19.2924 57C20.2439 57 21.0051 56.6161 21.5759 55.8482L63.2503 5.1713C64.3921 3.8276 64.2018 1.71605 62.8697 0.756259C61.3474 -0.395489 59.4444 -0.20353 58.3027 1.14018Z\\\" fill=\\\"#DEAB5B\\\"/> </svg> </div> <div class=\\\"summary-section-bulletpoints-text\\\">Prisvinnende design</div> </div></div><style> .summary-section-bulletpoints-section { display: flex; flex-direction: column; margin-top: 10px; } .summary-section-bulletpoints-item { display: flex; align-items: center; margin-bottom: 1em; } .summary-section-bulletpoints-icon { margin-right: 1em; height:19px; }</style>'});",
+      "d": "var newNodeExists = document.querySelector('#eevy-summary-section');if (!newNodeExists) {var refNode = document.querySelector('product-variants.product-form__variants');var newNode = document.createElement('div');newNode.id = 'eevy-summary-section';newNode.style.cssText = 'padding-top:0px;padding-bottom:16px;';var ssParagraph = document.createElement('div');ssParagraph.id = 'eevy-summary-section-paragraph';var ssBullets = document.createElement('div');ssBullets.id = 'eevy-summary-section-bullets';var ssQuote = document.createElement('div');ssQuote.id = 'eevy-summary-section-quote';newNode.append(ssParagraph, ssBullets, ssQuote);refNode.after(newNode);};eevy.mutator.declarative({'selector': '#eevy-summary-section-bullets', 'action': 'set', 'attribute': 'html', 'value': '<div class=\\\"summary-section-bulletpoints-section\\\"> <div class=\\\"summary-section-bulletpoints-item\\\"> <div class=\\\"summary-section-bulletpoints-icon\\\"> <svg width=\\\"19\\\" height=\\\"19\\\" viewBox=\\\"0 0 64 57\\\" fill=\\\"none\\\" xmlns=\\\"http://www.w3.org/2000/svg\\\"> <path d=\\\"M58.3027 1.14018L19.1021 49.1297L5.40096 33.965C4.2592 32.6213 2.16596 32.6213 1.0242 33.7731C-0.307855 34.9248 -0.307853 37.0363 0.833911 38.1881L17.0089 56.0402C17.5798 56.6161 18.5312 57 19.2924 57C20.2439 57 21.0051 56.6161 21.5759 55.8482L63.2503 5.1713C64.3921 3.8276 64.2018 1.71605 62.8697 0.756259C61.3474 -0.395489 59.4444 -0.20353 58.3027 1.14018Z\\\" fill=\\\"#DEAB5B\\\"/> </svg> </div> <div class=\\\"summary-section-bulletpoints-text\\\">Hjelper med Energi, Fokus, Avslapning og S\u00f8vn</div> </div> <div class=\\\"summary-section-bulletpoints-item\\\"> <div class=\\\"summary-section-bulletpoints-icon\\\"> <svg width=\\\"19\\\" height=\\\"19\\\" viewBox=\\\"0 0 64 57\\\" fill=\\\"none\\\" xmlns=\\\"http://www.w3.org/2000/svg\\\"> <path d=\\\"M58.3027 1.14018L19.1021 49.1297L5.40096 33.965C4.2592 32.6213 2.16596 32.6213 1.0242 33.7731C-0.307855 34.9248 -0.307853 37.0363 0.833911 38.1881L17.0089 56.0402C17.5798 56.6161 18.5312 57 19.2924 57C20.2439 57 21.0051 56.6161 21.5759 55.8482L63.2503 5.1713C64.3921 3.8276 64.2018 1.71605 62.8697 0.756259C61.3474 -0.395489 59.4444 -0.20353 58.3027 1.14018Z\\\" fill=\\\"#DEAB5B\\\"/> </svg> </div> <div class=\\\"summary-section-bulletpoints-text\\\">Luksuri\u00f8s og langvarig duft</div> </div> <div class=\\\"summary-section-bulletpoints-item\\\"> <div class=\\\"summary-section-bulletpoints-icon\\\"> <svg width=\\\"19\\\" height=\\\"19\\\" viewBox=\\\"0 0 64 57\\\" fill=\\\"none\\\" xmlns=\\\"http://www.w3.org/2000/svg\\\"> <path d=\\\"M58.3027 1.14018L19.1021 49.1297L5.40096 33.965C4.2592 32.6213 2.16596 32.6213 1.0242 33.7731C-0.307855 34.9248 -0.307853 37.0363 0.833911 38.1881L17.0089 56.0402C17.5798 56.6161 18.5312 57 19.2924 57C20.2439 57 21.0051 56.6161 21.5759 55.8482L63.2503 5.1713C64.3921 3.8276 64.2018 1.71605 62.8697 0.756259C61.3474 -0.395489 59.4444 -0.20353 58.3027 1.14018Z\\\" fill=\\\"#DEAB5B\\\"/> </svg> </div> <div class=\\\"summary-section-bulletpoints-text\\\">Prisvinnende design</div> </div> </div><style> .summary-section-bulletpoints-section { display: flex; flex-direction: column; margin-top: 10px; } .summary-section-bulletpoints-item { display: flex; align-items: center; margin-bottom: 1em; } .summary-section-bulletpoints-icon { margin-right: 1em; height:19px; }</style>'});",
+      "e": "var newNodeExists = document.querySelector('#eevy-summary-section');if (!newNodeExists) {var refNode = document.querySelector('product-variants.product-form__variants');var newNode = document.createElement('div');newNode.id = 'eevy-summary-section';newNode.style.cssText = 'padding-top:0px;padding-bottom:16px;';var ssParagraph = document.createElement('div');ssParagraph.id = 'eevy-summary-section-paragraph';var ssBullets = document.createElement('div');ssBullets.id = 'eevy-summary-section-bullets';var ssQuote = document.createElement('div');ssQuote.id = 'eevy-summary-section-quote';newNode.append(ssParagraph, ssBullets, ssQuote);refNode.after(newNode);};eevy.mutator.declarative({'selector': '#eevy-summary-section-bullets', 'action': 'set', 'attribute': 'html', 'value': '<div class=\\\"summary-section-bulletpoints-section\\\"> <div class=\\\"summary-section-bulletpoints-item\\\"> <div class=\\\"summary-section-bulletpoints-icon\\\"> <svg width=\\\"19\\\" height=\\\"19\\\" viewBox=\\\"0 0 64 57\\\" fill=\\\"none\\\" xmlns=\\\"http://www.w3.org/2000/svg\\\"> <path d=\\\"M58.3027 1.14018L19.1021 49.1297L5.40096 33.965C4.2592 32.6213 2.16596 32.6213 1.0242 33.7731C-0.307855 34.9248 -0.307853 37.0363 0.833911 38.1881L17.0089 56.0402C17.5798 56.6161 18.5312 57 19.2924 57C20.2439 57 21.0051 56.6161 21.5759 55.8482L63.2503 5.1713C64.3921 3.8276 64.2018 1.71605 62.8697 0.756259C61.3474 -0.395489 59.4444 -0.20353 58.3027 1.14018Z\\\" fill=\\\"#DEAB5B\\\"/> </svg> </div> <div class=\\\"summary-section-bulletpoints-text\\\">Fyller luften med en naturlig og frisk aroma</div> </div> <div class=\\\"summary-section-bulletpoints-item\\\"> <div class=\\\"summary-section-bulletpoints-icon\\\"> <svg width=\\\"19\\\" height=\\\"19\\\" viewBox=\\\"0 0 64 57\\\" fill=\\\"none\\\" xmlns=\\\"http://www.w3.org/2000/svg\\\"> <path d=\\\"M58.3027 1.14018L19.1021 49.1297L5.40096 33.965C4.2592 32.6213 2.16596 32.6213 1.0242 33.7731C-0.307855 34.9248 -0.307853 37.0363 0.833911 38.1881L17.0089 56.0402C17.5798 56.6161 18.5312 57 19.2924 57C20.2439 57 21.0051 56.6161 21.5759 55.8482L63.2503 5.1713C64.3921 3.8276 64.2018 1.71605 62.8697 0.756259C61.3474 -0.395489 59.4444 -0.20353 58.3027 1.14018Z\\\" fill=\\\"#DEAB5B\\\"/> </svg> </div> <div class=\\\"summary-section-bulletpoints-text\\\">Perfekt i stuen, p\u00e5 kj\u00f8kkenet, p\u00e5 soverommet eller p\u00e5 badet</div> </div> <div class=\\\"summary-section-bulletpoints-item\\\"> <div class=\\\"summary-section-bulletpoints-icon\\\"> <svg width=\\\"19\\\" height=\\\"19\\\" viewBox=\\\"0 0 64 57\\\" fill=\\\"none\\\" xmlns=\\\"http://www.w3.org/2000/svg\\\"> <path d=\\\"M58.3027 1.14018L19.1021 49.1297L5.40096 33.965C4.2592 32.6213 2.16596 32.6213 1.0242 33.7731C-0.307855 34.9248 -0.307853 37.0363 0.833911 38.1881L17.0089 56.0402C17.5798 56.6161 18.5312 57 19.2924 57C20.2439 57 21.0051 56.6161 21.5759 55.8482L63.2503 5.1713C64.3921 3.8276 64.2018 1.71605 62.8697 0.756259C61.3474 -0.395489 59.4444 -0.20353 58.3027 1.14018Z\\\" fill=\\\"#DEAB5B\\\"/> </svg> </div> <div class=\\\"summary-section-bulletpoints-text\\\">Positiv effekt p\u00e5 kropp og sinn</div> </div> </div><style> .summary-section-bulletpoints-section { display: flex; flex-direction: column; margin-top: 10px; } .summary-section-bulletpoints-item { display: flex; align-items: center; margin-bottom: 1em; } .summary-section-bulletpoints-icon { margin-right: 1em; height:19px; }</style>'});",
+      "f": "var newNodeExists = document.querySelector('#eevy-summary-section');if (!newNodeExists) {var refNode = document.querySelector('product-variants.product-form__variants');var newNode = document.createElement('div');newNode.id = 'eevy-summary-section';newNode.style.cssText = 'padding-top:0px;padding-bottom:16px;';var ssParagraph = document.createElement('div');ssParagraph.id = 'eevy-summary-section-paragraph';var ssBullets = document.createElement('div');ssBullets.id = 'eevy-summary-section-bullets';var ssQuote = document.createElement('div');ssQuote.id = 'eevy-summary-section-quote';newNode.append(ssParagraph, ssBullets, ssQuote);refNode.after(newNode);};eevy.mutator.declarative({'selector': '#eevy-summary-section-bullets', 'action': 'set', 'attribute': 'html', 'value': '<div class=\\\"summary-section-bulletpoints-section\\\"> <div class=\\\"summary-section-bulletpoints-item\\\"> <div class=\\\"summary-section-bulletpoints-icon\\\"> <svg width=\\\"19\\\" height=\\\"19\\\" viewBox=\\\"0 0 64 57\\\" fill=\\\"none\\\" xmlns=\\\"http://www.w3.org/2000/svg\\\"> <path d=\\\"M58.3027 1.14018L19.1021 49.1297L5.40096 33.965C4.2592 32.6213 2.16596 32.6213 1.0242 33.7731C-0.307855 34.9248 -0.307853 37.0363 0.833911 38.1881L17.0089 56.0402C17.5798 56.6161 18.5312 57 19.2924 57C20.2439 57 21.0051 56.6161 21.5759 55.8482L63.2503 5.1713C64.3921 3.8276 64.2018 1.71605 62.8697 0.756259C61.3474 -0.395489 59.4444 -0.20353 58.3027 1.14018Z\\\" fill=\\\"#DEAB5B\\\"/> </svg> </div> <div class=\\\"summary-section-bulletpoints-text\\\">Gi hjemmet ditt en unik atmosf\u00e6re p\u00e5 kun 5 minutter</div> </div> <div class=\\\"summary-section-bulletpoints-item\\\"> <div class=\\\"summary-section-bulletpoints-icon\\\"> <svg width=\\\"19\\\" height=\\\"19\\\" viewBox=\\\"0 0 64 57\\\" fill=\\\"none\\\" xmlns=\\\"http://www.w3.org/2000/svg\\\"> <path d=\\\"M58.3027 1.14018L19.1021 49.1297L5.40096 33.965C4.2592 32.6213 2.16596 32.6213 1.0242 33.7731C-0.307855 34.9248 -0.307853 37.0363 0.833911 38.1881L17.0089 56.0402C17.5798 56.6161 18.5312 57 19.2924 57C20.2439 57 21.0051 56.6161 21.5759 55.8482L63.2503 5.1713C64.3921 3.8276 64.2018 1.71605 62.8697 0.756259C61.3474 -0.395489 59.4444 -0.20353 58.3027 1.14018Z\\\" fill=\\\"#DEAB5B\\\"/> </svg> </div> <div class=\\\"summary-section-bulletpoints-text\\\">Langvarige, naturlige dufter</div> </div> <div class=\\\"summary-section-bulletpoints-item\\\"> <div class=\\\"summary-section-bulletpoints-icon\\\"> <svg width=\\\"19\\\" height=\\\"19\\\" viewBox=\\\"0 0 64 57\\\" fill=\\\"none\\\" xmlns=\\\"http://www.w3.org/2000/svg\\\"> <path d=\\\"M58.3027 1.14018L19.1021 49.1297L5.40096 33.965C4.2592 32.6213 2.16596 32.6213 1.0242 33.7731C-0.307855 34.9248 -0.307853 37.0363 0.833911 38.1881L17.0089 56.0402C17.5798 56.6161 18.5312 57 19.2924 57C20.2439 57 21.0051 56.6161 21.5759 55.8482L63.2503 5.1713C64.3921 3.8276 64.2018 1.71605 62.8697 0.756259C61.3474 -0.395489 59.4444 -0.20353 58.3027 1.14018Z\\\" fill=\\\"#DEAB5B\\\"/> </svg> </div> <div class=\\\"summary-section-bulletpoints-text\\\">250,000+ Forn\u00f8yde kunder</div> </div> </div><style> .summary-section-bulletpoints-section { display: flex; flex-direction: column; margin-top: 10px; } .summary-section-bulletpoints-item { display: flex; align-items: center; margin-bottom: 1em; } .summary-section-bulletpoints-icon { margin-right: 1em; height:19px; }</style>'});"
+    },
+    "gene": 9
+  },
+  {
+    "feature": "summary-section-quote",
+    "name": "",
+    "image": "https://drive.google.com/uc?id=1ej-e8Geiv2ulbReZEPi727-BXAev1E1N",
+    "pathnames": [
+      "/products/volant-diffuser"
+    ],
+    "variants": {
+      "a": ";/*default*/",
+      "b": "var newNodeExists = document.querySelector('#eevy-summary-section');if (!newNodeExists) {var refNode = document.querySelector('product-variants.product-form__variants');var newNode = document.createElement('div');newNode.id = 'eevy-summary-section';newNode.style.cssText = 'padding-top:0px;padding-bottom:16px;';var ssParagraph = document.createElement('div');ssParagraph.id = 'eevy-summary-section-paragraph';var ssBullets = document.createElement('div');ssBullets.id = 'eevy-summary-section-bullets';var ssQuote = document.createElement('div');ssQuote.id = 'eevy-summary-section-quote';newNode.append(ssParagraph, ssBullets, ssQuote);refNode.after(newNode);};eevy.mutator.declarative({'selector': '#eevy-summary-section-quote', 'action': 'set', 'attribute': 'html', 'value': '<style> #single-review { max-width: 90%; padding: 19px 0; text-align: center; margin: 0 auto; font-size: 14px; line-height: 22px; font-weight: 400; color: #282828; font-style: italic; } #single-review > div { position: relative; }</style><div id=\\\"single-review\\\"> <div> <p>Simpelthen ELSKER den diffuseren! Man kjenner duften kommer sivende kjapt og man kan kjenne den lenge etterp\u00e5. Kan kjenne en ro og velbehag som ikke har v\u00e6rt der f\u00f8r.</p> <p style=\\\"margin-block-end:0px;\\\">-Linda A.</p> <svg width=\\\"14\\\" height=\\\"11\\\" viewBox=\\\"0 0 14 11\\\" fill=\\\"none\\\" xmlns=\\\"http://www.w3.org/2000/svg\\\" style=\\\"position: absolute; left: -16px; top: -13px;\\\"> <g clip-path=\\\"url(#clip0_2625_67)\\\"> <path d=\\\"M6.08555 0.897739L5.56818 0.13385C1.98864 2.44446 0 5.25191 0 7.56252C0 9.79674 1.71055 10.8472 3.16209 10.8472C4.99164 10.8472 6.28409 9.35735 6.28409 7.79168C6.28409 6.47413 5.40909 5.34724 4.23564 4.92679C3.89773 4.81191 3.57955 4.71657 3.57955 4.16291C3.57955 3.45646 4.11664 2.40657 6.08555 0.897739ZM13.9803 0.897739L13.4629 0.13385C9.92282 2.44446 7.89473 5.25191 7.89473 7.56252C7.89473 9.79674 9.64473 10.8472 11.0963 10.8472C12.9455 10.8472 14.2584 9.35735 14.2584 7.79168C14.2584 6.47413 13.3636 5.34724 12.1501 4.92679C11.8122 4.81191 11.5137 4.71657 11.5137 4.16291C11.5137 3.45646 12.0705 2.40596 13.9796 0.897128L13.9803 0.897739Z\\\" fill=\\\"#EDDED0\\\"/> </g> <defs> <clipPath id=\\\"clip0_2625_67\\\"> <rect width=\\\"14\\\" height=\\\"11\\\" fill=\\\"white\\\"/> </clipPath> </defs> </svg> <svg width=\\\"14\\\" height=\\\"11\\\" viewBox=\\\"0 0 14 11\\\" fill=\\\"none\\\" xmlns=\\\"http://www.w3.org/2000/svg\\\" style=\\\"position: absolute; right: -10px; bottom: 10px; transform: rotate(180deg);\\\"> <g clip-path=\\\"url(#clip0_2625_67)\\\"> <path d=\\\"M6.08555 0.897739L5.56818 0.13385C1.98864 2.44446 0 5.25191 0 7.56252C0 9.79674 1.71055 10.8472 3.16209 10.8472C4.99164 10.8472 6.28409 9.35735 6.28409 7.79168C6.28409 6.47413 5.40909 5.34724 4.23564 4.92679C3.89773 4.81191 3.57955 4.71657 3.57955 4.16291C3.57955 3.45646 4.11664 2.40657 6.08555 0.897739ZM13.9803 0.897739L13.4629 0.13385C9.92282 2.44446 7.89473 5.25191 7.89473 7.56252C7.89473 9.79674 9.64473 10.8472 11.0963 10.8472C12.9455 10.8472 14.2584 9.35735 14.2584 7.79168C14.2584 6.47413 13.3636 5.34724 12.1501 4.92679C11.8122 4.81191 11.5137 4.71657 11.5137 4.16291C11.5137 3.45646 12.0705 2.40596 13.9796 0.897128L13.9803 0.897739Z\\\" fill=\\\"#EDDED0\\\"/> </g> <defs> <clipPath id=\\\"clip0_2625_67\\\"> <rect width=\\\"14\\\" height=\\\"11\\\" fill=\\\"white\\\"/> </clipPath> </defs> </svg> </div></div>'});",
+      "c": "var newNodeExists = document.querySelector('#eevy-summary-section');if (!newNodeExists) {var refNode = document.querySelector('product-variants.product-form__variants');var newNode = document.createElement('div');newNode.id = 'eevy-summary-section';newNode.style.cssText = 'padding-top:0px;padding-bottom:16px;';var ssParagraph = document.createElement('div');ssParagraph.id = 'eevy-summary-section-paragraph';var ssBullets = document.createElement('div');ssBullets.id = 'eevy-summary-section-bullets';var ssQuote = document.createElement('div');ssQuote.id = 'eevy-summary-section-quote';newNode.append(ssParagraph, ssBullets, ssQuote);refNode.after(newNode);};eevy.mutator.declarative({'selector': '#eevy-summary-section-quote', 'action': 'set', 'attribute': 'html', 'value': '<style> #single-review { max-width: 90%; padding: 19px 0; text-align: center; margin: 0 auto; font-size: 14px; line-height: 22px; font-weight: 400; color: #282828; font-style: italic; } #single-review > div { position: relative; }</style><div id=\\\"single-review\\\"> <div> <p>Spa oljen er fantastisk!! Deilig duft og virker beroligende om man er litt stresset. Det dufter rent i hele huset etter 5 minutter og man f\u00e5r en f\u00f8lelse av velv\u00e6re.\u2764\ufe0f</p> <p style=\\\"margin-block-end:0px;\\\">-Monika P.</p> <svg width=\\\"14\\\" height=\\\"11\\\" viewBox=\\\"0 0 14 11\\\" fill=\\\"none\\\" xmlns=\\\"http://www.w3.org/2000/svg\\\" style=\\\"position: absolute; left: -16px; top: -13px;\\\"> <g clip-path=\\\"url(#clip0_2625_67)\\\"> <path d=\\\"M6.08555 0.897739L5.56818 0.13385C1.98864 2.44446 0 5.25191 0 7.56252C0 9.79674 1.71055 10.8472 3.16209 10.8472C4.99164 10.8472 6.28409 9.35735 6.28409 7.79168C6.28409 6.47413 5.40909 5.34724 4.23564 4.92679C3.89773 4.81191 3.57955 4.71657 3.57955 4.16291C3.57955 3.45646 4.11664 2.40657 6.08555 0.897739ZM13.9803 0.897739L13.4629 0.13385C9.92282 2.44446 7.89473 5.25191 7.89473 7.56252C7.89473 9.79674 9.64473 10.8472 11.0963 10.8472C12.9455 10.8472 14.2584 9.35735 14.2584 7.79168C14.2584 6.47413 13.3636 5.34724 12.1501 4.92679C11.8122 4.81191 11.5137 4.71657 11.5137 4.16291C11.5137 3.45646 12.0705 2.40596 13.9796 0.897128L13.9803 0.897739Z\\\" fill=\\\"#EDDED0\\\"/> </g> <defs> <clipPath id=\\\"clip0_2625_67\\\"> <rect width=\\\"14\\\" height=\\\"11\\\" fill=\\\"white\\\"/> </clipPath> </defs> </svg> <svg width=\\\"14\\\" height=\\\"11\\\" viewBox=\\\"0 0 14 11\\\" fill=\\\"none\\\" xmlns=\\\"http://www.w3.org/2000/svg\\\" style=\\\"position: absolute; right: -10px; bottom: 10px; transform: rotate(180deg);\\\"> <g clip-path=\\\"url(#clip0_2625_67)\\\"> <path d=\\\"M6.08555 0.897739L5.56818 0.13385C1.98864 2.44446 0 5.25191 0 7.56252C0 9.79674 1.71055 10.8472 3.16209 10.8472C4.99164 10.8472 6.28409 9.35735 6.28409 7.79168C6.28409 6.47413 5.40909 5.34724 4.23564 4.92679C3.89773 4.81191 3.57955 4.71657 3.57955 4.16291C3.57955 3.45646 4.11664 2.40657 6.08555 0.897739ZM13.9803 0.897739L13.4629 0.13385C9.92282 2.44446 7.89473 5.25191 7.89473 7.56252C7.89473 9.79674 9.64473 10.8472 11.0963 10.8472C12.9455 10.8472 14.2584 9.35735 14.2584 7.79168C14.2584 6.47413 13.3636 5.34724 12.1501 4.92679C11.8122 4.81191 11.5137 4.71657 11.5137 4.16291C11.5137 3.45646 12.0705 2.40596 13.9796 0.897128L13.9803 0.897739Z\\\" fill=\\\"#EDDED0\\\"/> </g> <defs> <clipPath id=\\\"clip0_2625_67\\\"> <rect width=\\\"14\\\" height=\\\"11\\\" fill=\\\"white\\\"/> </clipPath> </defs> </svg> </div></div>'});",
+      "d": "var newNodeExists = document.querySelector('#eevy-summary-section');if (!newNodeExists) {var refNode = document.querySelector('product-variants.product-form__variants');var newNode = document.createElement('div');newNode.id = 'eevy-summary-section';newNode.style.cssText = 'padding-top:0px;padding-bottom:16px;';var ssParagraph = document.createElement('div');ssParagraph.id = 'eevy-summary-section-paragraph';var ssBullets = document.createElement('div');ssBullets.id = 'eevy-summary-section-bullets';var ssQuote = document.createElement('div');ssQuote.id = 'eevy-summary-section-quote';newNode.append(ssParagraph, ssBullets, ssQuote);refNode.after(newNode);};eevy.mutator.declarative({'selector': '#eevy-summary-section-quote', 'action': 'set', 'attribute': 'html', 'value': '<style> #single-review { max-width: 90%; padding: 19px 0; text-align: center; margin: 0 auto; font-size: 14px; line-height: 22px; font-weight: 400; color: #282828; font-style: italic; } #single-review > div { position: relative; }</style><div id=\\\"single-review\\\"> <div> <p>Jeg elsker f\u00f8lelsen av \u00e5 komme hjem til en beroligende spa-lukt - anbefales p\u00e5 det sterkeste!</p> <p style=\\\"margin-block-end:0px;\\\">-Silvia P</p> <svg width=\\\"14\\\" height=\\\"11\\\" viewBox=\\\"0 0 14 11\\\" fill=\\\"none\\\" xmlns=\\\"http://www.w3.org/2000/svg\\\" style=\\\"position: absolute; left: -16px; top: -13px;\\\"> <g clip-path=\\\"url(#clip0_2625_67)\\\"> <path d=\\\"M6.08555 0.897739L5.56818 0.13385C1.98864 2.44446 0 5.25191 0 7.56252C0 9.79674 1.71055 10.8472 3.16209 10.8472C4.99164 10.8472 6.28409 9.35735 6.28409 7.79168C6.28409 6.47413 5.40909 5.34724 4.23564 4.92679C3.89773 4.81191 3.57955 4.71657 3.57955 4.16291C3.57955 3.45646 4.11664 2.40657 6.08555 0.897739ZM13.9803 0.897739L13.4629 0.13385C9.92282 2.44446 7.89473 5.25191 7.89473 7.56252C7.89473 9.79674 9.64473 10.8472 11.0963 10.8472C12.9455 10.8472 14.2584 9.35735 14.2584 7.79168C14.2584 6.47413 13.3636 5.34724 12.1501 4.92679C11.8122 4.81191 11.5137 4.71657 11.5137 4.16291C11.5137 3.45646 12.0705 2.40596 13.9796 0.897128L13.9803 0.897739Z\\\" fill=\\\"#EDDED0\\\"/> </g> <defs> <clipPath id=\\\"clip0_2625_67\\\"> <rect width=\\\"14\\\" height=\\\"11\\\" fill=\\\"white\\\"/> </clipPath> </defs> </svg> <svg width=\\\"14\\\" height=\\\"11\\\" viewBox=\\\"0 0 14 11\\\" fill=\\\"none\\\" xmlns=\\\"http://www.w3.org/2000/svg\\\" style=\\\"position: absolute; right: -10px; bottom: 10px; transform: rotate(180deg);\\\"> <g clip-path=\\\"url(#clip0_2625_67)\\\"> <path d=\\\"M6.08555 0.897739L5.56818 0.13385C1.98864 2.44446 0 5.25191 0 7.56252C0 9.79674 1.71055 10.8472 3.16209 10.8472C4.99164 10.8472 6.28409 9.35735 6.28409 7.79168C6.28409 6.47413 5.40909 5.34724 4.23564 4.92679C3.89773 4.81191 3.57955 4.71657 3.57955 4.16291C3.57955 3.45646 4.11664 2.40657 6.08555 0.897739ZM13.9803 0.897739L13.4629 0.13385C9.92282 2.44446 7.89473 5.25191 7.89473 7.56252C7.89473 9.79674 9.64473 10.8472 11.0963 10.8472C12.9455 10.8472 14.2584 9.35735 14.2584 7.79168C14.2584 6.47413 13.3636 5.34724 12.1501 4.92679C11.8122 4.81191 11.5137 4.71657 11.5137 4.16291C11.5137 3.45646 12.0705 2.40596 13.9796 0.897128L13.9803 0.897739Z\\\" fill=\\\"#EDDED0\\\"/> </g> <defs> <clipPath id=\\\"clip0_2625_67\\\"> <rect width=\\\"14\\\" height=\\\"11\\\" fill=\\\"white\\\"/> </clipPath> </defs> </svg> </div></div>'});",
+      "e": "var newNodeExists = document.querySelector('#eevy-summary-section');if (!newNodeExists) {var refNode = document.querySelector('product-variants.product-form__variants');var newNode = document.createElement('div');newNode.id = 'eevy-summary-section';newNode.style.cssText = 'padding-top:0px;padding-bottom:16px;';var ssParagraph = document.createElement('div');ssParagraph.id = 'eevy-summary-section-paragraph';var ssBullets = document.createElement('div');ssBullets.id = 'eevy-summary-section-bullets';var ssQuote = document.createElement('div');ssQuote.id = 'eevy-summary-section-quote';newNode.append(ssParagraph, ssBullets, ssQuote);refNode.after(newNode);};eevy.mutator.declarative({'selector': '#eevy-summary-section-quote', 'action': 'set', 'attribute': 'html', 'value': '<style> #single-review { max-width: 90%; padding: 19px 0; text-align: center; margin: 0 auto; font-size: 14px; line-height: 22px; font-weight: 400; color: #282828; font-style: italic; } #single-review > div { position: relative; }</style><div id=\\\"single-review\\\"> <div> <p>Elsker den. Sprer en deilig duft og har en behagelig lyd.</p> <p style=\\\"margin-block-end:0px;\\\">-Angelica U.</p> <svg width=\\\"14\\\" height=\\\"11\\\" viewBox=\\\"0 0 14 11\\\" fill=\\\"none\\\" xmlns=\\\"http://www.w3.org/2000/svg\\\" style=\\\"position: absolute; left: -16px; top: -13px;\\\"> <g clip-path=\\\"url(#clip0_2625_67)\\\"> <path d=\\\"M6.08555 0.897739L5.56818 0.13385C1.98864 2.44446 0 5.25191 0 7.56252C0 9.79674 1.71055 10.8472 3.16209 10.8472C4.99164 10.8472 6.28409 9.35735 6.28409 7.79168C6.28409 6.47413 5.40909 5.34724 4.23564 4.92679C3.89773 4.81191 3.57955 4.71657 3.57955 4.16291C3.57955 3.45646 4.11664 2.40657 6.08555 0.897739ZM13.9803 0.897739L13.4629 0.13385C9.92282 2.44446 7.89473 5.25191 7.89473 7.56252C7.89473 9.79674 9.64473 10.8472 11.0963 10.8472C12.9455 10.8472 14.2584 9.35735 14.2584 7.79168C14.2584 6.47413 13.3636 5.34724 12.1501 4.92679C11.8122 4.81191 11.5137 4.71657 11.5137 4.16291C11.5137 3.45646 12.0705 2.40596 13.9796 0.897128L13.9803 0.897739Z\\\" fill=\\\"#EDDED0\\\"/> </g> <defs> <clipPath id=\\\"clip0_2625_67\\\"> <rect width=\\\"14\\\" height=\\\"11\\\" fill=\\\"white\\\"/> </clipPath> </defs> </svg> <svg width=\\\"14\\\" height=\\\"11\\\" viewBox=\\\"0 0 14 11\\\" fill=\\\"none\\\" xmlns=\\\"http://www.w3.org/2000/svg\\\" style=\\\"position: absolute; right: -10px; bottom: 10px; transform: rotate(180deg);\\\"> <g clip-path=\\\"url(#clip0_2625_67)\\\"> <path d=\\\"M6.08555 0.897739L5.56818 0.13385C1.98864 2.44446 0 5.25191 0 7.56252C0 9.79674 1.71055 10.8472 3.16209 10.8472C4.99164 10.8472 6.28409 9.35735 6.28409 7.79168C6.28409 6.47413 5.40909 5.34724 4.23564 4.92679C3.89773 4.81191 3.57955 4.71657 3.57955 4.16291C3.57955 3.45646 4.11664 2.40657 6.08555 0.897739ZM13.9803 0.897739L13.4629 0.13385C9.92282 2.44446 7.89473 5.25191 7.89473 7.56252C7.89473 9.79674 9.64473 10.8472 11.0963 10.8472C12.9455 10.8472 14.2584 9.35735 14.2584 7.79168C14.2584 6.47413 13.3636 5.34724 12.1501 4.92679C11.8122 4.81191 11.5137 4.71657 11.5137 4.16291C11.5137 3.45646 12.0705 2.40596 13.9796 0.897128L13.9803 0.897739Z\\\" fill=\\\"#EDDED0\\\"/> </g> <defs> <clipPath id=\\\"clip0_2625_67\\\"> <rect width=\\\"14\\\" height=\\\"11\\\" fill=\\\"white\\\"/> </clipPath> </defs> </svg> </div></div>'});",
+      "f": "var newNodeExists = document.querySelector('#eevy-summary-section');if (!newNodeExists) {var refNode = document.querySelector('product-variants.product-form__variants');var newNode = document.createElement('div');newNode.id = 'eevy-summary-section';newNode.style.cssText = 'padding-top:0px;padding-bottom:16px;';var ssParagraph = document.createElement('div');ssParagraph.id = 'eevy-summary-section-paragraph';var ssBullets = document.createElement('div');ssBullets.id = 'eevy-summary-section-bullets';var ssQuote = document.createElement('div');ssQuote.id = 'eevy-summary-section-quote';newNode.append(ssParagraph, ssBullets, ssQuote);refNode.after(newNode);};eevy.mutator.declarative({'selector': '#eevy-summary-section-quote', 'action': 'set', 'attribute': 'html', 'value': '<style> #single-review { max-width: 90%; padding: 19px 0; text-align: center; margin: 0 auto; font-size: 14px; line-height: 22px; font-weight: 400; color: #282828; font-style: italic; } #single-review > div { position: relative; }</style><div id=\\\"single-review\\\"> <div> <p>F\u00f8ler huset har f\u00e5tt en ny opplevelse. Gjester kommer innom og kommenterer god og nydelig duft i huset\ud83e\udd29\ud83d\udc4d veldig forn\u00f8yd!!!</p> <p style=\\\"margin-block-end:0px;\\\">-Linda K.</p> <svg width=\\\"14\\\" height=\\\"11\\\" viewBox=\\\"0 0 14 11\\\" fill=\\\"none\\\" xmlns=\\\"http://www.w3.org/2000/svg\\\" style=\\\"position: absolute; left: -16px; top: -13px;\\\"> <g clip-path=\\\"url(#clip0_2625_67)\\\"> <path d=\\\"M6.08555 0.897739L5.56818 0.13385C1.98864 2.44446 0 5.25191 0 7.56252C0 9.79674 1.71055 10.8472 3.16209 10.8472C4.99164 10.8472 6.28409 9.35735 6.28409 7.79168C6.28409 6.47413 5.40909 5.34724 4.23564 4.92679C3.89773 4.81191 3.57955 4.71657 3.57955 4.16291C3.57955 3.45646 4.11664 2.40657 6.08555 0.897739ZM13.9803 0.897739L13.4629 0.13385C9.92282 2.44446 7.89473 5.25191 7.89473 7.56252C7.89473 9.79674 9.64473 10.8472 11.0963 10.8472C12.9455 10.8472 14.2584 9.35735 14.2584 7.79168C14.2584 6.47413 13.3636 5.34724 12.1501 4.92679C11.8122 4.81191 11.5137 4.71657 11.5137 4.16291C11.5137 3.45646 12.0705 2.40596 13.9796 0.897128L13.9803 0.897739Z\\\" fill=\\\"#EDDED0\\\"/> </g> <defs> <clipPath id=\\\"clip0_2625_67\\\"> <rect width=\\\"14\\\" height=\\\"11\\\" fill=\\\"white\\\"/> </clipPath> </defs> </svg> <svg width=\\\"14\\\" height=\\\"11\\\" viewBox=\\\"0 0 14 11\\\" fill=\\\"none\\\" xmlns=\\\"http://www.w3.org/2000/svg\\\" style=\\\"position: absolute; right: -10px; bottom: 10px; transform: rotate(180deg);\\\"> <g clip-path=\\\"url(#clip0_2625_67)\\\"> <path d=\\\"M6.08555 0.897739L5.56818 0.13385C1.98864 2.44446 0 5.25191 0 7.56252C0 9.79674 1.71055 10.8472 3.16209 10.8472C4.99164 10.8472 6.28409 9.35735 6.28409 7.79168C6.28409 6.47413 5.40909 5.34724 4.23564 4.92679C3.89773 4.81191 3.57955 4.71657 3.57955 4.16291C3.57955 3.45646 4.11664 2.40657 6.08555 0.897739ZM13.9803 0.897739L13.4629 0.13385C9.92282 2.44446 7.89473 5.25191 7.89473 7.56252C7.89473 9.79674 9.64473 10.8472 11.0963 10.8472C12.9455 10.8472 14.2584 9.35735 14.2584 7.79168C14.2584 6.47413 13.3636 5.34724 12.1501 4.92679C11.8122 4.81191 11.5137 4.71657 11.5137 4.16291C11.5137 3.45646 12.0705 2.40596 13.9796 0.897128L13.9803 0.897739Z\\\" fill=\\\"#EDDED0\\\"/> </g> <defs> <clipPath id=\\\"clip0_2625_67\\\"> <rect width=\\\"14\\\" height=\\\"11\\\" fill=\\\"white\\\"/> </clipPath> </defs> </svg> </div></div>'});",
+      "g": "var newNodeExists = document.querySelector('#eevy-summary-section');if (!newNodeExists) {var refNode = document.querySelector('product-variants.product-form__variants');var newNode = document.createElement('div');newNode.id = 'eevy-summary-section';newNode.style.cssText = 'padding-top:0px;padding-bottom:16px;';var ssParagraph = document.createElement('div');ssParagraph.id = 'eevy-summary-section-paragraph';var ssBullets = document.createElement('div');ssBullets.id = 'eevy-summary-section-bullets';var ssQuote = document.createElement('div');ssQuote.id = 'eevy-summary-section-quote';newNode.append(ssParagraph, ssBullets, ssQuote);refNode.after(newNode);};eevy.mutator.declarative({'selector': '#eevy-summary-section-quote', 'action': 'set', 'attribute': 'html', 'value': '<style> #single-review { max-width: 90%; padding: 19px 0; text-align: center; margin: 0 auto; font-size: 14px; line-height: 22px; font-weight: 400; color: #282828; font-style: italic; } #single-review > div { position: relative; }</style><div id=\\\"single-review\\\"> <div> <p>Elsker denne diffuseren\ud83d\ude0d Har den p\u00e5 fra morgen til kveld. God lukt i hele huset!!</p> <p style=\\\"margin-block-end:0px;\\\">-Gunn Eva B.</p> <svg width=\\\"14\\\" height=\\\"11\\\" viewBox=\\\"0 0 14 11\\\" fill=\\\"none\\\" xmlns=\\\"http://www.w3.org/2000/svg\\\" style=\\\"position: absolute; left: -16px; top: -13px;\\\"> <g clip-path=\\\"url(#clip0_2625_67)\\\"> <path d=\\\"M6.08555 0.897739L5.56818 0.13385C1.98864 2.44446 0 5.25191 0 7.56252C0 9.79674 1.71055 10.8472 3.16209 10.8472C4.99164 10.8472 6.28409 9.35735 6.28409 7.79168C6.28409 6.47413 5.40909 5.34724 4.23564 4.92679C3.89773 4.81191 3.57955 4.71657 3.57955 4.16291C3.57955 3.45646 4.11664 2.40657 6.08555 0.897739ZM13.9803 0.897739L13.4629 0.13385C9.92282 2.44446 7.89473 5.25191 7.89473 7.56252C7.89473 9.79674 9.64473 10.8472 11.0963 10.8472C12.9455 10.8472 14.2584 9.35735 14.2584 7.79168C14.2584 6.47413 13.3636 5.34724 12.1501 4.92679C11.8122 4.81191 11.5137 4.71657 11.5137 4.16291C11.5137 3.45646 12.0705 2.40596 13.9796 0.897128L13.9803 0.897739Z\\\" fill=\\\"#EDDED0\\\"/> </g> <defs> <clipPath id=\\\"clip0_2625_67\\\"> <rect width=\\\"14\\\" height=\\\"11\\\" fill=\\\"white\\\"/> </clipPath> </defs> </svg> <svg width=\\\"14\\\" height=\\\"11\\\" viewBox=\\\"0 0 14 11\\\" fill=\\\"none\\\" xmlns=\\\"http://www.w3.org/2000/svg\\\" style=\\\"position: absolute; right: -10px; bottom: 10px; transform: rotate(180deg);\\\"> <g clip-path=\\\"url(#clip0_2625_67)\\\"> <path d=\\\"M6.08555 0.897739L5.56818 0.13385C1.98864 2.44446 0 5.25191 0 7.56252C0 9.79674 1.71055 10.8472 3.16209 10.8472C4.99164 10.8472 6.28409 9.35735 6.28409 7.79168C6.28409 6.47413 5.40909 5.34724 4.23564 4.92679C3.89773 4.81191 3.57955 4.71657 3.57955 4.16291C3.57955 3.45646 4.11664 2.40657 6.08555 0.897739ZM13.9803 0.897739L13.4629 0.13385C9.92282 2.44446 7.89473 5.25191 7.89473 7.56252C7.89473 9.79674 9.64473 10.8472 11.0963 10.8472C12.9455 10.8472 14.2584 9.35735 14.2584 7.79168C14.2584 6.47413 13.3636 5.34724 12.1501 4.92679C11.8122 4.81191 11.5137 4.71657 11.5137 4.16291C11.5137 3.45646 12.0705 2.40596 13.9796 0.897128L13.9803 0.897739Z\\\" fill=\\\"#EDDED0\\\"/> </g> <defs> <clipPath id=\\\"clip0_2625_67\\\"> <rect width=\\\"14\\\" height=\\\"11\\\" fill=\\\"white\\\"/> </clipPath> </defs> </svg> </div></div>'});",
+      "h": "var newNodeExists = document.querySelector('#eevy-summary-section');if (!newNodeExists) {var refNode = document.querySelector('product-variants.product-form__variants');var newNode = document.createElement('div');newNode.id = 'eevy-summary-section';newNode.style.cssText = 'padding-top:0px;padding-bottom:16px;';var ssParagraph = document.createElement('div');ssParagraph.id = 'eevy-summary-section-paragraph';var ssBullets = document.createElement('div');ssBullets.id = 'eevy-summary-section-bullets';var ssQuote = document.createElement('div');ssQuote.id = 'eevy-summary-section-quote';newNode.append(ssParagraph, ssBullets, ssQuote);refNode.after(newNode);};eevy.mutator.declarative({'selector': '#eevy-summary-section-quote', 'action': 'set', 'attribute': 'html', 'value': '<style> #single-review { max-width: 90%; padding: 19px 0; text-align: center; margin: 0 auto; font-size: 14px; line-height: 22px; font-weight: 400; color: #282828; font-style: italic; } #single-review > div { position: relative; }</style><div id=\\\"single-review\\\"> <div> <p>Elsker denne diffuseren! Passer s\u00e5 bra inn og \"Everyday essentials\" oljesettet f\u00e5r leiligheten v\u00e5r til \u00e5 lukte som himmelen. </p> <p style=\\\"margin-block-end:0px;\\\">-Elizabeth N. </p> <svg width=\\\"14\\\" height=\\\"11\\\" viewBox=\\\"0 0 14 11\\\" fill=\\\"none\\\" xmlns=\\\"http://www.w3.org/2000/svg\\\" style=\\\"position: absolute; left: -16px; top: -13px;\\\"> <g clip-path=\\\"url(#clip0_2625_67)\\\"> <path d=\\\"M6.08555 0.897739L5.56818 0.13385C1.98864 2.44446 0 5.25191 0 7.56252C0 9.79674 1.71055 10.8472 3.16209 10.8472C4.99164 10.8472 6.28409 9.35735 6.28409 7.79168C6.28409 6.47413 5.40909 5.34724 4.23564 4.92679C3.89773 4.81191 3.57955 4.71657 3.57955 4.16291C3.57955 3.45646 4.11664 2.40657 6.08555 0.897739ZM13.9803 0.897739L13.4629 0.13385C9.92282 2.44446 7.89473 5.25191 7.89473 7.56252C7.89473 9.79674 9.64473 10.8472 11.0963 10.8472C12.9455 10.8472 14.2584 9.35735 14.2584 7.79168C14.2584 6.47413 13.3636 5.34724 12.1501 4.92679C11.8122 4.81191 11.5137 4.71657 11.5137 4.16291C11.5137 3.45646 12.0705 2.40596 13.9796 0.897128L13.9803 0.897739Z\\\" fill=\\\"#EDDED0\\\"/> </g> <defs> <clipPath id=\\\"clip0_2625_67\\\"> <rect width=\\\"14\\\" height=\\\"11\\\" fill=\\\"white\\\"/> </clipPath> </defs> </svg> <svg width=\\\"14\\\" height=\\\"11\\\" viewBox=\\\"0 0 14 11\\\" fill=\\\"none\\\" xmlns=\\\"http://www.w3.org/2000/svg\\\" style=\\\"position: absolute; right: -10px; bottom: 10px; transform: rotate(180deg);\\\"> <g clip-path=\\\"url(#clip0_2625_67)\\\"> <path d=\\\"M6.08555 0.897739L5.56818 0.13385C1.98864 2.44446 0 5.25191 0 7.56252C0 9.79674 1.71055 10.8472 3.16209 10.8472C4.99164 10.8472 6.28409 9.35735 6.28409 7.79168C6.28409 6.47413 5.40909 5.34724 4.23564 4.92679C3.89773 4.81191 3.57955 4.71657 3.57955 4.16291C3.57955 3.45646 4.11664 2.40657 6.08555 0.897739ZM13.9803 0.897739L13.4629 0.13385C9.92282 2.44446 7.89473 5.25191 7.89473 7.56252C7.89473 9.79674 9.64473 10.8472 11.0963 10.8472C12.9455 10.8472 14.2584 9.35735 14.2584 7.79168C14.2584 6.47413 13.3636 5.34724 12.1501 4.92679C11.8122 4.81191 11.5137 4.71657 11.5137 4.16291C11.5137 3.45646 12.0705 2.40596 13.9796 0.897128L13.9803 0.897739Z\\\" fill=\\\"#EDDED0\\\"/> </g> <defs> <clipPath id=\\\"clip0_2625_67\\\"> <rect width=\\\"14\\\" height=\\\"11\\\" fill=\\\"white\\\"/> </clipPath> </defs> </svg> </div></div>'});",
+      "i": "var newNodeExists = document.querySelector('#eevy-summary-section');if (!newNodeExists) {var refNode = document.querySelector('product-variants.product-form__variants');var newNode = document.createElement('div');newNode.id = 'eevy-summary-section';newNode.style.cssText = 'padding-top:0px;padding-bottom:16px;';var ssParagraph = document.createElement('div');ssParagraph.id = 'eevy-summary-section-paragraph';var ssBullets = document.createElement('div');ssBullets.id = 'eevy-summary-section-bullets';var ssQuote = document.createElement('div');ssQuote.id = 'eevy-summary-section-quote';newNode.append(ssParagraph, ssBullets, ssQuote);refNode.after(newNode);};eevy.mutator.declarative({'selector': '#eevy-summary-section-quote', 'action': 'set', 'attribute': 'html', 'value': '<style> #single-review { max-width: 90%; padding: 19px 0; text-align: center; margin: 0 auto; font-size: 14px; line-height: 22px; font-weight: 400; color: #282828; font-style: italic; } #single-review > div { position: relative; }</style><div id=\\\"single-review\\\"> <div> <p>Jeg har tidligere brukt duftlys og duftpinner da jeg liker \u00e5 ha god lukt hjemme. Etter jeg fikk min Volant diffuser lukter det alltid godt hos meg, og jeg slipper skadelige stoffer fra lys og pinner.</p> <p style=\\\"margin-block-end:0px;\\\">-Gry M. </p> <svg width=\\\"14\\\" height=\\\"11\\\" viewBox=\\\"0 0 14 11\\\" fill=\\\"none\\\" xmlns=\\\"http://www.w3.org/2000/svg\\\" style=\\\"position: absolute; left: -16px; top: -13px;\\\"> <g clip-path=\\\"url(#clip0_2625_67)\\\"> <path d=\\\"M6.08555 0.897739L5.56818 0.13385C1.98864 2.44446 0 5.25191 0 7.56252C0 9.79674 1.71055 10.8472 3.16209 10.8472C4.99164 10.8472 6.28409 9.35735 6.28409 7.79168C6.28409 6.47413 5.40909 5.34724 4.23564 4.92679C3.89773 4.81191 3.57955 4.71657 3.57955 4.16291C3.57955 3.45646 4.11664 2.40657 6.08555 0.897739ZM13.9803 0.897739L13.4629 0.13385C9.92282 2.44446 7.89473 5.25191 7.89473 7.56252C7.89473 9.79674 9.64473 10.8472 11.0963 10.8472C12.9455 10.8472 14.2584 9.35735 14.2584 7.79168C14.2584 6.47413 13.3636 5.34724 12.1501 4.92679C11.8122 4.81191 11.5137 4.71657 11.5137 4.16291C11.5137 3.45646 12.0705 2.40596 13.9796 0.897128L13.9803 0.897739Z\\\" fill=\\\"#EDDED0\\\"/> </g> <defs> <clipPath id=\\\"clip0_2625_67\\\"> <rect width=\\\"14\\\" height=\\\"11\\\" fill=\\\"white\\\"/> </clipPath> </defs> </svg> <svg width=\\\"14\\\" height=\\\"11\\\" viewBox=\\\"0 0 14 11\\\" fill=\\\"none\\\" xmlns=\\\"http://www.w3.org/2000/svg\\\" style=\\\"position: absolute; right: -10px; bottom: 10px; transform: rotate(180deg);\\\"> <g clip-path=\\\"url(#clip0_2625_67)\\\"> <path d=\\\"M6.08555 0.897739L5.56818 0.13385C1.98864 2.44446 0 5.25191 0 7.56252C0 9.79674 1.71055 10.8472 3.16209 10.8472C4.99164 10.8472 6.28409 9.35735 6.28409 7.79168C6.28409 6.47413 5.40909 5.34724 4.23564 4.92679C3.89773 4.81191 3.57955 4.71657 3.57955 4.16291C3.57955 3.45646 4.11664 2.40657 6.08555 0.897739ZM13.9803 0.897739L13.4629 0.13385C9.92282 2.44446 7.89473 5.25191 7.89473 7.56252C7.89473 9.79674 9.64473 10.8472 11.0963 10.8472C12.9455 10.8472 14.2584 9.35735 14.2584 7.79168C14.2584 6.47413 13.3636 5.34724 12.1501 4.92679C11.8122 4.81191 11.5137 4.71657 11.5137 4.16291C11.5137 3.45646 12.0705 2.40596 13.9796 0.897128L13.9803 0.897739Z\\\" fill=\\\"#EDDED0\\\"/> </g> <defs> <clipPath id=\\\"clip0_2625_67\\\"> <rect width=\\\"14\\\" height=\\\"11\\\" fill=\\\"white\\\"/> </clipPath> </defs> </svg> </div></div>'});"
+    },
+    "gene": 10
+  },
+  {
+    "feature": "color-swatches",
+    "name": "",
+    "image": "https://drive.google.com/uc?id=1yom4Rnl9iDKebOFYa0jdYwOdthCzegHU",
+    "pathnames": [
+      "/products/volant-diffuser"
+    ],
+    "variants": {
+      "a": ";/*default*/",
+      "b": "var varData = { 'Hvit': 'url(https://cdn.shopify.com/s/files/1/0277/5859/2073/files/resized_pngs_diffuser_hvit.png?v=1694787977)', 'Sort': 'url(https://cdn.shopify.com/s/files/1/0277/5859/2073/files/resized_pngs_diffuser_svart.png?v=1694787977)', 'Terracotta': 'url(https://cdn.shopify.com/s/files/1/0277/5859/2073/files/resized_pngs_diffuser_terracotta.png?v=1694787977)', 'Gr\u00e5': 'url(https://cdn.shopify.com/s/files/1/0277/5859/2073/files/resized_pngs_diffuser_graa.png?v=1694787977)'};document.querySelectorAll('.color-swatch').forEach((e) => { var input = e.querySelector('input'); var label = e.querySelector('label'); var value = input.getAttribute('value'); if (value in varData) { label.style.backgroundImage = varData[value]; label.style.backgroundColor = 'unset'; label.style.border = '0px'; label.style.borderRadius = '0px'; label.style.width = '33px'; label.style.height = '50px'; }});document.querySelector('.product-form__option-info').style.minWidth = '100px';eevy.mutator.declarative({'selector': 'product-variants div.color-swatch-list', 'action': 'append', 'attribute': 'style', 'value': 'grid-template-columns: repeat(auto-fit, 40px);'});"
+    },
+    "gene": 11
+  },
+  {
+    "feature": "color-swatches-nudge",
+    "name": "",
+    "image": "https://drive.google.com/uc?id=",
+    "pathnames": [
+      "/products/volant-diffuser"
+    ],
+    "variants": {
+      "a": ";/*default*/"
+    },
+    "gene": 12
+  },
+  {
+    "feature": "button-colors",
+    "name": "Primary button colors",
+    "image": "https://drive.google.com/uc?id=1JDcacNGsTqizgxsL3PANhT3QVdq22aSC",
+    "pathnames": [],
+    "variants": {
+      "a": ";/*default*/",
+      "b": "eevy.mutator.declarative({'selector': '.button--primary, .rebuy-widget .rebuy-button, .rebuy-widget .rebuy-checkbox:checked, #eevy-quiz-section button', 'action': 'append', 'attribute': 'style', 'value': 'background-color: #4A3F3C; border-color: #4A3F3C; color: #FFFFFF;'});eevy.mutator.declarative({'selector': '#satisfiedguarantee-section-svg path', 'action': 'set', 'attribute': 'fill', 'value': '#4A3F3C'});eevy.mutator.declarative({'selector': '#AddToCart, #StickyAddToCart, .checkout-button, .progress-bar', 'action': 'append', 'attribute': 'style', 'value': 'background-color: #DEAB5B; border-color: #DEAB5B; color: #FFFFFF;'});",
+      "c": "eevy.mutator.declarative({'selector': '.button--primary, .rebuy-widget .rebuy-button, .rebuy-widget .rebuy-checkbox:checked, #eevy-quiz-section button', 'action': 'append', 'attribute': 'style', 'value': 'background-color: #AA8A86; border-color: #AA8A86; color: #FFFFFF;'});eevy.mutator.declarative({'selector': '#satisfiedguarantee-section-svg path', 'action': 'set', 'attribute': 'fill', 'value': '#AA8A86'});eevy.mutator.declarative({'selector': '#AddToCart, #StickyAddToCart, .checkout-button, .progress-bar', 'action': 'append', 'attribute': 'style', 'value': 'background-color: #DEAB5B; border-color: #DEAB5B; color: #FFFFFF;'});",
+      "d": "eevy.mutator.declarative({'selector': '.button--primary, .rebuy-widget .rebuy-button, .rebuy-widget .rebuy-checkbox:checked, #eevy-quiz-section button', 'action': 'append', 'attribute': 'style', 'value': 'background-color: #DEAB5B; border-color: #DEAB5B; color: #FFFFFF;'});eevy.mutator.declarative({'selector': '#satisfiedguarantee-section-svg path', 'action': 'set', 'attribute': 'fill', 'value': '#DEAB5B'});eevy.mutator.declarative({'selector': '#AddToCart, #StickyAddToCart, .checkout-button, .progress-bar', 'action': 'append', 'attribute': 'style', 'value': 'background-color: #DEAB5B; border-color: #DEAB5B; color: #FFFFFF;'});",
+      "e": "eevy.mutator.declarative({'selector': '.button--primary, .rebuy-widget .rebuy-button, .rebuy-widget .rebuy-checkbox:checked, #eevy-quiz-section button', 'action': 'append', 'attribute': 'style', 'value': 'background-color: #4A3F3C; border-color: #4A3F3C; color: #FFFFFF;'});eevy.mutator.declarative({'selector': '#satisfiedguarantee-section-svg path', 'action': 'set', 'attribute': 'fill', 'value': '#4A3F3C'});eevy.mutator.declarative({'selector': '#AddToCart, #StickyAddToCart, .checkout-button, .progress-bar', 'action': 'append', 'attribute': 'style', 'value': 'background-color: #AA8A86; border-color: #AA8A86; color: #FFFFFF;'});",
+      "f": "eevy.mutator.declarative({'selector': '.button--primary, .rebuy-widget .rebuy-button, .rebuy-widget .rebuy-checkbox:checked, #eevy-quiz-section button', 'action': 'append', 'attribute': 'style', 'value': 'background-color: #AA8A86; border-color: #AA8A86; color: #FFFFFF;'});eevy.mutator.declarative({'selector': '#satisfiedguarantee-section-svg path', 'action': 'set', 'attribute': 'fill', 'value': '#AA8A86'});eevy.mutator.declarative({'selector': '#AddToCart, #StickyAddToCart, .checkout-button, .progress-bar', 'action': 'append', 'attribute': 'style', 'value': 'background-color: #AA8A86; border-color: #AA8A86; color: #FFFFFF;'});"
+    },
+    "gene": 13
+  },
+  {
+    "feature": "atc-button-radius",
+    "name": "",
+    "image": "https://drive.google.com/uc?id=14p6CMIpcBKPQCvuMKjWq6UCNE1bVdIp6",
+    "pathnames": [],
+    "variants": {
+      "a": ";/*default*/",
+      "b": "eevy.mutator.declarative({'selector': '#AddToCart, #StickyAddToCart, .checkout-button', 'action': 'append', 'attribute': 'style', 'value': 'border-radius: 0px !important;'});eevy.mutator.declarative({'selector': '.button--primary', 'action': 'append', 'attribute': 'style', 'value': 'border-radius: 40px;'});",
+      "c": "eevy.mutator.declarative({'selector': '#AddToCart, #StickyAddToCart, .checkout-button', 'action': 'append', 'attribute': 'style', 'value': 'border-radius: 40px !important;'});eevy.mutator.declarative({'selector': '.button--primary', 'action': 'append', 'attribute': 'style', 'value': 'border-radius: 40px;'});",
+      "d": "eevy.mutator.declarative({'selector': '#AddToCart, #StickyAddToCart, .checkout-button', 'action': 'append', 'attribute': 'style', 'value': 'border-radius: 10px !important;'});eevy.mutator.declarative({'selector': '.button--primary', 'action': 'append', 'attribute': 'style', 'value': 'border-radius: 10px;'});",
+      "e": "eevy.mutator.declarative({'selector': '#AddToCart, #StickyAddToCart, .checkout-button', 'action': 'append', 'attribute': 'style', 'value': 'border-radius: 0px !important;'});eevy.mutator.declarative({'selector': '.button--primary', 'action': 'append', 'attribute': 'style', 'value': 'border-radius: 10px;'});",
+      "f": "eevy.mutator.declarative({'selector': '#AddToCart, #StickyAddToCart, .checkout-button', 'action': 'append', 'attribute': 'style', 'value': 'border-radius: 40px !important;'});eevy.mutator.declarative({'selector': '.button--primary', 'action': 'append', 'attribute': 'style', 'value': 'border-radius: 10px;'});"
+    },
+    "gene": 14
+  },
+  {
+    "feature": "atc-button-text",
+    "name": "",
+    "image": "https://drive.google.com/uc?id=14mzj4QEr02xvzK-BcMwPtKSW404syovf",
+    "pathnames": [
+      "/products/volant-diffuser"
+    ],
+    "variants": {
+      "a": ";/*default*/",
+      "b": "eevy.mutator.declarative({'selector': '#atcbuttontextid, #stickyatcbuttontextid', 'action': 'set', 'attribute': 'html', 'value': 'Bestill n\u00e5'});",
+      "c": "eevy.mutator.declarative({'selector': '#atcbuttontextid, #stickyatcbuttontextid', 'action': 'set', 'attribute': 'html', 'value': 'Legg til i min bestilling'});eevy.mutator.declarative({'selector': '#atcbuttontextid, #stickyatcbuttontextid', 'action': 'append', 'attribute': 'style', 'value': 'font-size: 12px;'});",
+      "d": "eevy.mutator.declarative({'selector': '#atcbuttontextid, #stickyatcbuttontextid', 'action': 'set', 'attribute': 'html', 'value': 'Legg til i min handlekurv'});eevy.mutator.declarative({'selector': '#atcbuttontextid, #stickyatcbuttontextid', 'action': 'append', 'attribute': 'style', 'value': 'font-size: 12px;'});",
+      "e": "eevy.mutator.declarative({'selector': '#atcbuttontextid, #stickyatcbuttontextid', 'action': 'set', 'attribute': 'html', 'value': 'Velg dette produktet'});",
+      "f": "eevy.mutator.declarative({'selector': '#atcbuttontextid, #stickyatcbuttontextid', 'action': 'set', 'attribute': 'html', 'value': 'Kj\u00f8p n\u00e5'});"
+    },
+    "gene": 15
+  },
+  {
+    "feature": "atc-button-symbol",
+    "name": "",
+    "image": "https://drive.google.com/uc?id=121gtoMGURyaTkyhiO261RxFPJkhka8cE",
+    "pathnames": [
+      "/products/volant-diffuser"
+    ],
+    "variants": {
+      "a": ";/*default*/",
+      "b": "eevy.mutator.declarative({'selector': '#atcbuttonsalepriceid, #stickyatcbuttonregularpriceid', 'action': 'set', 'attribute': 'html', 'value': '<svg width=\\\"30\\\" height=\\\"30\\\" viewBox=\\\"0 0 58 58\\\" fill=\\\"none\\\" xmlns=\\\"http://www.w3.org/2000/svg\\\"><path d=\\\"M27.1873 45.3125C27.1873 47.3183 25.5682 48.9375 23.5623 48.9375C21.5565 48.9375 19.9373 47.3183 19.9373 45.3125C19.9373 43.3067 21.5565 41.6875 23.5623 41.6875C25.5682 41.6875 27.1873 43.3067 27.1873 45.3125ZM39.2707 41.6875C37.2648 41.6875 35.6457 43.3067 35.6457 45.3125C35.6457 47.3183 37.2648 48.9375 39.2707 48.9375C41.2765 48.9375 42.8957 47.3183 42.8957 45.3125C42.8957 43.3067 41.2765 41.6875 39.2707 41.6875ZM50.0973 18.56L45.264 37.8933C45.0707 38.6908 44.3457 39.2708 43.4998 39.2708H19.3332C18.4632 39.2708 17.714 38.6425 17.5448 37.7725L12.9773 12.6875H9.6665C8.67567 12.6875 7.854 11.8658 7.854 10.875C7.854 9.88417 8.67567 9.0625 9.6665 9.0625H14.4998C15.3698 9.0625 16.119 9.69083 16.2882 10.5608L17.3273 16.3125H48.3332C48.889 16.3125 49.4207 16.5783 49.759 17.0133C50.0973 17.4483 50.2182 18.0283 50.0973 18.56ZM46.0132 19.9375H17.9798L20.8315 35.6458H42.074L46.0132 19.9375Z\\\" fill=\\\"black\\\" style=\\\"fill: white;\\\"></path></svg>'});",
+      "c": "eevy.mutator.declarative({'selector': '#atcbuttonsalepriceid, #stickyatcbuttonregularpriceid', 'action': 'set', 'attribute': 'html', 'value': '<svg width=\\\"30\\\" height=\\\"30\\\" viewBox=\\\"0 0 44 44\\\" fill=\\\"none\\\" xmlns=\\\"http://www.w3.org/2000/svg\\\"><path d=\\\"M29.9115 30.5582C29.1954 31.2743 29.1954 32.4349 29.9115 33.151C30.6275 33.867 31.7883 33.867 32.5042 33.151L41.0578 24.5974C42.4897 23.1654 42.4897 20.8439 41.0578 19.4119L32.4989 10.8531C31.783 10.1372 30.6223 10.1372 29.9062 10.8531C29.1903 11.5691 29.1903 12.7299 29.9062 13.4459L36.6274 20.167H3.66683C2.65432 20.167 1.8335 20.9878 1.8335 22.0003C1.8335 23.0127 2.65432 23.8337 3.66683 23.8337H36.636L29.9115 30.5582Z\\\" fill=\\\"#FEFEFE\\\"></path></svg>'});",
+      "d": "eevy.mutator.declarative({'selector': '#atcbuttonsalepriceid, #stickyatcbuttonregularpriceid', 'action': 'set', 'attribute': 'html', 'value': '<svg width=\\\"30\\\" height=\\\"30\\\" viewBox=\\\"0 0 64 64\\\" fill=\\\"none\\\" xmlns=\\\"http://www.w3.org/2000/svg\\\"><path d=\\\"M10.6665 32H53.3332M31.9998 10.6666V53.3333\\\" stroke=\\\"white\\\" stroke-width=\\\"5.33333\\\" stroke-linecap=\\\"round\\\" stroke-linejoin=\\\"round\\\"></path></svg>'});",
+      "e": "eevy.mutator.declarative({'selector': '#atcbuttonsalepriceid, #stickyatcbuttonregularpriceid', 'action': 'set', 'attribute': 'html', 'value': '<svg width=\\\"20\\\" height=\\\"20\\\" viewBox=\\\"0 0 64 57\\\" fill=\\\"none\\\" xmlns=\\\"http://www.w3.org/2000/svg\\\"><path d=\\\"M58.3027 1.14018L19.1021 49.1297L5.40096 33.965C4.2592 32.6213 2.16596 32.6213 1.0242 33.7731C-0.307855 34.9248 -0.307853 37.0363 0.833911 38.1881L17.0089 56.0402C17.5798 56.6161 18.5312 57 19.2924 57C20.2439 57 21.0051 56.6161 21.5759 55.8482L63.2503 5.1713C64.3921 3.8276 64.2018 1.71605 62.8697 0.756259C61.3474 -0.395489 59.4444 -0.20353 58.3027 1.14018Z\\\" fill=\\\"#FFFFFF\\\"></path></svg>'});",
+      "f": "eevy.mutator.declarative({'selector': '#atcbuttonsalepriceid, #stickyatcbuttonregularpriceid', 'action': 'set', 'attribute': 'html', 'value': '<svg width=\\\"24\\\" height=\\\"24\\\" viewBox=\\\"0 0 30 30\\\" fill=\\\"none\\\" xmlns=\\\"http://www.w3.org/2000/svg\\\"><path fill-rule=\\\"evenodd\\\" clip-rule=\\\"evenodd\\\" d=\\\"M9.33954 7.5C9.36291 7.39912 9.38716 7.29803 9.41254 7.19683C9.74254 5.87673 10.2622 4.44229 11.1095 3.3125C11.9833 2.14753 13.259 1.25 15.0002 1.25C16.7413 1.25 18.0171 2.14753 18.8908 3.3125C19.7381 4.44229 20.2578 5.87673 20.5879 7.19684C20.6132 7.29803 20.6375 7.39912 20.6609 7.5H22.6613C24.6355 7.5 26.2717 9.03069 26.403 11.0005L27.3197 24.7505C27.4639 26.915 25.7472 28.75 23.578 28.75H6.42241C4.25316 28.75 2.53641 26.915 2.68066 24.7505L3.59741 11.0005C3.72866 9.03069 5.36479 7.5 7.33904 7.5H9.33954ZM20.0002 13.75C19.2839 13.75 18.7526 13.2105 18.7502 12.4977C18.75 12.468 18.7496 12.4382 18.7491 12.4085C18.748 12.3427 18.7458 12.2432 18.7412 12.1149C18.732 11.8582 18.7135 11.4875 18.6764 11.0413C18.65 10.7247 18.6144 10.3733 18.5667 10H11.4335C11.3859 10.3733 11.3504 10.7247 11.3239 11.0413C11.2868 11.4875 11.2683 11.8582 11.2592 12.1149C11.2545 12.2432 11.2523 12.3427 11.2512 12.4085C11.2507 12.4392 11.2503 12.4698 11.2502 12.5005C11.2502 12.5005 11.2502 13.75 10.0002 13.75C8.75016 13.75 8.75016 12.4983 8.75016 12.4983C8.75029 12.4545 8.75079 12.4107 8.75154 12.3669C8.75291 12.2862 8.75554 12.1709 8.76079 12.0257C8.77104 11.7356 8.79166 11.325 8.83266 10.8337C8.85391 10.5775 8.88104 10.2977 8.91529 10H7.33904C6.68091 10 6.13554 10.5102 6.09179 11.1669L5.17516 24.9169C5.12704 25.6384 5.69929 26.25 6.42241 26.25H23.578C24.301 26.25 24.8733 25.6384 24.8252 24.9169L23.9085 11.1669C23.8647 10.5102 23.3194 10 22.6613 10H21.0851C21.1194 10.2977 21.1464 10.5775 21.1677 10.8337C21.2087 11.325 21.2292 11.7356 21.2396 12.0257C21.2448 12.1709 21.2474 12.2862 21.2488 12.3669C21.2495 12.4098 21.25 12.4528 21.2502 12.4957C21.2511 13.209 20.7148 13.75 20.0002 13.75ZM18.0833 7.5H11.917C12.206 6.44152 12.5989 5.49332 13.1095 4.8125C13.642 4.10247 14.2413 3.75 15.0002 3.75C15.759 3.75 16.3583 4.10247 16.8908 4.8125C17.4014 5.49332 17.7943 6.44152 18.0833 7.5Z\\\" fill=\\\"#FFFFFF\\\"></path></svg>'});"
+    },
+    "gene": 16
+  },
+  {
+    "feature": "atc-button-sticky",
+    "name": "",
+    "image": "https://drive.google.com/uc?id=",
+    "pathnames": [
+      "/products"
+    ],
+    "variants": {
+      "a": ";/*default*/",
+      "b": "eevy.mutator.declarative({'selector': 'product-sticky-form', 'action': 'append', 'attribute': 'class', 'value': 'eevy-hidden'});"
+    },
+    "gene": 17
+  },
+  {
+    "feature": "cta-pressure-section",
+    "name": "",
+    "image": "https://drive.google.com/uc?id=1L3V8S2U-iVRfqBdZZZr23PylVViSDYKI",
+    "pathnames": [
+      "/products/volant-diffuser"
+    ],
+    "variants": {
+      "a": ";/*default*/",
+      "b": "eevy.mutator.declarative({'selector': '#effectiveAppsProductVisitorsCounterElement', 'action': 'append', 'attribute': 'style', 'value': 'display: inherit;'});eevy.mutator.declarative({'selector': '#effectiveAppsProductVisitorsCounterElement span', 'action': 'append', 'attribute': 'style', 'value': 'font-size: 13px; color: grey;'});eevy.mutator.declarative({'selector': '#effectiveAppsProductVisitorsCounterElement span:nth-of-type(1)', 'action': 'append', 'attribute': 'style', 'value': 'display: none;'});"
+    },
+    "gene": 18
+  },
+  {
+    "feature": "payment-badges",
+    "name": "",
+    "image": "https://drive.google.com/uc?id=1NrlAQF5WzujXQz6vIjmTKO37c-3phBBv",
+    "pathnames": [
+      "/products"
+    ],
+    "variants": {
+      "a": ";/*default*/",
+      "b": "eevy.mutator.declarative({'selector': '.product-form klarna-placement', 'action': 'set', 'attribute': 'html', 'value': '<div id=\\\"atc-payment-badges-block\\\"><div class=\\\"image-container\\\" style=\\\"width: 68%;margin: 0 auto;margin-top: -10px;text-align: center;\\\"><img src=\\\"https://cdn.shopify.com/s/files/1/0277/5859/2073/files/Payment_badges_main4.png\\\" alt=\\\"image\\\" class=\\\"responsive-image\\\"></div></div>'});",
+      "c": "eevy.mutator.declarative({'selector': '.product-form klarna-placement', 'action': 'set', 'attribute': 'html', 'value': '<div id=\\\"atc-payment-badges-block\\\" style=\\\" filter: grayscale(0.4);\\\"><div class=\\\"image-container\\\" style=\\\"width: 68%;margin: 0 auto;margin-top: -10px;text-align: center;\\\"><img src=\\\"https://cdn.shopify.com/s/files/1/0277/5859/2073/files/Payment_badges_main4.png\\\" alt=\\\"image\\\" class=\\\"responsive-image\\\"></div></div>'});",
+      "d": "eevy.mutator.declarative({'selector': '.product-form klarna-placement', 'action': 'set', 'attribute': 'html', 'value': '<div id=\\\"atc-payment-badges-block\\\" style=\\\"filter: grayscale(1);\\\"><div class=\\\"image-container\\\" style=\\\"width: 68%;margin: 0 auto;margin-top: -10px;text-align: center;\\\"><img src=\\\"https://cdn.shopify.com/s/files/1/0277/5859/2073/files/Payment_badges_main4.png\\\" alt=\\\"image\\\" class=\\\"responsive-image\\\"></div></div>'});",
+      "e": "eevy.mutator.declarative({'selector': '.product-form klarna-placement', 'action': 'set', 'attribute': 'html', 'value': '<div id=\\\"atc-payment-badges-block\\\"><div class=\\\"image-container\\\" style=\\\"width: 68%;margin: 0 auto;margin-top: -10px;text-align: center;\\\"><img src=\\\"https://cdn.shopify.com/s/files/1/0277/5859/2073/files/Betal_trygt_og_enkelt_med_4.png?v=1693500955\\\" alt=\\\"image\\\" class=\\\"responsive-image\\\"></div></div>'});"
+    },
+    "gene": 19
+  },
+  {
+    "feature": "product-form-section",
+    "name": "",
+    "image": "https://drive.google.com/uc?id=148LBZ8WMKcTam8qULl19f0O5VnUpPFgX",
+    "pathnames": [
+      "/products/volant-diffuser"
+    ],
+    "variants": {
+      "a": ";/*default*/",
+      "b": "eevy.mutator.declarative({'selector': 'div.product__info > div.product-form > div.custom-icon-text-block', 'action': 'append', 'attribute': 'class', 'value': 'eevy-hidden'});eevy.mutator.declarative({'selector': '.product-form-section-1', 'action': 'remove', 'attribute': 'class', 'value': 'eevy-hidden'});",
+      "c": "eevy.mutator.declarative({'selector': 'div.product__info > div.product-form > div.custom-icon-text-block', 'action': 'append', 'attribute': 'class', 'value': 'eevy-hidden'});eevy.mutator.declarative({'selector': '.product-form-section-2', 'action': 'remove', 'attribute': 'class', 'value': 'eevy-hidden'});",
+      "d": "eevy.mutator.declarative({'selector': 'div.product__info > div.product-form > div.custom-icon-text-block', 'action': 'append', 'attribute': 'class', 'value': 'eevy-hidden'});eevy.mutator.declarative({'selector': '.product-form-section-3', 'action': 'remove', 'attribute': 'class', 'value': 'eevy-hidden'});",
+      "e": "eevy.mutator.declarative({'selector': 'div.product__info > div.product-form > div.custom-icon-text-block', 'action': 'append', 'attribute': 'class', 'value': 'eevy-hidden'});eevy.mutator.declarative({'selector': '.product-form-section-4', 'action': 'remove', 'attribute': 'class', 'value': 'eevy-hidden'});"
+    },
+    "gene": 20
+  },
+  {
+    "feature": "three-tabs-section",
+    "name": "",
+    "image": "https://drive.google.com/uc?id=1COTyeQdWQAZHf2vkTxQOYWjKtYemS_Pp",
+    "pathnames": [
+      "/products/volant-diffuser"
+    ],
+    "variants": {
+      "a": ";/*default*/",
+      "b": "eevy.mutator.declarative({'selector': 'div.product__info #product-6754663530569-tabs', 'action': 'append', 'attribute': 'class', 'value': 'eevy-hidden'});eevy.mutator.declarative({'selector': '#shopify-section-template--15213934411849__product-content-eevy', 'action': 'remove', 'attribute': 'class', 'value': 'eevy-hidden'});"
+    },
+    "gene": 21
+  },
+  {
+    "feature": "guarantee-section-accordion",
+    "name": "",
+    "image": "https://drive.google.com/uc?id=1rQ6SBCw2uyYvKT1depMSghlby51RPIfs",
+    "pathnames": [
+      "/products/volant-diffuser"
+    ],
+    "variants": {
+      "a": ";/*default*/",
+      "b": "var newNodeExists = document.querySelector('#eevy-guarantee-section-accordion');if (!newNodeExists) {var refNode = document.querySelector('#shopify-section-template--15213934411849__main div.product__info div:nth-of-type(5)');var newNode = document.createElement('div');newNode.id = 'eevy-guarantee-section-accordion';newNode.innerHTML = '<div><style> .guarantee-container { background-color: rgb(255 247 236 / 65%); border-radius: 7px; margin: 25px 0; display: flex; justify-content: center; padding: 15px 7px; } .guarantee-subcontainer { height: 70%; margin: auto 0; display: flex; align-items: center; } .guarantee-flex-grid { display: flex; flex-direction: row; align-items: center; margin: 0 auto; width: 100%; column-gap: 17px; } .guarantee-flex-grid h4 { font-weight: 600; color: #2d2d2d; font-size: 16px; margin: 0; cursor: pointer; max-width:70%; } .guarantee-flex-grid p { margin: 0; max-height: 0; overflow: hidden; transition: max-height 0.3s ease-in-out; } .guarantee-flex-grid p.guarantee-accordion-visible { max-height: 315px; margin-top: 13px; padding: 0 10px; } .guarantee-text-container { display: flex; align-items: center; flex-wrap: wrap; justify-content: center; } .svg-chevron { transition: transform 0.3s ease-in-out; width:30px; transform: rotate(180deg); } .rotated { transform: rotate(180deg); } .accordion-checkbox { display: none; } .accordion-checkbox:checked + .guarantee-text-container p { max-height: 315px; margin-top: 13px; padding: 0 10px; } .accordion-checkbox:checked + .guarantee-text-container .svg-chevron { transform: rotate(0deg); } .guarantee-text-container label { display:flex; justify-content:center; } @media only screen and (max-width: 720px) { .guarantee-flex-grid { width: 100%; margin: 0 auto; align-items: center; } .guarantee-flex-grid h4 { font-size: 15px; } } </style><div class=\\\"guarantee-accordion-wrapper\\\"><div class=\\\"guarantee-container\\\"><div class=\\\"guarantee-subcontainer\\\"><div class=\\\"guarantee-flex-grid\\\"><input type=\\\"checkbox\\\" class=\\\"accordion-checkbox\\\" id=\\\"accordion-toggle\\\"><div class=\\\"guarantee-text-container\\\"><label for=\\\"accordion-toggle\\\"><h4 id=\\\"guarantee-accordion-header\\\">Hvordan fungerer pengene tilbake garantien?</h4><svg class=\\\"svg-chevron\\\" viewBox=\\\"0 0 24 24\\\" fill=\\\"none\\\" xmlns=\\\"http://www.w3.org/2000/svg\\\" style=\\\"margin-top: 4px; margin-left: 10px; color: #DEAB5B;\\\"><g id=\\\"SVGRepo_bgCarrier\\\" stroke-width=\\\"0\\\"></g><g id=\\\"SVGRepo_tracerCarrier\\\" stroke-linecap=\\\"round\\\" stroke-linejoin=\\\"round\\\"></g><g id=\\\"SVGRepo_iconCarrier\\\"><path d=\\\"M6 15L12 9L18 15\\\" stroke=\\\"#DEAB5B\\\" stroke-width=\\\"1.2\\\" stroke-linecap=\\\"round\\\" stroke-linejoin=\\\"round\\\"></path></g></svg></label><p id=\\\"guarantee-accordion-content\\\"> Vi lar deg pr\u00f8ve din nye Volant diffuser risikofritt i hele 90 dager! Vi garanterer at du blir forn\u00f8yd. \u2764\ufe0f <br><br> Hvis du ikke liker designet eller duften, s\u00e5 f\u00e5r du pengene dine tilbake, ingen sp\u00f8rsm\u00e5l. <br><br> (99% Av kundene v\u00e5re er mer enn forn\u00f8yde med investeringen sin. \ud83d\ude0a) </p></div></div></div></div></div></div>';refNode.after(newNode);};"
+    },
+    "gene": 22
+  },
+  {
+    "feature": "customer-reviews-section",
+    "name": "",
+    "image": "https://drive.google.com/uc?id=",
+    "pathnames": [
+      "/products/volant-diffuser"
+    ],
+    "variants": {
+      "a": ";/*default*/",
+      "b": "eevy.mutator.declarative({'selector': '#customer-review-section-variant-b', 'action': 'remove', 'attribute': 'class', 'value': 'eevy-hidden'});",
+      "c": "eevy.mutator.declarative({'selector': '#customer-review-section-variant-c', 'action': 'remove', 'attribute': 'class', 'value': 'eevy-hidden'});",
+      "d": "eevy.mutator.declarative({'selector': '#customer-review-section-variant-d', 'action': 'remove', 'attribute': 'class', 'value': 'eevy-hidden'});",
+      "e": "eevy.mutator.declarative({'selector': '#customer-review-section-variant-e', 'action': 'remove', 'attribute': 'class', 'value': 'eevy-hidden'});"
+    },
+    "gene": 23
+  },
+  {
+    "feature": "product-form-upsell-bundle",
+    "name": "",
+    "image": "https://drive.google.com/uc?id=",
+    "pathnames": [
+      "/products/volant-diffuser"
+    ],
+    "variants": {
+      "a": ";/*default*/",
+      "b": "eevy.mutator.declarative({'selector': '#eevyupsell_1_1', 'action': 'remove', 'attribute': 'class', 'value': 'eevy-hidden'});document.querySelector('#eevyupsell_1_1 div.rebuy-widget-content').appendChild(document.querySelector('#eevyupsell_1_1 div.rebuy-bundle__actions'));",
+      "c": "eevy.mutator.declarative({'selector': '#eevyupsell_2_1', 'action': 'remove', 'attribute': 'class', 'value': 'eevy-hidden'});document.querySelector('#eevyupsell_2_1 div.rebuy-widget-content').appendChild(document.querySelector('#eevyupsell_2_1 div.rebuy-bundle__actions'));"
+    },
+    "gene": 24
+  },
+  {
+    "feature": "product-form-upsell-headline",
+    "name": "",
+    "image": "https://drive.google.com/uc?id=",
+    "pathnames": [
+      "/products/volant-diffuser"
+    ],
+    "variants": {
+      "a": ";/*default*/",
+      "b": "eevy.mutator.declarative({'selector': '#eevyupsell_1_1 h3.primary-title', 'action': 'set', 'attribute': 'html', 'value': 'Spar 10% p\u00e5 v\u00e5r bestselgende pakke!'});eevy.mutator.declarative({'selector': '#eevyupsell_2_1 h3.primary-title', 'action': 'set', 'attribute': 'html', 'value': 'Spar 10% p\u00e5 v\u00e5r bestselgende pakke!'});",
+      "c": "eevy.mutator.declarative({'selector': '#eevyupsell_1_1 h3.primary-title', 'action': 'set', 'attribute': 'html', 'value': 'Ofte kj\u00f8pt sammen (Pakkepris)'});eevy.mutator.declarative({'selector': '#eevyupsell_2_1 h3.primary-title', 'action': 'set', 'attribute': 'html', 'value': 'Ofte kj\u00f8pt sammen (Pakkepris)'});",
+      "d": "eevy.mutator.declarative({'selector': '#eevyupsell_1_1 h3.primary-title', 'action': 'set', 'attribute': 'html', 'value': 'Volant Startpakken (Kundefavoritt)'});eevy.mutator.declarative({'selector': '#eevyupsell_2_1 h3.primary-title', 'action': 'set', 'attribute': 'html', 'value': 'Volant Startpakken (Kundefavoritt)'});"
+    },
+    "gene": 25
+  },
+  {
+    "feature": "product-form-upsell-paragraph",
+    "name": "",
+    "image": "https://drive.google.com/uc?id=",
+    "pathnames": [
+      "/products/volant-diffuser"
+    ],
+    "variants": {
+      "a": ";/*default*/",
+      "b": "eevy.mutator.declarative({'selector': '#eevyupsell_1_1 div.description', 'action': 'set', 'attribute': 'html', 'value': 'F\u00e5 10% rabatt ved \u00e5 kj\u00f8pe Volant Startpakken. I pakken f\u00e5r du Diffuser og oljesettet <a href=\\\"/products/everyday-essentials\\\" style=\\\"text-decoration: underline !important;\\\">Everyday Essentials</a>.<br/><br/>Perfekt utvalg av oljer for rutinen din, fra morgen til kveld.'});eevy.mutator.declarative({'selector': '#eevyupsell_2_1 div.description', 'action': 'set', 'attribute': 'html', 'value': 'F\u00e5 10% rabatt ved \u00e5 kj\u00f8pe Volant Startpakken. I pakken f\u00e5r du Diffuser og de 3 utvalgte oljene Energy, Sleep og Clean Air.<br/><br/>Perfekt utvalg av oljer for rutinen din, fra morgen til kveld.'});",
+      "c": "eevy.mutator.declarative({'selector': '#eevyupsell_1_1 div.description', 'action': 'set', 'attribute': 'html', 'value': 'I startpakken f\u00e5r du med Diffuser + 4 spesialutvalgte Eteriske Oljer.<br/><br/>\\\"Energy\\\" som \u00f8ker energien din, \\\"Focus\\\" som hjelper deg fokusere, \\\"Relax\\\" som hjelper deg bli mindre stresset, og \\\"Sleep\\\" som hjelper deg sovne raskere, til en avslappende duft. <a href=\\\"https://volant.no/products/everyday-essentials\\\" style=\\\"text-decoration: underline !important\\\">Ler mer om oljene her</a>'});eevy.mutator.declarative({'selector': '#eevyupsell_2_1 div.description', 'action': 'set', 'attribute': 'html', 'value': 'I startpakken f\u00e5r du med Diffuser + 3  spesialutvalgte Eteriske Oljer.<br/><br/>\\\"Energy\\\" som gir deg mer energi,  \\\"Sleep\\\" som hjelper deg \u00e5 sovne raskere, og \\\"Clean Air\\\" som gir hjemmet ditt en nydelig, ren og frisk lukt.'});"
+    },
+    "gene": 26
+  },
+  {
+    "feature": "quiz",
+    "name": "",
+    "image": "https://drive.google.com/uc?id=",
+    "pathnames": [
+      "/products/volant-diffuser"
+    ],
+    "variants": {
+      "a": ";/*default*/",
+      "b": "var newNodeExists = document.querySelector('#eevy-quiz-section');if (!newNodeExists) {var refNode = document.querySelector('#shopify-section-template--15213934411849__product-content-tabs');var newNode = document.createElement('div');newNode.id = 'eevy-quiz-section';newNode.innerHTML = '<section class=\\\"mop-quiz-section\\\"><div class=\\\"mop-quiz-content\\\"><img id=\\\"mop-quiz-image\\\" src=\\\"https://cdn.shopify.com/s/files/1/0277/5859/2073/files/Focus_essential_oil_along_with_some_other_herbs_600x_04624eee-9830-45e8-885e-27407ef425d7.jpg?v=1694616183\\\" alt=\\\"Quiz Image\\\"><div class=\\\"mop-quiz-text-container\\\"><div><span id=\\\"mop-quiz-headline\\\">F\u00e5 personlig anbefalte Eteriske Oljer!</span><span id=\\\"mop-quiz-subheadline\\\">Ta denne 30-sekunders Quizen for \u00e5 f\u00e5 en anbefaling fra oss p\u00e5 hvilke eteriske oljer som passer deg best.</span></div><div style=\\\"margin:0 auto;\\\" class=\\\"product-form__buy-buttons\\\"><a href=\\\"#quiz-X2HrLe\\\"><button class=\\\"product-form__add-button\\\" id=\\\"mop-start-quiz-button\\\">Ta Quiz</button></a></div></div></div></section><!-- Styling --><style> .mop-quiz-section { display: flex; flex-direction: column; align-items: center; padding: 20px; margin: 20px 0; } .mop-quiz-content { display: flex; flex-direction: row; width: 100%; } .mop-quiz-text-container { width: 70%; padding-left: 20px; text-align: center; } #mop-quiz-headline { font-weight: bold; font-size:16px; } #mop-quiz-image { width: 30%; height: 30%; margin: auto 0; } #mop-start-quiz-button { width: 100%; padding: 10px; border: none; cursor: pointer; margin-top: 20px; } #mop-quiz-subheadline { display:none; } @media (min-width: 577px) { .mop-quiz-section { max-width: 80%;margin: 0 auto; } .mop-quiz-text-container { width: 50%; display: flex; flex-direction: column; justify-content: center; gap: 20%; } .mop-quiz-text-container button { width: 70%; } #mop-start-quiz-button { width: auto; margin-top: 0; } #mop-quiz-subheadline { display:block; margin: 10px auto 0 auto; width: 70%; font-size: 17px; } .mop-quiz-content { justify-content: space-around; } #mop-quiz-headline { font-size:20px; } }</style>';refNode.after(newNode);};",
+      "c": "var newNodeExists = document.querySelector('#eevy-quiz-section');if (!newNodeExists) {var refNode = document.querySelector('#shopify-section-template--15213934411849__product-content-tabs');var newNode = document.createElement('div');newNode.id = 'eevy-quiz-section';newNode.innerHTML = '<section class=\\\"mop-quiz-section\\\"><div class=\\\"mop-quiz-content\\\"><img id=\\\"mop-quiz-image\\\" src=\\\"https://cdn.shopify.com/s/files/1/0277/5859/2073/files/Sleep_1_1200x_jpg_600x_e8f6b78c-bc8c-445d-8c54-df14b34d4cd9.webp?v=1694616405\\\" alt=\\\"Quiz Image\\\"><div class=\\\"mop-quiz-text-container\\\"><div><span id=\\\"mop-quiz-headline\\\">F\u00e5 personlig anbefalte Eteriske Oljer!</span><span id=\\\"mop-quiz-subheadline\\\">Ta denne 30-sekunders Quizen for \u00e5 f\u00e5 en anbefaling fra oss p\u00e5 hvilke eteriske oljer som passer deg best.</span></div><div style=\\\"margin:0 auto;\\\" class=\\\"product-form__buy-buttons\\\"><a href=\\\"#quiz-X2HrLe\\\"><button class=\\\"product-form__add-button\\\" id=\\\"mop-start-quiz-button\\\">Ta Quiz</button></a></div></div></div></section><!-- Styling --><style> .mop-quiz-section { display: flex; flex-direction: column; align-items: center; padding: 20px; margin: 20px 0; } .mop-quiz-content { display: flex; flex-direction: row; width: 100%; } .mop-quiz-text-container { width: 70%; padding-left: 20px; text-align: center; } #mop-quiz-headline { font-weight: bold; font-size:16px; } #mop-quiz-image { width: 30%; height: 30%; margin: auto 0; } #mop-start-quiz-button { width: 100%; padding: 10px; border: none; cursor: pointer; margin-top: 20px; } #mop-quiz-subheadline { display:none; } @media (min-width: 577px) { .mop-quiz-section { max-width: 80%;margin: 0 auto; } .mop-quiz-text-container { width: 50%; display: flex; flex-direction: column; justify-content: center; gap: 20%; } .mop-quiz-text-container button { width: 70%; } #mop-start-quiz-button { width: auto; margin-top: 0; } #mop-quiz-subheadline { display:block; margin: 10px auto 0 auto; width: 70%; font-size: 17px; } .mop-quiz-content { justify-content: space-around; } #mop-quiz-headline { font-size:20px; } }</style>';refNode.after(newNode);};",
+      "d": "var newNodeExists = document.querySelector('#eevy-quiz-section');if (!newNodeExists) {var refNode = document.querySelector('#shopify-section-template--15213934411849__product-content-tabs');var newNode = document.createElement('div');newNode.id = 'eevy-quiz-section';newNode.innerHTML = '<section class=\\\"mop-quiz-section\\\"><div class=\\\"mop-quiz-content\\\"><img id=\\\"mop-quiz-image\\\" src=\\\"https://cdn.shopify.com/s/files/1/0277/5859/2073/files/Energy_2_700x_d5612615-c500-4250-80e1-24deb9f9b764.webp?v=1694616502\\\" alt=\\\"Quiz Image\\\"><div class=\\\"mop-quiz-text-container\\\"><div><span id=\\\"mop-quiz-headline\\\">F\u00e5 personlig anbefalte Eteriske Oljer!</span><span id=\\\"mop-quiz-subheadline\\\">Ta denne 30-sekunders Quizen for \u00e5 f\u00e5 en anbefaling fra oss p\u00e5 hvilke eteriske oljer som passer deg best.</span></div><div style=\\\"margin:0 auto;\\\" class=\\\"product-form__buy-buttons\\\"><a href=\\\"#quiz-X2HrLe\\\"><button class=\\\"product-form__add-button\\\" id=\\\"mop-start-quiz-button\\\">Ta Quiz</button></a></div></div></div></section><!-- Styling --><style> .mop-quiz-section { display: flex; flex-direction: column; align-items: center; padding: 20px; margin: 20px 0; } .mop-quiz-content { display: flex; flex-direction: row; width: 100%; } .mop-quiz-text-container { width: 70%; padding-left: 20px; text-align: center; } #mop-quiz-headline { font-weight: bold; font-size:16px; } #mop-quiz-image { width: 30%; height: 30%; margin: auto 0; } #mop-start-quiz-button { width: 100%; padding: 10px; border: none; cursor: pointer; margin-top: 20px; } #mop-quiz-subheadline { display:none; } @media (min-width: 577px) { .mop-quiz-section { max-width: 80%; margin: 0 auto; } .mop-quiz-text-container { width: 50%; display: flex; flex-direction: column; justify-content: center; gap: 20%; } .mop-quiz-text-container button { width: 70%; } #mop-start-quiz-button { width: auto; margin-top: 0; } #mop-quiz-subheadline { display:block; margin: 10px auto 0 auto; width: 70%; font-size: 17px; } .mop-quiz-content { justify-content: space-around; } #mop-quiz-headline { font-size:20px; } }</style>';refNode.after(newNode);};",
+      "e": "var newNodeExists = document.querySelector('#eevy-quiz-section');if (!newNodeExists) {var refNode = document.querySelector('#shopify-section-template--15213934411849__product-content-tabs');var newNode = document.createElement('div');newNode.id = 'eevy-quiz-section';newNode.innerHTML = '<section class=\\\"mop-quiz-section\\\"><div class=\\\"mop-quiz-content\\\"><img id=\\\"mop-quiz-image\\\" src=\\\"https://cdn.shopify.com/s/files/1/0277/5859/2073/files/Kit_relaxingset_1_700x_048f57cb-7464-4ab4-b676-748a0364cbd5.webp?v=1694616623\\\" alt=\\\"Quiz Image\\\"><div class=\\\"mop-quiz-text-container\\\"><div><span id=\\\"mop-quiz-headline\\\">F\u00e5 personlig anbefalte Eteriske Oljer!</span><span id=\\\"mop-quiz-subheadline\\\">Ta denne 30-sekunders Quizen for \u00e5 f\u00e5 en anbefaling fra oss p\u00e5 hvilke eteriske oljer som passer deg best.</span></div><div style=\\\"margin:0 auto;\\\" class=\\\"product-form__buy-buttons\\\"><a href=\\\"#quiz-X2HrLe\\\"><button class=\\\"product-form__add-button\\\" id=\\\"mop-start-quiz-button\\\">Ta Quiz</button></a></div></div></div></section><!-- Styling --><style> .mop-quiz-section { display: flex; flex-direction: column; align-items: center; padding: 20px; margin: 20px 0; } .mop-quiz-content { display: flex; flex-direction: row; width: 100%; } .mop-quiz-text-container { width: 70%; padding-left: 20px; text-align: center; } #mop-quiz-headline { font-weight: bold; font-size:16px; } #mop-quiz-image { width: 30%; height: 30%; margin: auto 0; } #mop-start-quiz-button { width: 100%; padding: 10px; border: none; cursor: pointer; margin-top: 20px; } #mop-quiz-subheadline { display:none; } @media (min-width: 577px) { .mop-quiz-section { max-width: 80%; margin: 0 auto; } .mop-quiz-text-container { width: 50%; display: flex; flex-direction: column; justify-content: center; gap: 20%; } .mop-quiz-text-container button { width: 70%; } #mop-start-quiz-button { width: auto; margin-top: 0; } #mop-quiz-subheadline { display:block; margin: 10px auto 0 auto; width: 70%; font-size: 17px; } .mop-quiz-content { justify-content: space-around; } #mop-quiz-headline { font-size:20px; } }</style>';refNode.after(newNode);};",
+      "f": "var newNodeExists = document.querySelector('#eevy-quiz-section');if (!newNodeExists) {var refNode = document.querySelector('#shopify-section-template--15213934411849__product-content-tabs');var newNode = document.createElement('div');newNode.id = 'eevy-quiz-section';newNode.innerHTML = '<section class=\\\"mop-quiz-section\\\"><div class=\\\"mop-quiz-content\\\"><img id=\\\"mop-quiz-image\\\" src=\\\"https://cdn.shopify.com/s/files/1/0277/5859/2073/files/Unwind_2_600x_e9823dce-52c1-44e7-a35a-4e1e5ff7ad65.webp?v=1694616672\\\" alt=\\\"Quiz Image\\\"><div class=\\\"mop-quiz-text-container\\\"><div><span id=\\\"mop-quiz-headline\\\">F\u00e5 personlig anbefalte Eteriske Oljer!</span><span id=\\\"mop-quiz-subheadline\\\">Ta denne 30-sekunders Quizen for \u00e5 f\u00e5 en anbefaling fra oss p\u00e5 hvilke eteriske oljer som passer deg best.</span></div><div style=\\\"margin:0 auto;\\\" class=\\\"product-form__buy-buttons\\\"><a href=\\\"#quiz-X2HrLe\\\"><button class=\\\"product-form__add-button\\\" id=\\\"mop-start-quiz-button\\\">Ta Quiz</button></a></div></div></div></section><!-- Styling --><style> .mop-quiz-section { display: flex; flex-direction: column; align-items: center; padding: 20px; margin: 20px 0; } .mop-quiz-content { display: flex; flex-direction: row; width: 100%; } .mop-quiz-text-container { width: 70%; padding-left: 20px; text-align: center; } #mop-quiz-headline { font-weight: bold; font-size:16px; } #mop-quiz-image { width: 30%; height: 30%; margin: auto 0; } #mop-start-quiz-button { width: 100%; padding: 10px; border: none; cursor: pointer; margin-top: 20px; } #mop-quiz-subheadline { display:none; } @media (min-width: 577px) { .mop-quiz-section { max-width: 80%;margin: 0 auto; } .mop-quiz-text-container { width: 50%; display: flex; flex-direction: column; justify-content: center; gap: 20%; } .mop-quiz-text-container button { width: 70%; } #mop-start-quiz-button { width: auto; margin-top: 0; } #mop-quiz-subheadline { display:block; margin: 10px auto 0 auto; width: 70%; font-size: 17px; } .mop-quiz-content { justify-content: space-around; } #mop-quiz-headline { font-size:20px; } }</style>';refNode.after(newNode);};"
+    },
+    "gene": 27
+  },
+  {
+    "feature": "authority-reviews-section",
+    "name": "",
+    "image": "https://drive.google.com/uc?id=",
+    "pathnames": [
+      "/products/volant-diffuser"
+    ],
+    "variants": {
+      "a": ";/*default*/",
+      "b": "var newNodeExists = document.querySelector('#eevy-authority-reviews-section');if (!newNodeExists) {var refNode = document.querySelector('#eevy-quiz-section') || document.querySelector('#shopify-section-template--15213934411849__product-content-tabs');var newNode = document.createElement('div');newNode.id = 'eevy-authority-reviews-section';newNode.innerHTML = '<style> .featuredin-grid { display: grid; width: 70%; grid-template-columns: 20% 20% 20% 20%; grid-template-rows: auto; gap: 50px; align-items: center; margin: 0 auto; justify-content: center; align-items: center; justify-items: center; } .featuredin-image img { width: inherit; } .featuredin-image { width: 100%; line-height: 0; max-width: 100px; } .featuredin-image p { font-size: 30px; margin: 0; font-weight: 700; } .featuredin-container { padding: 25px 0px 60px 0px; } .featuredin-container h4 { text-align: center; margin-bottom: 40px; font-weight: 600; font-size: 20px; line-height: 10px; } @media only screen and (max-width: 720px) { .featuredin-grid { grid-template-columns: 25% 25% 25% 25%; grid-template-rows: auto; gap: 25px; } .featuredin-image p { font-size: 15px; } } </style><div class=\\\"featuredin-container\\\"><h4>Som vist i:</h4><div class=\\\"featuredin-grid\\\"><div class=\\\"featuredin-image\\\"><img src=\\\"https://cdn.shopify.com/s/files/1/0277/5859/2073/files/Design_uten_navn_-_2023-09-02T132512.076.png?v=1693655296\\\"></div><div class=\\\"featuredin-image\\\"><img src=\\\"https://cdn.shopify.com/s/files/1/0277/5859/2073/files/pfb8738f04logoelle1-1643485433479_png.png?v=1694095180\\\"></div><div class=\\\"featuredin-image\\\"><img src=\\\"https://cdn.shopify.com/s/files/1/0277/5859/2073/files/Design_uten_navn_-_2023-09-02T132456.787.png?v=1693655296\\\"></div><div class=\\\"featuredin-image\\\"><img src=\\\"https://cdn.shopify.com/s/files/1/0277/5859/2073/files/cosmopolitan_black-1646688432776_png.png?v=1694095076\\\"></div></div></div>';refNode.after(newNode);};",
+      "c": "var newNodeExists = document.querySelector('#eevy-authority-reviews-section');if (!newNodeExists) {var refNode = document.querySelector('#eevy-quiz-section') || document.querySelector('#shopify-section-template--15213934411849__product-content-tabs');var newNode = document.createElement('div');newNode.id = 'eevy-authority-reviews-section';newNode.innerHTML = '<section class=\\\"quote-section\\\" id=\\\"quote-section\\\"><div class=\\\"quote-wrapper\\\" id=\\\"quote-wrapper\\\"><p id=\\\"quote-text\\\"></p></div><div class=\\\"channel-wrapper\\\" id=\\\"channel-wrapper\\\"><img src=\\\"https://cdn.shopify.com/s/files/1/0277/5859/2073/files/Design_uten_navn_-_2023-09-02T132512.076.png?v=1693655296\\\" alt=\\\"Vogue\\\" class=\\\"channel-image\\\" id=\\\"channel1\\\"><img src=\\\"https://cdn.shopify.com/s/files/1/0277/5859/2073/files/Design_uten_navn_-_2023-09-02T132456.787.png?v=1693655296\\\" alt=\\\"GQ\\\" class=\\\"channel-image\\\" id=\\\"channel2\\\"><img src=\\\"https://cdn.shopify.com/s/files/1/0277/5859/2073/files/Design_uten_navn_-_2023-09-25T183812.156.png?v=1695659945\\\" alt=\\\"Elle\\\" class=\\\"channel-image\\\" id=\\\"channel3\\\"></div></section><!-- Section Code Ends --><style> .quote-section { background-image: url(\\\"background-placeholder.jpg\\\"); text-align: center; padding: 30px 10px;} .quote-wrapper { font-size: 19px; font-weight: bold; margin-bottom: 10px; } .channel-wrapper { display: flex; justify-content: center; } .channel-image { max-width: 120px; margin: 15px; opacity: 1; } .channel-image.dimmed { opacity: 0.3; } @media only screen and (max-width: 576px) { .channel-image { max-width: 80px; } .quote-wrapper { font-size: 20px; } }</style>';refNode.after(newNode);const quotes = [ '\\\"\u00c5rets gave\\\"', '\\\"\u00c5rets innovasjon innen hjemmeduft\\\"', '\\\"Den vakreste diffuseren\\\"', ]; const quoteText = document.getElementById('quote-text'); const channelImages = document.querySelectorAll('.channel-image'); let currentQuote = 0; function changeQuote() { quoteText.textContent = quotes[currentQuote]; channelImages.forEach((img, index) => { if (index === currentQuote) { img.classList.remove('dimmed'); } else { img.classList.add('dimmed'); } }); } changeQuote(); setInterval(() => { currentQuote = (currentQuote + 1) % 3; changeQuote(); }, 5000); channelImages.forEach((img, index) => { img.addEventListener('click', () => { currentQuote = index; changeQuote(); }); });};"
+    },
+    "gene": 28
+  },
+  {
+    "feature": "image-slideshow-section",
+    "name": "",
+    "image": "https://drive.google.com/uc?id=",
+    "pathnames": [
+      "/products/volant-diffuser"
+    ],
+    "variants": {
+      "a": ";/*default*/",
+      "b": "eevy.mutator.declarative({'selector': 'div.shopify-section--product-gallery', 'action': 'append', 'attribute': 'class', 'value': 'eevy-hidden'});"
+    },
+    "gene": 29
+  },
+  {
+    "feature": "volant-benefits-section",
+    "name": "",
+    "image": "https://drive.google.com/uc?id=",
+    "pathnames": [
+      "/products/volant-diffuser"
+    ],
+    "variants": {
+      "a": ";/*default*/",
+      "b": "eevy.mutator.declarative({'selector': '#shopify-section-template--15213934411849__e2b24e01-12f4-46b8-9bd1-238ec06ea560', 'action': 'append', 'attribute': 'class', 'value': 'eevy-hidden'});"
+    },
+    "gene": 30
+  },
+  {
+    "feature": "comparison-section",
+    "name": "",
+    "image": "https://drive.google.com/uc?id=",
+    "pathnames": [
+      "/products/volant-diffuser"
+    ],
+    "variants": {
+      "a": ";/*default*/",
+      "b": "var newNodeExists = document.querySelector('#eevy-comparison-section');if (!newNodeExists) {var refNode = document.querySelector('#shopify-section-template--15213934411849__fb82e55f-00e2-4821-a261-843bd6c5a11f');var newNode = document.createElement('div');newNode.id = 'eevy-comparison-section';newNode.innerHTML = '<section class=\\\"section \\\"><div><div class=\\\"section__color-wrapper \\\"><div class=\\\"container \\\"><div class=\\\"liquid\\\"><div class=\\\"table\\\"><div class=\\\"table-cell cell-feature\\\"></div><div class=\\\"table-cell platform\\\"><img class=\\\"tp-img\\\" src=\\\"https://cdn.shopify.com/s/files/1/0535/9088/4510/files/whitetransparant-1636268281928_png.png?v=1685030765\\\"><h3>Volant</h3></div><div class=\\\"table-cell enterprise\\\"><img class=\\\"tp-img\\\" src=\\\"https://cdn.shopify.com/s/files/1/0277/5859/2073/files/Design_uten_navn_-_2023-09-05T134912.918.png?v=1693914579\\\"><h3>Andre</h3></div><div class=\\\"table-cell cell-feature bg1\\\">Duftsetter hjemmet <br></div><div class=\\\"table-cell bg1\\\"><img class=\\\"check1\\\" src=\\\"https://cdn.shopify.com/s/files/1/0535/9088/4510/files/Check.svg?v=1685030877\\\"></div><div class=\\\"table-cell bg1\\\"><img class=\\\"check1\\\" src=\\\"https://cdn.shopify.com/s/files/1/0535/9088/4510/files/Check.svg?v=1685030877\\\"></div><div class=\\\"table-cell cell-feature\\\">100% organisk uten kjemikalier</div><div class=\\\"table-cell\\\"><img class=\\\"check1\\\" src=\\\"https://cdn.shopify.com/s/files/1/0535/9088/4510/files/Check.svg?v=1685030877\\\"></div><div class=\\\"table-cell\\\"><img class=\\\"check1\\\" src=\\\"https://cdn.shopify.com/s/files/1/0535/9088/4510/files/unCheck.svg?v=1685030878\\\"></div><div class=\\\"table-cell cell-feature bg1\\\">Ser ut som et stykke kunst</div><div class=\\\"table-cell bg1\\\"><img class=\\\"check1\\\" src=\\\"https://cdn.shopify.com/s/files/1/0535/9088/4510/files/Check.svg?v=1685030877\\\"></div><div class=\\\"table-cell bg1\\\"><img class=\\\"check1\\\" src=\\\"https://cdn.shopify.com/s/files/1/0535/9088/4510/files/unCheck.svg?v=1685030878\\\"></div><div class=\\\"table-cell cell-feature\\\">Helsefordeler (s\u00f8vn, energi, mindre stress)</div><div class=\\\"table-cell\\\"><img class=\\\"check1\\\" src=\\\"https://cdn.shopify.com/s/files/1/0535/9088/4510/files/Check.svg?v=1685030877\\\"></div><div class=\\\"table-cell\\\"><img class=\\\"check1\\\" src=\\\"https://cdn.shopify.com/s/files/1/0535/9088/4510/files/unCheck.svg?v=1685030878\\\"></div><div class=\\\"table-cell cell-feature bg1\\\">Best i test</div><div class=\\\"table-cell bg1\\\"><img class=\\\"check1\\\" src=\\\"https://cdn.shopify.com/s/files/1/0535/9088/4510/files/Check.svg?v=1685030877\\\"></div><div class=\\\"table-cell bg1\\\"><img class=\\\"check1\\\" src=\\\"https://cdn.shopify.com/s/files/1/0535/9088/4510/files/unCheck.svg?v=1685030878\\\"></div><div class=\\\"table-cell cell-feature\\\">Anbefalt av velv\u00e6re-spesialister</div><div class=\\\"table-cell\\\"><img class=\\\"check1\\\" src=\\\"https://cdn.shopify.com/s/files/1/0535/9088/4510/files/Check.svg?v=1685030877\\\"></div><div class=\\\"table-cell\\\"><img class=\\\"check1\\\" src=\\\"https://cdn.shopify.com/s/files/1/0535/9088/4510/files/unCheck.svg?v=1685030878\\\"></div></div></div></div></div></div></section>';refNode.after(newNode);};",
+      "c": "var newNodeExists = document.querySelector('#eevy-comparison-section');if (!newNodeExists) {var refNode = document.querySelector('#shopify-section-template--15213934411849__fb82e55f-00e2-4821-a261-843bd6c5a11f');var newNode = document.createElement('div');newNode.id = 'eevy-comparison-section';newNode.innerHTML = '<section class=\\\"section \\\"><div><div class=\\\"section__color-wrapper \\\"><div class=\\\"container \\\"><div class=\\\"liquid\\\"><div class=\\\"table\\\"><div class=\\\"table-cell cell-feature\\\"></div><div class=\\\"table-cell platform\\\"><img class=\\\"tp-img\\\" src=\\\"https://cdn.shopify.com/s/files/1/0535/9088/4510/files/whitetransparant-1636268281928_png.png?v=1685030765\\\"><h3>Volant</h3></div><div class=\\\"table-cell enterprise\\\"><img class=\\\"tp-img\\\" src=\\\"https://cdn.shopify.com/s/files/1/0277/5859/2073/files/Design_uten_navn_-_2023-09-05T134912.918.png?v=1693914579\\\"><h3>Andre</h3></div><div class=\\\"table-cell cell-feature bg1\\\">100% naturlig uten kjemikalier<br></div><div class=\\\"table-cell bg1\\\"><img class=\\\"check1\\\" src=\\\"https://cdn.shopify.com/s/files/1/0535/9088/4510/files/Check.svg?v=1685030877\\\"></div><div class=\\\"table-cell bg1\\\"><img class=\\\"check1\\\" src=\\\"https://cdn.shopify.com/s/files/1/0535/9088/4510/files/unCheck.svg?v=1685030878\\\"></div><div class=\\\"table-cell cell-feature\\\">Best i test i Skandinavia</div><div class=\\\"table-cell\\\"><img class=\\\"check1\\\" src=\\\"https://cdn.shopify.com/s/files/1/0535/9088/4510/files/Check.svg?v=1685030877\\\"></div><div class=\\\"table-cell\\\"><img class=\\\"check1\\\" src=\\\"https://cdn.shopify.com/s/files/1/0535/9088/4510/files/unCheck.svg?v=1685030878\\\"></div><div class=\\\"table-cell cell-feature bg1\\\">Anbefalt av velv\u00e6re-eksperter</div><div class=\\\"table-cell bg1\\\"><img class=\\\"check1\\\" src=\\\"https://cdn.shopify.com/s/files/1/0535/9088/4510/files/Check.svg?v=1685030877\\\"></div><div class=\\\"table-cell bg1\\\"><img class=\\\"check1\\\" src=\\\"https://cdn.shopify.com/s/files/1/0535/9088/4510/files/unCheck.svg?v=1685030878\\\"></div></div></div></div></div></div></section>';refNode.after(newNode);};"
+    },
+    "gene": 31
+  },
+  {
+    "feature": "in-action-section",
+    "name": "",
+    "image": "https://drive.google.com/uc?id=",
+    "pathnames": [
+      "/products/volant-diffuser"
+    ],
+    "variants": {
+      "a": ";/*default*/",
+      "b": "eevy.mutator.declarative({'selector': '#shopify-section-template--15213934411849__979dbfa4-7bf2-4957-a2b8-840462fa5c44, #shopify-section-template--15213934411849__979dbfa4-7bf2-4957-a2b8-840462fa5c44 h3:nth-of-type(1), #shopify-section-template--15213934411849__979dbfa4-7bf2-4957-a2b8-840462fa5c44 .video-section native-video:nth-of-type(1)', 'action': 'remove', 'attribute': 'class', 'value': 'eevy-hidden'});",
+      "c": "eevy.mutator.declarative({'selector': '#shopify-section-template--15213934411849__979dbfa4-7bf2-4957-a2b8-840462fa5c44, #shopify-section-template--15213934411849__979dbfa4-7bf2-4957-a2b8-840462fa5c44 h3:nth-of-type(2), #shopify-section-template--15213934411849__979dbfa4-7bf2-4957-a2b8-840462fa5c44 .video-section native-video:nth-of-type(2)', 'action': 'remove', 'attribute': 'class', 'value': 'eevy-hidden'});",
+      "d": "eevy.mutator.declarative({'selector': '#shopify-section-template--15213934411849__979dbfa4-7bf2-4957-a2b8-840462fa5c44, #shopify-section-template--15213934411849__979dbfa4-7bf2-4957-a2b8-840462fa5c44 h3:nth-of-type(3), #shopify-section-template--15213934411849__979dbfa4-7bf2-4957-a2b8-840462fa5c44 .video-section native-video:nth-of-type(3)', 'action': 'remove', 'attribute': 'class', 'value': 'eevy-hidden'});",
+      "e": "eevy.mutator.declarative({'selector': '#shopify-section-template--15213934411849__979dbfa4-7bf2-4957-a2b8-840462fa5c44, #shopify-section-template--15213934411849__979dbfa4-7bf2-4957-a2b8-840462fa5c44 h3:nth-of-type(4), #shopify-section-template--15213934411849__979dbfa4-7bf2-4957-a2b8-840462fa5c44 .video-section native-video:nth-of-type(4)', 'action': 'remove', 'attribute': 'class', 'value': 'eevy-hidden'});"
+    },
+    "gene": 32
+  },
+  {
+    "feature": "loox-reviews",
+    "name": "",
+    "image": "https://drive.google.com/uc?id=",
+    "pathnames": [
+      "/products/volant-diffuser"
+    ],
+    "variants": {
+      "a": ";/*default*/",
+      "b": "eevy.mutator.declarative({'selector': '#looxReviews', 'action': 'append', 'attribute': 'class', 'value': 'eevy-hidden'});eevy.mutator.declarative({'selector': '#shopify-section-template--15213934411849__16862873471424f174 + .shopify-section', 'action': 'append', 'attribute': 'style', 'value': 'padding-top: 50px;'});eevy.mutator.declarative({'selector': '#shopify-section-template--15213934411849__16862873471424f174 div.container.vertical-breather', 'action': 'append', 'attribute': 'style', 'value': 'padding-top: 0px;'});eevy.mutator.declarative({'selector': 'product-meta div.custom_loox_star_rating', 'action': 'append', 'attribute': 'class', 'value': 'eevy-hidden'});"
+    },
+    "gene": 33
+  },
+  {
+    "feature": "faq-section",
+    "name": "",
+    "image": "https://drive.google.com/uc?id=",
+    "pathnames": [
+      "/products/volant-diffuser"
+    ],
+    "variants": {
+      "a": ";/*default*/",
+      "b": "var newNodeExists = document.querySelector('#eevy-faq-section');if (!newNodeExists) {var refNode = document.querySelector('#shopify-section-template--15213934411849__16862873471424f174');var newNode = document.createElement('div');newNode.id = 'eevy-faq-section';newNode.innerHTML = '<div class=\\\"faq-section\\\"><h2 class=\\\"faq-section-title\\\">Ofte stilte sp\u00f8rsm\u00e5l:</h2><div class=\\\"faq-accordion\\\"><div class=\\\"faq-accordion-item\\\"><input type=\\\"checkbox\\\" id=\\\"faq-accordion-button-1\\\" class=\\\"faq-toggle\\\"><label for=\\\"faq-accordion-button-1\\\" class=\\\"faq-accordion-item-button\\\"><span class=\\\"faq-accordion-title\\\">Hva koster frakt og hvor lang tid tar det?</span></label><div class=\\\"faq-accordion-content\\\"><p>Frakt p\u00e5 bestillinger over 450kr er gratis. Varene dine blir levert rett i postkassen eller p\u00e5 d\u00f8ren innen 1-5 virkedager.</p></div></div><div class=\\\"faq-accordion-item\\\"><input type=\\\"checkbox\\\" id=\\\"faq-accordion-button-2\\\" class=\\\"faq-toggle\\\"><label for=\\\"faq-accordion-button-2\\\" class=\\\"faq-accordion-item-button\\\"><span class=\\\"faq-accordion-title\\\">Er det sant at du kan pr\u00f8ve Diffuseren hjemme i 90 dager?</span></label><div class=\\\"faq-accordion-content\\\"><p>Yes! Du kan pr\u00f8ve diffuseren v\u00e5r hjemme helt risikofritt i 90 dager. Hvis du ikke er forn\u00f8yd med kj\u00f8pet ditt f\u00e5r du pengene dine refundert. Ingen sp\u00f8rsm\u00e5l.</p></div></div><div class=\\\"faq-accordion-item\\\"><input type=\\\"checkbox\\\" id=\\\"faq-accordion-button-3\\\" class=\\\"faq-toggle\\\"><label for=\\\"faq-accordion-button-3\\\" class=\\\"faq-accordion-item-button\\\"><span class=\\\"faq-accordion-title\\\">Hvorfor er Volant oljer annerledes?</span></label><div class=\\\"faq-accordion-content\\\"><p>V\u00e5re oljer er 100% rene og sertifisert organiske. De inneholder ingen syntetiske stoffer, blandevann, parfyme eller ikke-naturlige komponenter.</p><p>Alle v\u00e5re eteriske oljer er utviklet og designet av duft-spesialister.</p><p>Vi tester oljene for \u00e5 v\u00e6re i flere steg av produksjonsprosessen. Etter at oljene er produsert, oppbevarer vi de i luft- og lystette beholdere for \u00e5 beholde kvaliteten.</p></div></div><div class=\\\"faq-accordion-item\\\"><input type=\\\"checkbox\\\" id=\\\"faq-accordion-button-4\\\" class=\\\"faq-toggle\\\"><label for=\\\"faq-accordion-button-4\\\" class=\\\"faq-accordion-item-button\\\"><span class=\\\"faq-accordion-title\\\">Hvor ofte m\u00e5 jeg fylle p\u00e5 vann?</span></label><div class=\\\"faq-accordion-content\\\"><p>Volant Diffuser har to moduser. Enten kan du ta den p\u00e5 i 4 timer p\u00e5 full duft, eller s\u00e5 kan du ha den p\u00e5 i hele 8 timer med roligere duft.</p><p>Du kan veksle mellom disse to modusene enkelt med \u00e5 trykke \u00e9n eller to ganger p\u00e5 \\\"p\u00e5\\\" knappen p\u00e5 Diffuseren.</p></div></div><div class=\\\"faq-accordion-item\\\"><input type=\\\"checkbox\\\" id=\\\"faq-accordion-button-5\\\" class=\\\"faq-toggle\\\"><label for=\\\"faq-accordion-button-5\\\" class=\\\"faq-accordion-item-button\\\"><span class=\\\"faq-accordion-title\\\">Hvilke fordeler har Volant Diffuser?</span></label><div class=\\\"faq-accordion-content\\\"><p>V\u00e5re Eteriske Oljer har mange mentale og fysiske fordeler n\u00e5r du gj\u00f8r dem til en del av hverdagsrutinen din.</p><p>Noen av de viktigste effektene er:</p><ul><li>Bedre s\u00f8vn og raskere innsovning</li><li>F\u00e5 reduserte stressniv\u00e5er</li><li>F\u00e5 mer energi i hverdagen</li><li>Hjelper p\u00e5 konsentrasjon og fokus n\u00e5r du bruker Diffuseren mens du jobber.</li></ul></div></div><div class=\\\"faq-accordion-item\\\"><input type=\\\"checkbox\\\" id=\\\"faq-accordion-button-6\\\" class=\\\"faq-toggle\\\"><label for=\\\"faq-accordion-button-6\\\" class=\\\"faq-accordion-item-button\\\"><span class=\\\"faq-accordion-title\\\">N\u00e5r er kundeservice \u00e5pen?</span></label><div class=\\\"faq-accordion-content\\\"><p>V\u00e5r toppvurderte kundeservice er \u00e5pen 24 timer i d\u00f8gnet. Send inn din henvendelse s\u00e5 kommer teamet v\u00e5rt tilbake til deg s\u00e5 fort de f\u00e5r mulighet.</p></div></div></div></div><style> .faq-section { margin: 0 auto; padding: 4rem; width: 48rem; } .faq-accordion-item { border-bottom: 1px solid #e5e5e5; } .faq-accordion-item-button { position: relative; display: block; text-align: left; width: 100%; padding: 1em 0; color:rgb(var(--heading-color)); font-size: 1.15rem; font-weight: 400; border: none; background: none; outline: none; cursor: pointer; } .faq-accordion-content { opacity: 0; max-height: 0; overflow: hidden; transition: opacity 200ms linear, max-height 200ms linear; } .faq-toggle { display: none; } .faq-toggle:checked + .faq-accordion-item-button .faq-accordion-title { font-weight: bold;} .faq-toggle:checked + .faq-accordion-item-button { border-bottom: 1px solid rgb(var(--heading-color)); } .faq-toggle:checked + .faq-accordion-item-button + .faq-accordion-content { max-height: 300px; opacity: 1; padding: 1em 0; } @media (max-width: 600px) { .faq-section { width: 100%; padding: 2rem 1rem; } }</style>';refNode.after(newNode);};"
+    },
+    "gene": 34
+  },
+  {
+    "feature": "bottom-upsell-section",
+    "name": "",
+    "image": "https://drive.google.com/uc?id=",
+    "pathnames": [
+      "/products/volant-diffuser"
+    ],
+    "variants": {
+      "a": ";/*default*/",
+      "b": "eevy.mutator.declarative({'selector': '#shopify-section-template--15213934411849__best-selling', 'action': 'append', 'attribute': 'class', 'value': 'eevy-hidden'});eevy.mutator.declarative({'selector': '#shopify-section-template--15213934411849__b6dd2f9c-ec01-4883-8143-09e76db97f14', 'action': 'remove', 'attribute': 'class', 'value': 'eevy-hidden'});"
+    },
+    "gene": 35
+  },
+  {
+    "feature": "hp-top-headline",
+    "name": "",
+    "image": "https://drive.google.com/uc?id=",
+    "pathnames": [
+      "/$"
+    ],
+    "variants": {
+      "a": ";/*default*/",
+      "b": "eevy.mutator.declarative({'selector': '#main .shopify-section:nth-of-type(1) h2', 'action': 'set', 'attribute': 'html', 'value': 'Gj\u00f8r hjemmet til<br>ditt personlige spa'});",
+      "c": "eevy.mutator.declarative({'selector': '#main .shopify-section:nth-of-type(1) h2', 'action': 'set', 'attribute': 'html', 'value': 'Kom hjem til en oase av nydelig duft og velv\u00e6re'});",
+      "d": "eevy.mutator.declarative({'selector': '#main .shopify-section:nth-of-type(1) h2', 'action': 'set', 'attribute': 'html', 'value': 'Et h\u00e5ndlaget interi\u00f8rstykke som skaper nydelig duft'});",
+      "e": "eevy.mutator.declarative({'selector': '#main .shopify-section:nth-of-type(1) h2', 'action': 'set', 'attribute': 'html', 'value': 'Mer energi, bedre s\u00f8vn, mindre stress og nydelig duft'});",
+      "f": "eevy.mutator.declarative({'selector': '#main .shopify-section:nth-of-type(1) h2', 'action': 'set', 'attribute': 'html', 'value': 'Skandinavias best vurderte diffuser og eteriske oljer'});"
+    },
+    "gene": 36
+  },
+  {
+    "feature": "hp-top-paragraph",
+    "name": "",
+    "image": "https://drive.google.com/uc?id=",
+    "pathnames": [
+      "/$"
+    ],
+    "variants": {
+      "a": ";/*default*/",
+      "b": "eevy.mutator.declarative({'selector': '#main .shopify-section:nth-of-type(1) h3', 'action': 'set', 'attribute': 'html', 'value': 'Pr\u00f8v den hjemme i 90 dager'});",
+      "c": "eevy.mutator.declarative({'selector': '#main .shopify-section:nth-of-type(1) h3', 'action': 'set', 'attribute': 'html', 'value': 'Finn dine favorittdufter'});",
+      "d": "eevy.mutator.declarative({'selector': '#main .shopify-section:nth-of-type(1) h3', 'action': 'set', 'attribute': 'html', 'value': 'Beviste helsefordeler. 100% Naturlig.'});"
+    },
+    "gene": 37
+  },
+  {
+    "feature": "hp-top-button-cta",
+    "name": "",
+    "image": "https://drive.google.com/uc?id=",
+    "pathnames": [
+      "/$"
+    ],
+    "variants": {
+      "a": ";/*default*/",
+      "b": "eevy.mutator.declarative({'selector': '#main .shopify-section:nth-of-type(1) a.button', 'action': 'set', 'attribute': 'html', 'value': 'Pr\u00f8v n\u00e5'});eevy.mutator.declarative({'selector': '#main .shopify-section:nth-of-type(1) a.button', 'action': 'set', 'attribute': 'href', 'value': '/products/volant-diffuser'});",
+      "c": "eevy.mutator.declarative({'selector': '#main .shopify-section:nth-of-type(1) a.button', 'action': 'set', 'attribute': 'html', 'value': 'Les mer'});eevy.mutator.declarative({'selector': '#main .shopify-section:nth-of-type(1) a.button', 'action': 'set', 'attribute': 'href', 'value': '/products/volant-diffuser'});",
+      "d": "eevy.mutator.declarative({'selector': '#main .shopify-section:nth-of-type(1) a.button', 'action': 'set', 'attribute': 'html', 'value': 'Oppdag Volant'});eevy.mutator.declarative({'selector': '#main .shopify-section:nth-of-type(1) a.button', 'action': 'set', 'attribute': 'href', 'value': '/products/volant-diffuser'});",
+      "e": "eevy.mutator.declarative({'selector': '#main .shopify-section:nth-of-type(1) a.button', 'action': 'set', 'attribute': 'html', 'value': 'Se diffuseren'});eevy.mutator.declarative({'selector': '#main .shopify-section:nth-of-type(1) a.button', 'action': 'set', 'attribute': 'href', 'value': '/products/volant-diffuser'});",
+      "f": "eevy.mutator.declarative({'selector': '#main .shopify-section:nth-of-type(1) a.button', 'action': 'set', 'attribute': 'html', 'value': 'Utforsk produkter'});eevy.mutator.declarative({'selector': '#main .shopify-section:nth-of-type(1) a.button', 'action': 'set', 'attribute': 'href', 'value': '/collections/all-products'});eevy.mutator.declarative({'selector': '#main .shopify-section:nth-of-type(1) a.button', 'action': 'append', 'attribute': 'style', 'value': 'width:auto;'});"
+    },
+    "gene": 38
+  },
+  {
+    "feature": "hp-top-subsection",
+    "name": "",
+    "image": "https://drive.google.com/uc?id=",
+    "pathnames": [
+      "/$"
+    ],
+    "variants": {
+      "a": ";/*default*/",
+      "b": "eevy.mutator.declarative({'selector': '#main .shopify-section:nth-of-type(1) div.review-section', 'action': 'set', 'attribute': 'html', 'value': ''});",
+      "c": "eevy.mutator.declarative({'selector': '#main .shopify-section:nth-of-type(1) div.review-section', 'action': 'set', 'attribute': 'html', 'value': '<div class=\\\"hp-under-button-section\\\"><div class=\\\"hp-under-button-container\\\"><img class=\\\"hp-under-button-image\\\" src=\\\"https://cdn.shopify.com/s/files/1/0552/3718/1529/files/Enestaende.png?v=1675450646\\\" alt=\\\"flag\\\"></div></div><style> .hp-under-button-section { width: 100%; display: flex; justify-content: center; align-items: center; } .hp-under-button-container { display: flex; align-items: center; } .hp-under-button-image { width: auto; height: 30px; } @media only screen and (min-width: 740px) { .hp-under-button-section { margin: 10px 0; } }</style>'});"
+    },
+    "gene": 39
+  },
+  {
+    "feature": "hp-media-section",
+    "name": "",
+    "image": "https://drive.google.com/uc?id=",
+    "pathnames": [
+      "/$"
+    ],
+    "variants": {
+      "a": ";/*default*/",
+      "b": "eevy.mutator.declarative({'selector': '#shopify-section-template--15213750353993__2bc46824-99ca-4fce-b75a-793f3b778fec', 'action': 'append', 'attribute': 'class', 'value': 'eevy-hidden'});"
+    },
+    "gene": 40
+  },
+  {
+    "feature": "hp-award-section",
+    "name": "",
+    "image": "https://drive.google.com/uc?id=",
+    "pathnames": [
+      "/$"
+    ],
+    "variants": {
+      "a": ";/*default*/",
+      "b": "eevy.mutator.declarative({'selector': '#shopify-section-template--15213750353993__cb588356-4d5c-4211-b183-6b413a1b1532', 'action': 'append', 'attribute': 'class', 'value': 'eevy-hidden'});"
+    },
+    "gene": 41
+  },
+  {
+    "feature": "hp-product-list-sections",
+    "name": "",
+    "image": "https://drive.google.com/uc?id=",
+    "pathnames": [
+      "/$"
+    ],
+    "variants": {
+      "a": ";/*default*/",
+      "b": "eevy.mutator.declarative({'selector': '#shopify-section-template--15213750353993__e162ff81-f362-42ec-8f94-baaf84c610b5, #shopify-section-template--15213750353993__dcdd0bac-cdf2-40db-a4b6-4b28f63a98f1', 'action': 'append', 'attribute': 'class', 'value': 'eevy-hidden'});eevy.mutator.declarative({'selector': '#shopify-section-template--15213750353993__026b99c5-68a5-469f-bdef-e889ece93659, #shopify-section-template--15213750353993__0dd9c03e-ada9-4387-9f46-cd927608d4fd', 'action': 'remove', 'attribute': 'class', 'value': 'eevy-hidden'});",
+      "c": "eevy.mutator.declarative({'selector': '#shopify-section-template--15213750353993__e162ff81-f362-42ec-8f94-baaf84c610b5, #shopify-section-template--15213750353993__dcdd0bac-cdf2-40db-a4b6-4b28f63a98f1', 'action': 'append', 'attribute': 'class', 'value': 'eevy-hidden'});eevy.mutator.declarative({'selector': '#shopify-section-template--15213750353993__b16ae505-f730-45c4-b8ba-90d0ecad8ece, #shopify-section-template--15213750353993__6ec60453-749e-4a9a-bc0d-0c75daae5b69', 'action': 'remove', 'attribute': 'class', 'value': 'eevy-hidden'});"
+    },
+    "gene": 42
+  },
+  {
+    "feature": "hp-video-section",
+    "name": "",
+    "image": "https://drive.google.com/uc?id=",
+    "pathnames": [
+      "/$"
+    ],
+    "variants": {
+      "a": ";/*default*/",
+      "b": "eevy.mutator.declarative({'selector': '#shopify-section-template--15213750353993__166b09c3-6a0b-4194-a90c-3ddc2cf44a4f', 'action': 'set', 'attribute': 'html', 'value': '<section class=\\\"mop-quiz-section\\\"><div class=\\\"mop-quiz-content\\\"><img id=\\\"mop-quiz-image\\\" src=\\\"https://cdn.shopify.com/s/files/1/0277/5859/2073/files/Focus_essential_oil_along_with_some_other_herbs_600x_04624eee-9830-45e8-885e-27407ef425d7.jpg?v=1694616183\\\" alt=\\\"Quiz Image\\\"><div class=\\\"mop-quiz-text-container\\\"><div><span id=\\\"mop-quiz-headline\\\">F\u00e5 personlig anbefalte Eteriske Oljer!</span><span id=\\\"mop-quiz-subheadline\\\">Ta denne 30-sekunders Quizen for \u00e5 f\u00e5 en anbefaling fra oss p\u00e5 hvilke eteriske oljer som passer deg best.</span></div><div style=\\\"margin:0 auto;\\\" class=\\\"product-form__buy-buttons\\\"><a href=\\\"#quiz-X2HrLe\\\"><button class=\\\"product-form__add-button\\\" id=\\\"mop-start-quiz-button\\\">Start Quiz</button></a></div></div></div></section><!-- Styling --><style> .mop-quiz-section { display: flex; flex-direction: column; align-items: center; padding: 20px; margin: 20px 0; } .mop-quiz-content { display: flex; flex-direction: row; width: 100%; } .mop-quiz-text-container { width: 70%; padding-left: 20px; text-align: center; } #mop-quiz-headline { font-weight: bold; font-size:16px; } #mop-quiz-image { width: 30%; height: 30%; margin: auto 0; } #mop-start-quiz-button { width: 100%; padding: 10px; border: none; cursor: pointer; margin-top: 20px; } #mop-quiz-subheadline { display:none; } @media (min-width: 577px) { .mop-quiz-section { max-width: 80%;margin: 0 auto; } .mop-quiz-text-container { width: 50%; display: flex; flex-direction: column; justify-content: center; gap: 20%; } .mop-quiz-text-container button { width: 70%; } #mop-start-quiz-button { width: auto; margin-top: 0; } #mop-quiz-subheadline { display:block; margin: 10px auto 0 auto; width: 70%; font-size: 17px; } .mop-quiz-content { justify-content: space-around; } #mop-quiz-headline { font-size:20px; } }</style>'});"
+    },
+    "gene": 43
+  },
+  {
+    "feature": "hp-guarantee-section-headline",
+    "name": "",
+    "image": "https://drive.google.com/uc?id=",
+    "pathnames": [
+      "/$"
+    ],
+    "variants": {
+      "a": ";/*default*/",
+      "b": "eevy.mutator.declarative({'selector': '#shopify-section-template--15213750353993__23e44124-0926-4140-8efe-b3957b171079 h2', 'action': 'set', 'attribute': 'html', 'value': 'Pr\u00f8v Hjemme i 90 dager'});eevy.mutator.declarative({'selector': '#shopify-section-template--15213750353993__23e44124-0926-4140-8efe-b3957b171079 h2', 'action': 'set', 'attribute': 'style', 'value': 'text-transform:none;'});",
+      "c": "eevy.mutator.declarative({'selector': '#shopify-section-template--15213750353993__23e44124-0926-4140-8efe-b3957b171079 h2', 'action': 'set', 'attribute': 'html', 'value': 'Pr\u00f8v Risikofritt i 90 dager'});eevy.mutator.declarative({'selector': '#shopify-section-template--15213750353993__23e44124-0926-4140-8efe-b3957b171079 h2', 'action': 'set', 'attribute': 'style', 'value': 'text-transform:none;'});",
+      "d": "eevy.mutator.declarative({'selector': '#shopify-section-template--15213750353993__23e44124-0926-4140-8efe-b3957b171079 h2', 'action': 'set', 'attribute': 'html', 'value': 'Pengene Tilbake Garanti'});eevy.mutator.declarative({'selector': '#shopify-section-template--15213750353993__23e44124-0926-4140-8efe-b3957b171079 h2', 'action': 'set', 'attribute': 'style', 'value': 'text-transform:none;'});"
+    },
+    "gene": 44
+  },
+  {
+    "feature": "hp-guarantee-section-cta",
+    "name": "",
+    "image": "https://drive.google.com/uc?id=",
+    "pathnames": [
+      "/$"
+    ],
+    "variants": {
+      "a": ";/*default*/",
+      "b": "eevy.mutator.declarative({'selector': '#shopify-section-template--15213750353993__23e44124-0926-4140-8efe-b3957b171079 a.button', 'action': 'set', 'attribute': 'html', 'value': 'Pr\u00f8v n\u00e5'});eevy.mutator.declarative({'selector': '#shopify-section-template--15213750353993__23e44124-0926-4140-8efe-b3957b171079 a.button', 'action': 'set', 'attribute': 'href', 'value': '/products/volant-diffuser'});",
+      "c": "eevy.mutator.declarative({'selector': '#shopify-section-template--15213750353993__23e44124-0926-4140-8efe-b3957b171079 a.button', 'action': 'set', 'attribute': 'html', 'value': 'G\u00e5 til Diffuser'});eevy.mutator.declarative({'selector': '#shopify-section-template--15213750353993__23e44124-0926-4140-8efe-b3957b171079 a.button', 'action': 'set', 'attribute': 'href', 'value': '/products/volant-diffuser'});",
+      "d": "eevy.mutator.declarative({'selector': '#shopify-section-template--15213750353993__23e44124-0926-4140-8efe-b3957b171079 a.button', 'action': 'set', 'attribute': 'html', 'value': 'Kj\u00f8p Diffuser'});eevy.mutator.declarative({'selector': '#shopify-section-template--15213750353993__23e44124-0926-4140-8efe-b3957b171079 a.button', 'action': 'set', 'attribute': 'href', 'value': '/products/volant-diffuser'});",
+      "e": "eevy.mutator.declarative({'selector': '#shopify-section-template--15213750353993__23e44124-0926-4140-8efe-b3957b171079 a.button', 'action': 'set', 'attribute': 'html', 'value': 'Kj\u00f8p 100% risikofritt'});eevy.mutator.declarative({'selector': '#shopify-section-template--15213750353993__23e44124-0926-4140-8efe-b3957b171079 a.button', 'action': 'set', 'attribute': 'href', 'value': '/products/volant-diffuser'});",
+      "f": "eevy.mutator.declarative({'selector': '#shopify-section-template--15213750353993__23e44124-0926-4140-8efe-b3957b171079 a.button', 'action': 'set', 'attribute': 'html', 'value': 'Kj\u00f8p n\u00e5 med Pr\u00f8veperiode'});eevy.mutator.declarative({'selector': '#shopify-section-template--15213750353993__23e44124-0926-4140-8efe-b3957b171079 a.button', 'action': 'set', 'attribute': 'href', 'value': '/products/volant-diffuser'});eevy.mutator.declarative({'selector': '#shopify-section-template--15213750353993__23e44124-0926-4140-8efe-b3957b171079 a.button', 'action': 'append', 'attribute': 'style', 'value': 'line-height:30px;'});"
+    },
+    "gene": 45
+  },
+  {
+    "feature": "hp-product-list-4",
+    "name": "",
+    "image": "https://drive.google.com/uc?id=",
+    "pathnames": [
+      "/$"
+    ],
+    "variants": {
+      "a": ";/*default*/",
+      "b": "eevy.mutator.declarative({'selector': '#shopify-section-template--15213750353993__featured-collections', 'action': 'append', 'attribute': 'class', 'value': 'eevy-hidden'});"
+    },
+    "gene": 46
+  },
+  {
+    "feature": "hp-loox-carousel-headline",
+    "name": "",
+    "image": "https://drive.google.com/uc?id=",
+    "pathnames": [
+      "/$"
+    ],
+    "variants": {
+      "a": ";/*default*/",
+      "b": "eevy.mutator.declarative({'selector': '#shopify-section-template--15213750353993__3befa889-fa16-4386-9320-0dacc670e7f2 h3', 'action': 'append', 'attribute': 'class', 'value': 'eevy-hidden'});",
+      "c": "eevy.mutator.declarative({'selector': '#shopify-section-template--15213750353993__3befa889-fa16-4386-9320-0dacc670e7f2 h3', 'action': 'set', 'attribute': 'html', 'value': '100,000+ forn\u00f8yde kunder'});",
+      "d": "eevy.mutator.declarative({'selector': '#shopify-section-template--15213750353993__3befa889-fa16-4386-9320-0dacc670e7f2 h3', 'action': 'set', 'attribute': 'html', 'value': 'Velv\u00e6re i 100,000+ norske hjem'});",
+      "e": "eevy.mutator.declarative({'selector': '#shopify-section-template--15213750353993__3befa889-fa16-4386-9320-0dacc670e7f2 h3', 'action': 'set', 'attribute': 'html', 'value': 'Ny hverdag for over 100,000 kunder'});",
+      "f": "eevy.mutator.declarative({'selector': '#shopify-section-template--15213750353993__3befa889-fa16-4386-9320-0dacc670e7f2 h3', 'action': 'set', 'attribute': 'html', 'value': 'Dette sier kundene v\u00e5re:'});",
+      "g": "eevy.mutator.declarative({'selector': '#shopify-section-template--15213750353993__3befa889-fa16-4386-9320-0dacc670e7f2 h3', 'action': 'set', 'attribute': 'html', 'value': '100,000+ velduftende hjem takket v\u00e6re Volant'});",
+      "h": "eevy.mutator.declarative({'selector': '#shopify-section-template--15213750353993__3befa889-fa16-4386-9320-0dacc670e7f2 h3', 'action': 'set', 'attribute': 'html', 'value': 'Mindre stress i over 100,000+ hjem'});"
+    },
+    "gene": 47
+  },
+  {
+    "feature": "hp-comparison-section",
+    "name": "",
+    "image": "https://drive.google.com/uc?id=",
+    "pathnames": [
+      "/$"
+    ],
+    "variants": {
+      "a": ";/*default*/",
+      "b": "eevy.mutator.declarative({'selector': '#shopify-section-template--15213750353993__f5cebebb-9366-434d-8046-99e900c4e0b5', 'action': 'append', 'attribute': 'class', 'value': 'eevy-hidden'});"
+    },
+    "gene": 48
+  },
+  {
+    "feature": "hp-features-section",
+    "name": "",
+    "image": "https://drive.google.com/uc?id=",
+    "pathnames": [
+      "/$"
+    ],
+    "variants": {
+      "a": ";/*default*/",
+      "b": "eevy.mutator.declarative({'selector': '#shopify-section-template--15213750353993__7db22487-3ddb-48fc-ad63-c18e033d0cbd', 'action': 'append', 'attribute': 'class', 'value': 'eevy-hidden'});",
+      "c": "eevy.mutator.declarative({'selector': '#shopify-section-template--15213750353993__7db22487-3ddb-48fc-ad63-c18e033d0cbd div.features-right', 'action': 'append', 'attribute': 'class', 'value': 'eevy-hidden'});",
+      "d": "eevy.mutator.declarative({'selector': '#shopify-section-template--15213750353993__7db22487-3ddb-48fc-ad63-c18e033d0cbd div.features-left', 'action': 'append', 'attribute': 'class', 'value': 'eevy-hidden'});"
+    },
+    "gene": 49
+  },
+  {
+    "feature": "hp-product-list-5",
+    "name": "",
+    "image": "https://drive.google.com/uc?id=",
+    "pathnames": [
+      "/$"
+    ],
+    "variants": {
+      "a": ";/*default*/",
+      "b": "eevy.mutator.declarative({'selector': '#shopify-section-template--15213750353993__95010a5b-f3ce-46fa-b3c7-376682d57170', 'action': 'append', 'attribute': 'class', 'value': 'eevy-hidden'});",
+      "c": "eevy.mutator.declarative({'selector': '#shopify-section-template--15213750353993__95010a5b-f3ce-46fa-b3c7-376682d57170', 'action': 'append', 'attribute': 'class', 'value': 'eevy-hidden'});eevy.mutator.declarative({'selector': '#shopify-section-template--15213750353993__58ceea68-eb15-4a9b-8cc0-4f1b0b2d560e', 'action': 'remove', 'attribute': 'class', 'value': 'eevy-hidden'});"
+    },
+    "gene": 50
+  },
+  {
+    "feature": "hp-brand-section-cta",
+    "name": "",
+    "image": "https://drive.google.com/uc?id=",
+    "pathnames": [
+      "/$"
+    ],
+    "variants": {
+      "a": ";/*default*/",
+      "b": "eevy.mutator.declarative({'selector': '#shopify-section-template--15213750353993__a77ce157-47cb-4345-9297-df40b1e32e63 a.button', 'action': 'set', 'attribute': 'html', 'value': 'Utforsk Volant'});eevy.mutator.declarative({'selector': '#shopify-section-template--15213750353993__a77ce157-47cb-4345-9297-df40b1e32e63 a.button', 'action': 'set', 'attribute': 'href', 'value': '/collections/all-products'});",
+      "c": "eevy.mutator.declarative({'selector': '#shopify-section-template--15213750353993__a77ce157-47cb-4345-9297-df40b1e32e63 a.button', 'action': 'set', 'attribute': 'html', 'value': 'Se Utvalg'});eevy.mutator.declarative({'selector': '#shopify-section-template--15213750353993__a77ce157-47cb-4345-9297-df40b1e32e63 a.button', 'action': 'set', 'attribute': 'href', 'value': '/collections/all-products'});",
+      "d": "eevy.mutator.declarative({'selector': '#shopify-section-template--15213750353993__a77ce157-47cb-4345-9297-df40b1e32e63 a.button', 'action': 'set', 'attribute': 'html', 'value': 'Se alle produkter'});eevy.mutator.declarative({'selector': '#shopify-section-template--15213750353993__a77ce157-47cb-4345-9297-df40b1e32e63 a.button', 'action': 'set', 'attribute': 'href', 'value': '/collections/all-products'});",
+      "e": "eevy.mutator.declarative({'selector': '#shopify-section-template--15213750353993__a77ce157-47cb-4345-9297-df40b1e32e63 a.button', 'action': 'set', 'attribute': 'html', 'value': 'Kj\u00f8p Diffuser'});eevy.mutator.declarative({'selector': '#shopify-section-template--15213750353993__a77ce157-47cb-4345-9297-df40b1e32e63 a.button', 'action': 'set', 'attribute': 'href', 'value': '/products/volant-diffuser'});",
+      "f": "eevy.mutator.declarative({'selector': '#shopify-section-template--15213750353993__a77ce157-47cb-4345-9297-df40b1e32e63 a.button', 'action': 'set', 'attribute': 'html', 'value': 'G\u00e5 til Diffuser'});eevy.mutator.declarative({'selector': '#shopify-section-template--15213750353993__a77ce157-47cb-4345-9297-df40b1e32e63 a.button', 'action': 'set', 'attribute': 'href', 'value': '/products/volant-diffuser'});"
+    },
+    "gene": 51
+  },
+  {
+    "feature": "cart-top-section",
+    "name": "",
+    "image": "https://drive.google.com/uc?id=",
+    "pathnames": [],
+    "variants": {
+      "a": ";/*default*/",
+      "b": "eevy.mutator.declarative({'selector': 'cart-drawer free-shipping-bar', 'action': 'append', 'attribute': 'class', 'value': 'eevy-hidden'});",
+      "c": "eevy.mutator.declarative({'selector': 'cart-drawer free-shipping-bar', 'action': 'append', 'attribute': 'class', 'value': 'eevy-hidden'});eevy.mutator.declarative({'selector': '#shipping-bar-2', 'action': 'remove', 'attribute': 'class', 'value': 'eevy-hidden'});",
+      "d": "eevy.mutator.declarative({'selector': 'cart-drawer free-shipping-bar', 'action': 'append', 'attribute': 'class', 'value': 'eevy-hidden'});eevy.mutator.declarative({'selector': '#topofcart-bar-1', 'action': 'remove', 'attribute': 'class', 'value': 'eevy-hidden'});",
+      "e": "eevy.mutator.declarative({'selector': 'cart-drawer free-shipping-bar', 'action': 'append', 'attribute': 'class', 'value': 'eevy-hidden'});eevy.mutator.declarative({'selector': '#topofcart-bar-2', 'action': 'remove', 'attribute': 'class', 'value': 'eevy-hidden'});"
+    },
+    "gene": 52
+  },
+  {
+    "feature": "cart-item-remove-option",
+    "name": "",
+    "image": "https://drive.google.com/uc?id=",
+    "pathnames": [],
+    "variants": {
+      "a": ";/*default*/",
+      "b": "eevy.mutator.declarative({'selector': 'cart-drawer .line-item__remove-button', 'action': 'append', 'attribute': 'class', 'value': 'eevy-hidden'});"
+    },
+    "gene": 53
+  },
+  {
+    "feature": "cart-upsell",
+    "name": "",
+    "image": "https://drive.google.com/uc?id=",
+    "pathnames": [],
+    "variants": {
+      "a": ";/*default*/",
+      "b": "eevy.mutator.declarative({'selector': 'cart-drawer-recommendations > div', 'action': 'append', 'attribute': 'class', 'value': 'eevy-hidden'});",
+      "c": "eevy.mutator.declarative({'selector': 'cart-drawer-recommendations > div', 'action': 'append', 'attribute': 'class', 'value': 'eevy-hidden'});eevy.mutator.declarative({'selector': 'cart-drawer div[data-rebuy-id=\\\"107044\\\"]', 'action': 'remove', 'attribute': 'class', 'value': 'eevy-hidden'});",
+      "d": "eevy.mutator.declarative({'selector': 'cart-drawer-recommendations > div', 'action': 'append', 'attribute': 'class', 'value': 'eevy-hidden'});eevy.mutator.declarative({'selector': 'cart-drawer div[data-rebuy-id=\\\"107045\\\"]', 'action': 'remove', 'attribute': 'class', 'value': 'eevy-hidden'});"
+    },
+    "gene": 54
+  },
+  {
+    "feature": "cart-drawer-section",
+    "name": "",
+    "image": "https://drive.google.com/uc?id=",
+    "pathnames": [],
+    "variants": {
+      "a": ";/*default*/",
+      "b": "eevy.mutator.declarative({'selector': '.cart-guarantee-row-1, .cart-guarantee-row-3', 'action': 'remove', 'attribute': 'class', 'value': 'eevy-hidden'});",
+      "c": "eevy.mutator.declarative({'selector': '.cart-guarantee-row-2, .cart-guarantee-row-6', 'action': 'remove', 'attribute': 'class', 'value': 'eevy-hidden'});",
+      "d": "eevy.mutator.declarative({'selector': '.cart-guarantee-row-3, .cart-guarantee-row-4', 'action': 'remove', 'attribute': 'class', 'value': 'eevy-hidden'});",
+      "e": "eevy.mutator.declarative({'selector': '.cart-guarantee-row-3, .cart-guarantee-row-6', 'action': 'remove', 'attribute': 'class', 'value': 'eevy-hidden'});",
+      "f": "eevy.mutator.declarative({'selector': '.cart-guarantee-row-4, .cart-guarantee-row-5', 'action': 'remove', 'attribute': 'class', 'value': 'eevy-hidden'});",
+      "g": "eevy.mutator.declarative({'selector': '.cart-guarantee-row-5, .cart-guarantee-row-6', 'action': 'remove', 'attribute': 'class', 'value': 'eevy-hidden'});"
+    },
+    "gene": 55
+  },
+  {
+    "feature": "cart-order-notes",
+    "name": "",
+    "image": "https://drive.google.com/uc?id=",
+    "pathnames": [],
+    "variants": {
+      "a": ";/*default*/",
+      "b": "eevy.mutator.declarative({'selector': '#order-note-toggle', 'action': 'append', 'attribute': 'class', 'value': 'eevy-hidden'});"
+    },
+    "gene": 56
+  },
+  {
+    "feature": "cart-price-breakdown",
+    "name": "",
+    "image": "https://drive.google.com/uc?id=",
+    "pathnames": [],
+    "variants": {
+      "a": ";/*default*/",
+      "b": "eevy.mutator.declarative({'selector': 'cart-drawer .pricebreakdown-section, .pricebreakdown-row', 'action': 'remove', 'attribute': 'class', 'value': 'eevy-hidden'});eevy.mutator.declarative({'selector': '#fraktbreakdown, #garantibreakdown', 'action': 'append', 'attribute': 'style', 'value': 'display:none;'});",
+      "c": "eevy.mutator.declarative({'selector': 'cart-drawer .pricebreakdown-section, .pricebreakdown-row', 'action': 'remove', 'attribute': 'class', 'value': 'eevy-hidden'});eevy.mutator.declarative({'selector': '#garantibreakdown', 'action': 'append', 'attribute': 'style', 'value': 'display:none;'});eevy.mutator.declarative({'selector': '#order-note-toggle + span', 'action': 'append', 'attribute': 'class', 'value': 'eevy-hidden'});",
+      "d": "eevy.mutator.declarative({'selector': 'cart-drawer .pricebreakdown-section, .pricebreakdown-row', 'action': 'remove', 'attribute': 'class', 'value': 'eevy-hidden'});eevy.mutator.declarative({'selector': '#fraktbreakdown', 'action': 'append', 'attribute': 'style', 'value': 'display:none;'});",
+      "e": "eevy.mutator.declarative({'selector': 'cart-drawer .pricebreakdown-section, .pricebreakdown-row', 'action': 'remove', 'attribute': 'class', 'value': 'eevy-hidden'});eevy.mutator.declarative({'selector': '#order-note-toggle + span', 'action': 'append', 'attribute': 'class', 'value': 'eevy-hidden'});"
+    },
+    "gene": 57
+  },
+  {
+    "feature": "cart-drawer-text",
+    "name": "",
+    "image": "https://drive.google.com/uc?id=",
+    "pathnames": [],
+    "variants": {
+      "a": ";/*default*/",
+      "b": "eevy.mutator.declarative({'selector': 'cart-drawer footer .mini-cart__actions button + span', 'action': 'append', 'attribute': 'class', 'value': 'eevy-hidden'});",
+      "c": "eevy.mutator.declarative({'selector': 'cart-drawer footer .mini-cart__actions button + span', 'action': 'set', 'attribute': 'html', 'value': '<span style=\\\"text-align: center;\\\">\\\"Beste investering!\\\" - Linn L.</span>'});",
+      "d": "eevy.mutator.declarative({'selector': 'cart-drawer footer .mini-cart__actions button + span', 'action': 'set', 'attribute': 'html', 'value': '<span style=\\\"text-align: center;\\\">\\\"F\u00f8ler huset har f\u00e5tt en ny opplevelse etter jeg fikk Diffuseren min. Gjester kommer innom og kommenterer god og nydelig duft i huset\ud83e\udd29\ud83d\udc4d</br> Veldig forn\u00f8yd!!!\\\" - Linda K.</span>'});",
+      "e": "eevy.mutator.declarative({'selector': 'cart-drawer footer .mini-cart__actions button + span', 'action': 'set', 'attribute': 'html', 'value': '<span style=\\\"text-align: center;\\\">\\\"Har lenge vurdert \u00e5 pr\u00f8ve Volant og angrer n\u00e5 p\u00e5 at jeg ventet s\u00e5 lenge \ud83d\ude43 Diffuseren og oljene fungerer fantastisk bra og lukter helt fantastisk \ud83d\ude4c\\\" - Lisa M.</span>'});",
+      "f": "eevy.mutator.declarative({'selector': 'cart-drawer footer .mini-cart__actions button + span', 'action': 'set', 'attribute': 'html', 'value': '<span style=\\\"text-align: center;\\\">Klar for \u00e5 skape en nydelig atmosf\u00e6re i hjemmet ditt? \u2728 Kj\u00f8p n\u00e5 og opplev hvorfor vi har de best vurderte Diffuserene og Eteriske Oljene i Skandinavia.</span>'});",
+      "g": "eevy.mutator.declarative({'selector': 'cart-drawer footer .mini-cart__actions button + span', 'action': 'set', 'attribute': 'html', 'value': '<span style=\\\"text-align: center;\\\">Kj\u00f8p n\u00e5 og f\u00e5 bestillingen din levert i postkassen innen 1-5 virkedager. V\u00e5rt kundeservice team er klart til \u00e5 hjelpe deg om du har noen sp\u00f8rsm\u00e5l rundt bestillingen din. \ud83d\ude0a</span>'});"
+    },
+    "gene": 58
+  },
+  {
+    "feature": "cart-button-symbol",
+    "name": "",
+    "image": "https://drive.google.com/uc?id=",
+    "pathnames": [],
+    "variants": {
+      "a": ";/*default*/",
+      "b": "eevy.mutator.declarative({'selector': 'cart-drawer footer button span.checkout-button__lock', 'action': 'append', 'attribute': 'class', 'value': 'eevy-hidden'});",
+      "c": "eevy.mutator.declarative({'selector': 'cart-drawer footer button span.checkout-button__lock', 'action': 'set', 'attribute': 'html', 'value': '<svg  class=\\\"icon icon-lock\\\" width=\\\"20\\\" height=\\\"20\\\" viewBox=\\\"0 0 64 57\\\" fill=\\\"none\\\" xmlns=\\\"http://www.w3.org/2000/svg\\\"><path d=\\\"M58.3027 1.14018L19.1021 49.1297L5.40096 33.965C4.2592 32.6213 2.16596 32.6213 1.0242 33.7731C-0.307855 34.9248 -0.307853 37.0363 0.833911 38.1881L17.0089 56.0402C17.5798 56.6161 18.5312 57 19.2924 57C20.2439 57 21.0051 56.6161 21.5759 55.8482L63.2503 5.1713C64.3921 3.8276 64.2018 1.71605 62.8697 0.756259C61.3474 -0.395489 59.4444 -0.20353 58.3027 1.14018Z\\\" fill=\\\"#FFFFFF\\\"></path></svg>'});",
+      "d": "eevy.mutator.declarative({'selector': 'cart-drawer footer button span.checkout-button__lock', 'action': 'set', 'attribute': 'html', 'value': '<svg class=\\\"icon icon-lock\\\" width=\\\"30\\\" height=\\\"30\\\" viewBox=\\\"0 0 44 44\\\" fill=\\\"none\\\" xmlns=\\\"http://www.w3.org/2000/svg\\\"><path d=\\\"M29.9115 30.5582C29.1954 31.2743 29.1954 32.4349 29.9115 33.151C30.6275 33.867 31.7883 33.867 32.5042 33.151L41.0578 24.5974C42.4897 23.1654 42.4897 20.8439 41.0578 19.4119L32.4989 10.8531C31.783 10.1372 30.6223 10.1372 29.9062 10.8531C29.1903 11.5691 29.1903 12.7299 29.9062 13.4459L36.6274 20.167H3.66683C2.65432 20.167 1.8335 20.9878 1.8335 22.0003C1.8335 23.0127 2.65432 23.8337 3.66683 23.8337H36.636L29.9115 30.5582Z\\\" fill=\\\"#FEFEFE\\\"></path></svg>'});",
+      "e": "eevy.mutator.declarative({'selector': 'cart-drawer footer button span.checkout-button__lock', 'action': 'set', 'attribute': 'html', 'value': '<svg class=\\\"icon icon-lock\\\" width=\\\"26\\\" height=\\\"20\\\" viewBox=\\\"0 0 36 22\\\" fill=\\\"none\\\" xmlns=\\\"http://www.w3.org/2000/svg\\\"><path d=\\\"M34.3693 7.64257L31.8954 5.96386L29.4657 0.441767C29.3332 0.176707 29.0681 0 28.803 0H3.62233C3.22474 0 2.87133 0.309237 2.87133 0.751004V3.75502C2.87133 4.15261 3.18056 4.50602 3.62233 4.50602C4.01992 4.50602 4.37333 4.19679 4.37333 3.75502V1.50201H23.546V14.755H4.50586C4.50586 14.755 4.50586 14.755 4.46169 14.755H4.32916V12.6345C4.32916 12.2369 4.01992 11.8835 3.57815 11.8835C3.18056 11.8835 2.82715 12.1928 2.82715 12.6345V15.506C2.82715 15.9036 3.13639 16.257 3.57815 16.257H3.75486V18.3775C3.75486 18.7751 4.0641 19.1285 4.50586 19.1285H5.96369C6.31711 20.7631 7.77494 22 9.49783 22C11.2207 22 12.6344 20.8072 13.032 19.2169H25.2689C25.6665 20.8072 27.0802 22 28.803 22C30.5259 22 31.9396 20.8072 32.3372 19.1727H34.6344C35.032 19.1727 35.3854 18.8635 35.3854 18.4217V9.45381C35.3412 8.74699 34.9878 8.04016 34.3693 7.64257ZM25.0039 1.45783H28.2729L30.5701 6.75904C30.6143 6.89157 30.7027 6.97992 30.8352 7.06827L33.4858 8.87952C33.7067 9.01205 33.795 9.23293 33.795 9.49799V14.755H24.9597V1.45783H25.0039ZM25.2247 17.6707H13.0761C12.9878 17.0964 12.7669 16.6104 12.4135 16.1687H25.8874C25.5782 16.6104 25.3573 17.1406 25.2247 17.6707ZM5.21269 16.1687H6.62635C6.31711 16.5663 6.09622 17.0522 5.96369 17.5823H5.21269V16.1687ZM9.49783 20.4538C8.30506 20.4538 7.33317 19.4819 7.33317 18.2892C7.33317 17.0964 8.30506 16.1245 9.49783 16.1245C10.6906 16.1245 11.6625 17.0964 11.6625 18.2892C11.6625 19.5261 10.6906 20.4538 9.49783 20.4538ZM28.803 20.4538C27.6103 20.4538 26.6384 19.4819 26.6384 18.2892C26.6384 17.0964 27.6103 16.1245 28.803 16.1245C29.9958 16.1245 30.9677 17.0964 30.9677 18.2892C30.9235 19.5261 29.9958 20.4538 28.803 20.4538ZM32.3372 17.6707C32.2488 17.1406 31.9838 16.6104 31.6745 16.1687H33.8392V17.6707H32.3372Z\\\" fill=\\\"white\\\"></path><path d=\\\"M5.91937 9.58633C5.91937 9.18874 5.61013 8.83533 5.16836 8.83533H2.20852C1.81093 8.83533 1.45752 9.14456 1.45752 9.58633C1.45752 9.98392 1.76676 10.3373 2.20852 10.3373H5.16836C5.56595 10.2932 5.91937 9.98392 5.91937 9.58633Z\\\" fill=\\\"white\\\"></path><path d=\\\"M7.37751 6.62649C7.37751 6.2289 7.06827 5.87549 6.62651 5.87549H0.751004C0.353414 5.87549 0 6.18473 0 6.62649C0 7.02408 0.309237 7.3775 0.751004 7.3775H6.62651C7.0241 7.3775 7.37751 7.02408 7.37751 6.62649Z\\\" fill=\\\"white\\\"></path></svg>'});"
+    },
+    "gene": 59
+  },
+  {
+    "feature": "cart-button-text",
+    "name": "",
+    "image": "https://drive.google.com/uc?id=",
+    "pathnames": [],
+    "variants": {
+      "a": ";/*default*/",
+      "b": "eevy.mutator.declarative({'selector': '#cartdrawerbuttontext', 'action': 'set', 'attribute': 'html', 'value': 'G\u00e5 videre'});",
+      "c": "eevy.mutator.declarative({'selector': '#cartdrawerbuttontext', 'action': 'set', 'attribute': 'html', 'value': 'Sjekk ut'});",
+      "d": "eevy.mutator.declarative({'selector': '#cartdrawerbuttontext', 'action': 'set', 'attribute': 'html', 'value': 'Kj\u00f8p n\u00e5'});",
+      "e": "eevy.mutator.declarative({'selector': '#cartdrawerbuttontext', 'action': 'set', 'attribute': 'html', 'value': 'F\u00e5 ny duft i hjemmet ditt n\u00e5'});eevy.mutator.declarative({'selector': '#cartdrawerbuttontext', 'action': 'append', 'attribute': 'style', 'value': 'font-size: 12px;'});eevy.mutator.declarative({'selector': '#cartdrawerbuttontext + span.square-separator', 'action': 'append', 'attribute': 'class', 'value': 'eevy-hidden'});eevy.mutator.declarative({'selector': 'cart-drawer footer button span.checkout-button__lock', 'action': 'append', 'attribute': 'class', 'value': 'eevy-hidden'});eevy.mutator.declarative({'selector': '#cartdrawerbuttonprice', 'action': 'append', 'attribute': 'class', 'value': 'eevy-hidden'});"
+    },
+    "gene": 60
+  },
+  {
+    "feature": "cart-under-button-section",
+    "name": "",
+    "image": "https://drive.google.com/uc?id=",
+    "pathnames": [],
+    "variants": {
+      "a": ";/*default*/",
+      "b": "eevy.mutator.declarative({'selector': 'cart-drawer footer div.under-button-container div:nth-of-type(1)', 'action': 'remove', 'attribute': 'class', 'value': 'eevy-hidden'});",
+      "c": "eevy.mutator.declarative({'selector': 'cart-drawer footer div.under-button-container div:nth-of-type(2)', 'action': 'remove', 'attribute': 'class', 'value': 'eevy-hidden'});",
+      "d": "eevy.mutator.declarative({'selector': 'cart-drawer footer div.under-button-container div:nth-of-type(3)', 'action': 'remove', 'attribute': 'class', 'value': 'eevy-hidden'});"
+    },
+    "gene": 61
+  }
+]

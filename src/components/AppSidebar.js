@@ -1,10 +1,13 @@
 import React from 'react'
 import { useSelector, useDispatch } from 'react-redux'
 
-import { CSidebar, CSidebarBrand, CSidebarNav, CSidebarToggler } from '@coreui/react'
+import { CImage, CSidebar, CSidebarBrand, CSidebarNav, CSidebarToggler } from '@coreui/react'
 import CIcon from '@coreui/icons-react'
 
 import { AppSidebarNav } from './AppSidebarNav'
+
+import eevyLogo from 'src/assets/eevy/eevy-logo-light.png'
+import eevyLogoNarrow from 'src/assets/eevy/eevy-logo-light-narrow.png'
 
 import { logoNegative } from 'src/assets/brand/logo-negative'
 import { sygnet } from 'src/assets/brand/sygnet'
@@ -30,8 +33,8 @@ const AppSidebar = () => {
       }}
     >
       <CSidebarBrand className="d-none d-md-flex" to="/">
-        <CIcon className="sidebar-brand-full" icon={logoNegative} height={35} />
-        <CIcon className="sidebar-brand-narrow" icon={sygnet} height={35} />
+        <CImage className="sidebar-brand-full" src={eevyLogo} height={35} />
+        <CImage className="sidebar-brand-narrow" src={eevyLogoNarrow} height={35} />
       </CSidebarBrand>
       <CSidebarNav>
         <SimpleBar>
