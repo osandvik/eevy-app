@@ -52,6 +52,7 @@ const Widgets = React.lazy(() => import('./views/widgets/Widgets'))
 
 const Feature = React.lazy(() => import('./views/eevy/Feature'))
 const Features = React.lazy(() => import('./views/eevy/Features'))
+const Reports = React.lazy(() => import('./views/eevy/Reports'))
 
 const routes = [
   { path: '/', exact: true, name: 'Home' },
@@ -100,6 +101,7 @@ const routes = [
   { path: '/widgets', name: 'Widgets', element: Widgets },
   { path: '/features', name: 'Features', element: Features, exact: true },
   { path: '/features/:featureId', name: 'Feature', element: Feature },
+  { path: '/reports', name: 'Reports', element: Reports },
 ]
 
 export default routes

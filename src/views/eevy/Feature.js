@@ -1,4 +1,5 @@
 import React from 'react'
+import { useState } from 'react'
 import {
   CCard,
   CCardBody,
@@ -9,6 +10,11 @@ import {
   CAccordionBody,
   CAccordionHeader,
   CAccordionItem,
+  CNav,
+  CNavItem,
+  CNavLink,
+  CTabContent,
+  CTabPane,
 } from '@coreui/react'
 import { DocsExample } from 'src/components'
 import { useParams } from 'react-router-dom'
@@ -23,6 +29,8 @@ const Accordion = () => {
     }
   })
 
+  const [activeKey, setActiveKey] = useState(1)
+
   return (
     <CRow>
       <CCol xs={12}>
@@ -31,20 +39,65 @@ const Accordion = () => {
             <strong>{feature.name || feature.feature}</strong>
           </CCardHeader>
           <CCardBody>
-            <div
-              style={{
-                background: '#eee',
-                display: 'flex',
-                justifyContent: 'center',
-                alignItems: 'center',
-                width: '100%',
-              }}
-            >
-              <img
-                src={feature.image}
-                style={{ border: '1px solid #eee', maxHeight: '300px', maxWidth: '80%' }}
-              />
-            </div>
+            <CRow>
+            <CCol>
+              <CNav variant="tabs" role="tablist">
+                <CNavItem role="presentation">
+                  <CNavLink
+                    active={activeKey === 1}
+                    component="button"
+                    role="tab"
+                    aria-controls="preview-tab-pane"
+                    aria-selected={activeKey === 1}
+                    onClick={() => setActiveKey(1)}
+                  >
+                    Preview
+                  </CNavLink>
+                </CNavItem>
+                <CNavItem role="presentation">
+                  <CNavLink
+                    active={activeKey === 2}
+                    component="button"
+                    role="tab"
+                    aria-controls="stats-tab-pane"
+                    aria-selected={activeKey === 2}
+                    onClick={() => setActiveKey(2)}
+                  >
+                    Analytics
+                  </CNavLink>
+                </CNavItem>
+              </CNav>
+              <CTabContent>
+                <CTabPane role="tabpanel" aria-labelledby="preview-tab-pane" visible={activeKey === 1}>
+                  <div
+                    style={{
+                      background: '#eee',
+                      display: 'flex',
+                      justifyContent: 'center',
+                      alignItems: 'center',
+                      width: '100%',
+                    }}
+                  >
+                    <img
+                      src={feature.image2}
+                      style={{ border: '1px solid #eee', maxHeight: '500px', maxWidth: '80%' }}
+                    />
+                  </div>
+                </CTabPane>
+                <CTabPane role="tabpanel" aria-labelledby="stats-tab-pane" visible={activeKey === 2}>
+                  <br />
+                  <iframe 
+                    width="590" 
+                    height="366" 
+                    seamless 
+                    frameborder="0" 
+                    scrolling="no" 
+                    src={feature.analytics}
+                  ></iframe>
+                </CTabPane>
+              </CTabContent>
+            </CCol>
+            <CCol>
             <p className="text-medium-emphasis small">
               <span>{feature.name}</span>
               <br />
@@ -82,6 +135,8 @@ const Accordion = () => {
                 </CAccordionItem>
               ))}
             </CAccordion>
+            </CCol>
+            </CRow>
           </CCardBody>
         </CCard>
       </CCol>
