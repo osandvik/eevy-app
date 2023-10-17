@@ -95,6 +95,42 @@ const Report = () => {
                 G6
               </CNavLink>
             </CNavItem>
+            <CNavItem role="presentation">
+              <CNavLink
+                active={activeKey === 7}
+                component="button"
+                role="tab"
+                aria-controls="g7-tab-pane"
+                aria-selected={activeKey === 7}
+                onClick={() => setActiveKey(7)}
+              >
+                G7
+              </CNavLink>
+            </CNavItem>
+            <CNavItem role="presentation">
+              <CNavLink
+                active={activeKey === 8}
+                component="button"
+                role="tab"
+                aria-controls="g8-tab-pane"
+                aria-selected={activeKey === 8}
+                onClick={() => setActiveKey(8)}
+              >
+                G8
+              </CNavLink>
+            </CNavItem>
+            <CNavItem role="presentation">
+              <CNavLink
+                active={activeKey === 9}
+                component="button"
+                role="tab"
+                aria-controls="g5-tab-pane"
+                aria-selected={activeKey === 9}
+                onClick={() => setActiveKey(9)}
+              >
+                G9
+              </CNavLink>
+            </CNavItem>
           </CNav>
           <CTabContent>
             <CTabPane role="tabpanel" aria-labelledby="g1-tab-pane" visible={activeKey === 1}>
@@ -114,6 +150,17 @@ const Report = () => {
             </CTabPane>
             <CTabPane role="tabpanel" aria-labelledby="g6-tab-pane" visible={activeKey === 6}>
               G6 content
+            </CTabPane>
+            <CTabPane role="tabpanel" aria-labelledby="g7-tab-pane" visible={activeKey === 7}>
+              G7 content
+            </CTabPane>
+            <CTabPane role="tabpanel" aria-labelledby="g8-tab-pane" visible={activeKey === 8}>
+              G8 content
+            </CTabPane>
+            <CTabPane role="tabpanel" aria-labelledby="g9-tab-pane" visible={activeKey === 9}>
+              <iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vT3ovskCvmkJ_nYq1EGqfTtK4ZulZmsWIUOjIfCUDtEp70GMXZj0zOGafrT0vwVhjt4WZYaubq3ho9w/pubchart?oid=1053059456&amp;format=image"></iframe>
+              <br />
+              <iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vT3ovskCvmkJ_nYq1EGqfTtK4ZulZmsWIUOjIfCUDtEp70GMXZj0zOGafrT0vwVhjt4WZYaubq3ho9w/pubchart?oid=19742705&amp;format=image"></iframe>
             </CTabPane>
           </CTabContent>
         </CCardBody>
